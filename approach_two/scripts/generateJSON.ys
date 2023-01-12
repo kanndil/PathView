@@ -1,0 +1,8 @@
+
+read_liberty -lib -ignore_miss_dir -setattr blackbox ./../../lib/sky130_fd_sc_hd.lib 
+read_verilog ./../verilog/path1.v
+prep -top top
+flatten
+prep -top top
+write_json ./../json/path1.json
+                
