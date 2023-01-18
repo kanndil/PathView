@@ -7,13 +7,16 @@ import copy
 criticalPathCells = []
 allPaths = []
 criticalPaths=[]
+blackboxCells = []
+
 ##########################################################################################
 
 
 class Pin:
-    def __init__(self, name, net):
+    def __init__(self, name, net, type):
         self.name=name
         self.net=net
+        self.type=type
 ##############################
 
 class StandardCell:
@@ -45,6 +48,33 @@ def add_cell_to_path(_standardCell, tempCriticalPath):
         tempCriticalPath.append(copy.deepcopy(_standardCell)) 
     return 
 ##############################
+def add_pin_to_blackbox_cell(pin, cell):
+    flag= False
+    for iterationPin in cell.pins:
+        if (pin.name == iterationPin.name):
+            flag == True
+            return
+        
+    if  flag ==  False:
+        tempPin = Pin(copy.deepcopy(pin.name), "", copy.deepcopy(pin.type))
+        cell.pins.append(copy.deepcopy(tempPin)) 
+    return 
+
+def add_blackbox_cell(_standardCell):
+    flag= False
+    for iterationCell in blackboxCells:
+        if (_standardCell.name == iterationCell.name):
+            flag == True
+            # take care of deep copy
+            for pin in _standardCell.pins:
+                add_pin_to_blackbox_cell(pin, iterationCell)
+            return
+        
+    if  flag ==  False:
+        blackboxCells.append(copy.deepcopy(_standardCell)) 
+    return 
+##############################
+
 
 def manage_net_names(tempCriticalPath):
     for i in range (0, len(tempCriticalPath)-1):
@@ -61,7 +91,12 @@ def get_all_paths_in_report(staReportFile):
     tempCriticalPath = []
     offset = 0
     net_index=0
+    counter=0
+    _pinType = "input"
     for line in f:
+        counter+=1
+        print(counter)
+        #print(line)
         line = line[offset:]
         line = line.strip()
         if "Delay" in line: 
@@ -70,6 +105,7 @@ def get_all_paths_in_report(staReportFile):
             processingPath= True
             tempPath.clear()
             tempCriticalPath.clear()
+            _pinType = "input"
         elif "Endpoint" in line:
             pass
         elif(processingPath):
@@ -80,7 +116,8 @@ def get_all_paths_in_report(staReportFile):
                 processingPath = False
                 offset = 0
                 net_index = 0
-                
+            elif ("(net)" in line):
+                pass
             elif('/' in line):
                 _cell = []
                 line = line.split('(')
@@ -97,8 +134,9 @@ def get_all_paths_in_report(staReportFile):
                 
                 cellNameAndPin= line.pop()
                 cellInfo = cellNameAndPin.split('/')
-                cellId = cellInfo[0]
-                pinName = cellInfo[1]
+                pinName = cellInfo[-1]
+                cellInfo.pop()
+                cellId = '_'.join(cellInfo)
                 
                 _cell.append(cellId)
                 _cell.append(cellNameAndPin)
@@ -112,22 +150,27 @@ def get_all_paths_in_report(staReportFile):
                 if net_index == 0:
                     _net = "clk "
                     net_index +=1
-
                     
-                _pin = Pin(pinName, _net)
+                _pin = Pin(pinName, _net, _pinType)
+                
+                if (_pinType == "input"):
+                    _pinType = "output"
+                else:
+                    _pinType = "input"
 
                 
                 _standardCell.addPin(copy.deepcopy(_pin))
     
                 add_cell_to_path(_standardCell, tempCriticalPath)
+                add_blackbox_cell(_standardCell)
     
     return 
 ##########################################################################################
 
 def write_verilog_from_path(critica_path, path):
-    if not os.path.exists("./../verilog"):
-        os.makedirs("./../verilog")
-    with open("./../verilog/"+path+".v", "w") as f:
+    if not os.path.exists("../output/"+designName+"/verilog"):
+        os.makedirs("../output/"+designName+"/verilog")
+    with open("../output/"+designName+"/verilog/"+path+".v", "w") as f:
         f.write("""module top (input clk, output out);\n""")
         for i in range(len(critica_path)-1):
             f.write("""\nwire net"""+ str(i) +""";""")
@@ -139,7 +182,15 @@ def write_verilog_from_path(critica_path, path):
                 
             f.write(""");""")   
             
-        f.write("""assign out = """+critica_path[-1].pins[0].net+""";\nendmodule""")
+        f.write("""assign out = """+critica_path[-1].pins[0].net+""";\nendmodule\n\n""")
+
+        for cell in blackboxCells:
+            f.write("""\n\n(* blackbox *)\n module """+cell.name +""" (""")
+            for pin in cell.pins:
+                f.write(""" """+pin.type+""" """+ pin.name +""",""")
+                
+            f.write(""");\nendmodule""")   
+             
     return
 ##########################################################################################
 
@@ -154,31 +205,28 @@ def test_print():
 ##########################################################################################
 
 def generate_JSON_from_verilog(path):
-    if not os.path.exists("./../scripts"):
-        os.makedirs("./../scripts")
+    if not os.path.exists("../output/"+designName+"/scripts"):
+        os.makedirs("../output/"+designName+"/scripts")
         
-    if not os.path.exists("./../json"):
-        os.makedirs("./../json")
+    if not os.path.exists("../output/"+designName+"/json"):
+        os.makedirs("../output/"+designName+"/json")
         
-    with open("./../scripts/generateJSON.ys", "w") as f:
+    with open("../output/"+designName+"/scripts/generateJSON.ys", "w") as f:
         f.write(
                 """
-read_liberty -lib -ignore_miss_dir -setattr blackbox ./../../lib/sky130_fd_sc_hd.lib 
-read_verilog ./../verilog/""" + path + """.v
+read_verilog ../output/"""+designName+"""/verilog/""" + path + """.v
 prep -top top
-flatten
-prep -top top
-write_json ./../json/""" + path + """.json
+write_json ../output/"""+designName+"""/json/""" + path + """.json
                 """
         )
-    os.system("yosys ./../scripts/generateJSON.ys")
+    os.system("yosys ../output/"+designName+"/scripts/generateJSON.ys")
     return
 ##########################################################################################
 
 def generate_SVG_from_JSON(path):
-    if not os.path.exists("./../schematics"):
-        os.makedirs("./../schematics")
-    os.system("netlistsvg ./../json/"+path+".json -o ./../schematics/"+path+".svg")
+    if not os.path.exists("../output/"+designName+"/schematics"):
+        os.makedirs("../output/"+designName+"/schematics")
+    os.system("netlistsvg ../output/"+designName+"/json/"+path+".json -o ../output/"+designName+"/schematics/"+path+".svg")
     return
 ##########################################################################################
        
@@ -205,23 +253,37 @@ def addInteraction(path, i):
         </script>
     '''
     #print(jsScript)
-    with open("./../schematics/"+path+".svg", "a") as f:
+    with open("../output/"+designName+"/schematics/"+path+".svg", "a") as f:
         f.write(jsScript)
         
-    os.system("mv ./../schematics/"+path+".svg ./../schematics/"+path+".html")
+    os.system("mv ../output/"+designName+"/schematics/"+path+".svg ../output/"+designName+"/schematics/"+path+".html")
     return
 ##########################################################################################
 
 # Main Class
 def main():
-    staReportFile = "./../../sta_reports/timing_path.txt"
+    #staReportFile = "./../../sta_reports/mprj-max.rpt"
+    staReportFile = "./../../sta_reports/mprj-min.rpt"
+    #staReportFile = "./../../sta_reports/timing_path.txt"
+    
+    if not os.path.exists("../output"):
+        os.makedirs("../output")
+    global designName 
+    designName = copy.copy(staReportFile)
+    designName= designName.split("/")[-1]
+    designName= designName.split(".")[0]
     get_all_paths_in_report(staReportFile)
     for i in range(len(criticalPaths)):
+        if not os.path.exists("../output/"+designName):
+            os.makedirs("../output/"+designName)
         write_verilog_from_path(criticalPaths[i], "path"+str(i))
         generate_JSON_from_verilog("path"+str(i))
         generate_SVG_from_JSON("path"+str(i))
         addInteraction("path"+str(i), i)
     
+    print(designName)
+    
     #test_print()
+    #len(criticalPaths)
 if __name__ == "__main__":
    main()
