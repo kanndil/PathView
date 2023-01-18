@@ -130,3 +130,7 @@ dmypy.json
 
 
 # generated
+.DS_Store
+*.DS_Store
+*/output
+*.zip
