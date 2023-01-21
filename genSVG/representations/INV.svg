@@ -1,0 +1,14 @@
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- inv -->
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+
+    alias
+
+    <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
+    <circle cx="23" cy="10" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="input1"/>
+    <g s:x="25" s:y="10" s:pid="output1"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+  </g>

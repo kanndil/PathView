@@ -1,0 +1,1198 @@
+ <svg  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:s="https://github.com/nturley/netlistsvg"
+  width="800" height="300">
+  <s:properties>
+    <s:layoutEngine
+      org.eclipse.elk.layered.spacing.nodeNodeBetweenLayers="35"
+      org.eclipse.elk.spacing.nodeNode= "35"
+      org.eclipse.elk.layered.layering.strategy= "LONGEST_PATH"
+    />
+    <s:low_priority_alias val="$dff" />
+  </s:properties>
+<style>
+svg {
+  stroke:#000;
+  fill:none;
+}
+text {
+  fill:#000;
+  stroke:none;
+  font-size:10px;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+}
+.nodelabel {
+  text-anchor: middle;
+}
+.inputPortLabel {
+  text-anchor: end;
+}
+.splitjoinBody {
+  fill:#000;
+}
+</style>
+
+  <!-- mux -->
+  <g s:type="mux" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+    <s:alias val="$pmux"/>
+    <s:alias val="$mux"/>
+    <s:alias val="$_MUX_"/>
+
+    <path d="M0,0 L20,10 L20,30 L0,40 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="10" s:y="35" s:pid="S"/>
+    <g s:x="20" s:y="20" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__mux2 -->
+  <g s:type="sky130_fd_sc_hd__mux2" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__mux2_1"/>
+    <s:alias val="sky130_fd_sc_hd__mux2_2"/>
+    <s:alias val="sky130_fd_sc_hd__mux2_4"/>
+    <s:alias val="sky130_fd_sc_hd__mux2_8"/>
+
+    <path d="M0,0 L20,10 L20,30 L0,40 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A0"/>
+    <g s:x="0" s:y="30" s:pid="A1"/>
+    <g s:x="10" s:y="35" s:pid="S"/>
+    <g s:x="20" s:y="20" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__mux2i -->
+  <g s:type="sky130_fd_sc_hd__mux2i" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__mux2i_1"/>
+    <s:alias val="sky130_fd_sc_hd__mux2i_2"/>
+    <s:alias val="sky130_fd_sc_hd__mux2i_4"/>
+    <s:alias val="sky130_fd_sc_hd__mux2i_8"/>
+
+    <path d="M0,0 L20,10 L20,30 L0,40 Z" class="$cell_id"/>
+    <circle cx="24" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A0"/>
+    <g s:x="0" s:y="30" s:pid="A1"/>
+    <g s:x="10" s:y="35" s:pid="S"/>
+    <g s:x="27" s:y="20" s:pid="Y"/>
+        <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__mux4 -->
+  <g s:type="sky130_fd_sc_hd__mux4" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__mux4_1"/>
+    <s:alias val="sky130_fd_sc_hd__mux4_2"/>
+    <s:alias val="sky130_fd_sc_hd__mux4_4"/>
+
+    <path d="M0,0 L20,10 L20,30 L0,40 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="7.5" s:pid="A0"/>
+    <g s:x="0" s:y="15" s:pid="A1"/>
+    <g s:x="0" s:y="22.5" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="A3"/>
+    <g s:x="5" s:y="35" s:pid="S1"/>
+    <g s:x="15" s:y="35" s:pid="S2"/>
+    <g s:x="20" s:y="20" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- and -->
+  <g s:type="and" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="$and"/>
+    <s:alias val="$logic_and"/>
+    <s:alias val="$_AND_"/>
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+   <!-- sky130_fd_sc_hd__and2 -->
+  <g s:type="sky130_fd_sc_hd__and2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and2_0"/>
+    <s:alias val="sky130_fd_sc_hd__and2_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and2_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and2_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+   <!-- sky130_fd_sc_hd__and2b -->
+  <g s:type="sky130_fd_sc_hd__and2b" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and2b_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and2b_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and2b_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2b</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__and3 -->
+  <g s:type="sky130_fd_sc_hd__and3" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and3_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and3_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and3_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="12.5" s:pid="B"/>
+    <g s:x="0" s:y="20" s:pid="C"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__and3b -->
+  <g s:type="sky130_fd_sc_hd__and3b" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and3b_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and3b_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and3b_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="0" s:y="12.5" s:pid="B"/>
+    <g s:x="0" s:y="20" s:pid="C"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__and4 -->
+  <g s:type="sky130_fd_sc_hd__and4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and4_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and4_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and4_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="10" s:pid="B"/>
+    <g s:x="0" s:y="25" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__and4b -->
+  <g s:type="sky130_fd_sc_hd__and4b" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and4b_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and4b_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and4b_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="0" s:y="10" s:pid="B"/>
+    <g s:x="0" s:y="25" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__and4bb -->
+  <g s:type="sky130_fd_sc_hd__and4bb" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__and4bb_1"/>  
+    <s:alias val="sky130_fd_sc_hd__and4bb_2"/>  
+    <s:alias val="sky130_fd_sc_hd__and4bb_4"/>   
+    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="10" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="-7" s:y="10" s:pid="B_N"/>
+    <g s:x="0" s:y="25" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4bb</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- nand -->
+  <g s:type="nand" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////--> 
+  
+  <!-- sky130_fd_sc_hd__nand2 -->
+  <g s:type="sky130_fd_sc_hd__nand2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand2_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand2_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand2_4"/>   
+    <s:alias val="sky130_fd_sc_hd__nand2_8"/>    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nand2b -->
+  <g s:type="sky130_fd_sc_hd__nand2b" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand2b_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand2b_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand2b_4"/>   
+    <s:alias val="sky130_fd_sc_hd__nand2b_8"/>    
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+ <!-- sky130_fd_sc_hd__nand3 -->
+  <g s:type="sky130_fd_sc_hd__nand3" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand3_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand3_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand3_4"/>  
+        
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="12.5" s:pid="B"/>
+    <g s:x="0" s:y="20" s:pid="C"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+ <!-- sky130_fd_sc_hd__nand3b -->
+  <g s:type="sky130_fd_sc_hd__nand3b" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand3b_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand3b_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand3b_4"/>  
+        
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="0" s:y="12.5" s:pid="B"/>
+    <g s:x="0" s:y="20" s:pid="C"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nand4 -->
+  <g s:type="sky130_fd_sc_hd__nand4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand4_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand4_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand4_4"/>      
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="10" s:pid="B"/>
+    <g s:x="0" s:y="15" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>  
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nand4b -->
+  <g s:type="sky130_fd_sc_hd__nand4b" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand4b_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand4b_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand4b_4"/>      
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="0" s:y="10" s:pid="B"/>
+    <g s:x="0" s:y="15" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>  
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nand4bb -->
+  <g s:type="sky130_fd_sc_hd__nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nand4bb_1"/>  
+    <s:alias val="sky130_fd_sc_hd__nand4bb_2"/>  
+    <s:alias val="sky130_fd_sc_hd__nand4bb_4"/>      
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="10" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="A_N"/>
+    <g s:x="-7" s:y="10" s:pid="B_N"/>
+    <g s:x="0" s:y="15" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>  
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- or -->
+  <g s:type="or" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="$or"/>
+    <s:alias val="$logic_or"/>
+    <s:alias val="$_OR_"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or2 -->
+  <g s:type="sky130_fd_sc_hd__or2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or2_0"/>
+    <s:alias val="sky130_fd_sc_hd__or2_1"/>
+    <s:alias val="sky130_fd_sc_hd__or2_2"/>
+    <s:alias val="sky130_fd_sc_hd__or2_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or2b -->
+  <g s:type="sky130_fd_sc_hd__or2b" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or2b_1"/>
+    <s:alias val="sky130_fd_sc_hd__or2b_2"/>
+    <s:alias val="sky130_fd_sc_hd__or2b_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="-7" s:y="20" s:pid="B_N"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or3 -->
+  <g s:type="sky130_fd_sc_hd__or3" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or3_1"/>
+    <s:alias val="sky130_fd_sc_hd__or3_2"/>
+    <s:alias val="sky130_fd_sc_hd__or3_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="12.5" s:pid="B"/>
+    <g s:x="3" s:y="20" s:pid="C"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or3b -->
+  <g s:type="sky130_fd_sc_hd__or3b" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or3b_1"/>
+    <s:alias val="sky130_fd_sc_hd__or3b_2"/>
+    <s:alias val="sky130_fd_sc_hd__or3b_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="12.5" s:pid="B"/>
+    <g s:x="-7" s:y="20" s:pid="C_N"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or4 -->
+  <g s:type="sky130_fd_sc_hd__or4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or4_1"/>
+    <s:alias val="sky130_fd_sc_hd__or4_2"/>
+    <s:alias val="sky130_fd_sc_hd__or4_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="10" s:pid="B"/>
+    <g s:x="3" s:y="15" s:pid="C"/>
+    <g s:x="3" s:y="20" s:pid="D"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or4b -->
+  <g s:type="sky130_fd_sc_hd__or4b" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or4b_1"/>
+    <s:alias val="sky130_fd_sc_hd__or4b_2"/>
+    <s:alias val="sky130_fd_sc_hd__or4b_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="10" s:pid="B"/>
+    <g s:x="3" s:y="15" s:pid="C"/>
+    <g s:x="-7" s:y="20" s:pid="D_N"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__or4bb -->
+  <g s:type="sky130_fd_sc_hd__or4bb" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__or4bb_1"/>
+    <s:alias val="sky130_fd_sc_hd__or4bb_2"/>
+    <s:alias val="sky130_fd_sc_hd__or4bb_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="-4" cy="15" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="10" s:pid="B"/>
+    <g s:x="-7" s:y="15" s:pid="C_N"/>
+    <g s:x="-7" s:y="20" s:pid="D_N"/>
+    <g s:x="30" s:y="12.5" s:pid="X"/><text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4bb</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- nor -->
+  <g s:type="reduce_nor" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="$nor"/>
+    <s:alias val="$reduce_nor"/>
+    <s:alias val="$_NOR_"/>
+    <s:alias val="$_ORNOT_"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__nor2 -->
+  <g s:type="sky130_fd_sc_hd__nor2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor2_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor2_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor2_4"/>
+    <s:alias val="sky130_fd_sc_hd__nor2_8"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__nor2b -->
+  <g s:type="sky130_fd_sc_hd__nor2b" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor2b_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor2b_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor2b_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-1" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="-4" s:y="20" s:pid="B_N"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nor3 -->
+  <g s:type="sky130_fd_sc_hd__nor3" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor3_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor3_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor3_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="12.5" s:pid="B"/>
+    <g s:x="3" s:y="20" s:pid="C"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nor3b -->
+  <g s:type="sky130_fd_sc_hd__nor3b" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor3b_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor3b_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor3b_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-1" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="12.5" s:pid="B"/>
+    <g s:x="-4" s:y="20" s:pid="C_N"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nor4 -->
+  <g s:type="sky130_fd_sc_hd__nor4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor4_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor4_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor4_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="10" s:pid="B"/>
+    <g s:x="3" s:y="15" s:pid="C"/>
+    <g s:x="3" s:y="20" s:pid="D"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nor4b -->
+  <g s:type="sky130_fd_sc_hd__nor4b" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor4b_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor4b_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor4b_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-1" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="10" s:pid="B"/>
+    <g s:x="3" s:y="15" s:pid="C"/>
+    <g s:x="-4" s:y="20" s:pid="D_N"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__nor4bb -->
+  <g s:type="sky130_fd_sc_hd__nor4bb" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+    <s:alias val="sky130_fd_sc_hd__nor4bb_1"/>
+    <s:alias val="sky130_fd_sc_hd__nor4bb_2"/>
+    <s:alias val="sky130_fd_sc_hd__nor4bb_4"/>
+
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <circle cx="-0" cy="15" r="2.5" class="$cell_id"/>
+    <circle cx="-1" cy="20" r="2.5" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="10" s:pid="B"/>
+    <g s:x="-2.5" s:y="15" s:pid="C_N"/>
+    <g s:x="-3.4" s:y="20" s:pid="D_N"/>
+    <g s:x="37" s:y="12.5" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!--xor -->
+  <g s:type="reduce_xor" onClick="reply_click(this.id)" transform="translate(350, 50)" s:width="33" s:height="25">
+    <s:alias val="$xor"/>
+    <s:alias val="$reduce_xor"/>
+    <s:alias val="$_XOR_"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="33" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="reduce_nxor" onClick="reply_click(this.id)" transform="translate(350, 100)" s:width="33" s:height="25">
+    <s:alias val="$xnor"/>
+    <s:alias val="$reduce_xnor"/>
+    <s:alias val="$_XNOR_"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="35" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="38" s:y="12.5" s:pid="Y"/>
+  </g>
+
+  <!--buffer -->
+  <g s:type="not" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+
+    <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
+    <circle cx="23" cy="10" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!--sky130_fd_sc_hd__inv -->
+  <g s:type="sky130_fd_sc_hd__inv" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+    <s:alias val="sky130_fd_sc_hd__inv_1"/>
+    <s:alias val="sky130_fd_sc_hd__inv_2"/>
+    <s:alias val="sky130_fd_sc_hd__inv_4"/>
+    <s:alias val="sky130_fd_sc_hd__inv_6"/>
+    <s:alias val="sky130_fd_sc_hd__inv_8"/>
+    <s:alias val="sky130_fd_sc_hd__inv_12"/>
+    <s:alias val="sky130_fd_sc_hd__inv_16"/>
+
+    <s:alias val="sky130_fd_sc_hd__clkinv_1"/>
+    <s:alias val="sky130_fd_sc_hd__clkinv_2"/>
+    <s:alias val="sky130_fd_sc_hd__clkinv_4"/>
+    <s:alias val="sky130_fd_sc_hd__clkinv_8"/>
+    <s:alias val="sky130_fd_sc_hd__clkinv_16"/>
+
+    <s:alias val="sky130_fd_sc_hd__bufinv_8"/>
+    <s:alias val="sky130_fd_sc_hd__bufinv_16"/>
+
+    <s:alias val="sky130_fd_sc_hd__clkinvlp_2"/>
+    <s:alias val="sky130_fd_sc_hd__clkinvlp_4"/>
+
+    <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
+    <circle cx="23" cy="10" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!--sky130_fd_sc_hd__buf -->
+  <g s:type="sky130_fd_sc_hd__buf" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+    <s:alias val="sky130_fd_sc_hd__buf_1"/>
+    <s:alias val="sky130_fd_sc_hd__buf_2"/>
+    <s:alias val="sky130_fd_sc_hd__buf_4"/>
+    <s:alias val="sky130_fd_sc_hd__buf_6"/>
+    <s:alias val="sky130_fd_sc_hd__buf_8"/>
+    <s:alias val="sky130_fd_sc_hd__buf_12"/>
+    <s:alias val="sky130_fd_sc_hd__buf_16"/>
+
+    <s:alias val="sky130_fd_sc_hd__clkbuf_1"/>
+    <s:alias val="sky130_fd_sc_hd__clkbuf_2"/>
+    <s:alias val="sky130_fd_sc_hd__clkbuf_4"/>
+    <s:alias val="sky130_fd_sc_hd__clkbuf_8"/>
+    <s:alias val="sky130_fd_sc_hd__clkbuf_16"/>
+
+    <path d="M0,0 L0,20 L20,10 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="20" s:y="10" s:pid="X"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <g s:type="add" onClick="reply_click(this.id)" transform="translate(50, 150)" s:width="25" s:height="25">
+    <s:alias val="$add"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="12.5" y2="12.5" class="$cell_id"/>
+    <line x1="12.5" x2="12.5" y1="7.5" y2="17.5" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+  <g s:type="sub" onClick="reply_click(this.id)" transform="translate(150,150)" s:width="25" s:height="25">
+    <s:alias val="$sub"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="12.5" y2="12.5" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="eq" onClick="reply_click(this.id)" transform="translate(250,150)" s:width="25" s:height="25">
+    <s:alias val="$eq"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="10" y2="10" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="15" y2="15" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <g s:type="dff" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="$dff"/>
+    <s:alias val="$_DFF_"/>
+    <s:alias val="$_DFF_P_"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="30" s:pid="C"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dff</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfbbn -->
+  <g s:type="sky130_fd_sc_hd__dfbbn" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfbbn_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfbbn_2"/>
+    
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="15" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="30" r="3" class="$cell_id"/>
+    <circle cx="34" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="37" s:y="20" s:pid="Q_N"/>
+    <g s:x="-7" s:y="15" s:pid="RESET_B"/>  
+    <g s:x="-7" s:y="20" s:pid="SET_B"/>  
+    <g s:x="-7" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfbbp -->
+  <g s:type="sky130_fd_sc_hd__dfbbp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfbbp_1"/>
+    
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="15" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+    <circle cx="34" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="37" s:y="20" s:pid="Q_N"/>
+    <g s:x="-7" s:y="15" s:pid="RESET_B"/>  
+    <g s:x="-7" s:y="20" s:pid="SET_B"/>  
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbp</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfrbp -->
+  <g s:type="sky130_fd_sc_hd__dfrbp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfrbp_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfrbp_2"/>
+    
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+   <circle cx="34" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="37" s:y="20" s:pid="Q_N"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="-7" s:y="20" s:pid="RESET_B"/>  
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfrtn -->
+  <g s:type="sky130_fd_sc_hd__dfrtn" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfrtn_1"/>
+    
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+    <circle cx="-4" cy="30" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="-7" s:y="30" s:pid="CLK_N"/>
+    <g s:x="-7" s:y="20" s:pid="RESET_B"/>  
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtn</text>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfrtp -->
+  <g s:type="sky130_fd_sc_hd__dfrtp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfrtp_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfrtp_2"/>
+    <s:alias val="sky130_fd_sc_hd__dfrtp_4"/>
+    
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="-7" s:y="20" s:pid="RESET_B"/>  
+    <g s:x="0" s:y="10" s:pid="D"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp</text>
+  
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfsbp -->
+  <g s:type="sky130_fd_sc_hd__dfsbp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfsbp_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfsbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+   <circle cx="34" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="37" s:y="20" s:pid="Q_N"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="-7" s:y="20" s:pid="SET_B"/>  
+    <g s:x="0" s:y="10" s:pid="D"/>   
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp</text>
+ 
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- sky130_fd_sc_hd__dfstp -->
+  <g s:type="sky130_fd_sc_hd__dfstp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfstp_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfstp_2"/>
+    <s:alias val="sky130_fd_sc_hd__dfstp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-4" cy="20" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="-7" s:y="20" s:pid="SET_B"/>  
+    <g s:x="0" s:y="10" s:pid="D"/>   
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp</text>
+ 
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- sky130_fd_sc_hd__dfxbp -->
+  <g s:type="sky130_fd_sc_hd__dfxbp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfxbp_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfxbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>   
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp</text>
+ 
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  
+  <!-- sky130_fd_sc_hd__dfxtp -->
+  <g s:type="sky130_fd_sc_hd__dfxtp" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+    <s:alias val="sky130_fd_sc_hd__dfxtp_1"/>
+    <s:alias val="sky130_fd_sc_hd__dfxtp_2"/>
+    <s:alias val="sky130_fd_sc_hd__dfxtp_4"/>
+    
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>   
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp</text>
+ 
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <g s:type="dffn" onClick="reply_click(this.id)" transform="translate(450,150)" s:width="30" s:height="40">
+    <s:alias val="$_DFF_N_"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <circle cx="-3" cy="30" r="3" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="-6" s:y="30" s:pid="CLK"/>
+    <g s:x="-6" s:y="30" s:pid="C"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+  </g>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <g s:type="lt" transform="translate(50,200)" s:width="25" s:height="25">
+    <s:alias val="$lt"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="12.5" y2="7.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="12.5" y2="17.5" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+
+  <g s:type="le" transform="translate(150,200)" s:width="25" s:height="25">
+    <s:alias val="$le"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="12.5" y2="7.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="12.5" y2="17.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="15" y2="20" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+
+  <g s:type="ge" transform="translate(250,200)" s:width="25" s:height="25">
+    <s:alias val="$ge"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="7.5" y2="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="17.5" y2="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="20" y2="15" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+
+  <g s:type="gt" transform="translate(350,200)" s:width="25" s:height="25">
+    <s:alias val="$gt"/>
+
+    <circle r="12.5" cx="12.5" cy="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="7.5" y2="12.5" class="$cell_id"/>
+    <line x1="7.5" x2="17.5" y1="17.5" y2="12.5" class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="25" s:y="12.5" s:pid="Y"/>
+  </g>
+
+  <g s:type="inputExt" transform="translate(50,250)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">input</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="$cell_id"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+
+  <g s:type="constant" transform="translate(150,250)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">constant</text>
+
+    <s:alias val="$_constant_"/>
+    <rect width="30" height="20" class="$cell_id"/>
+
+    <g s:x="30" s:y="10" s:pid="Y"/>
+  </g>
+
+  <g s:type="outputExt" transform="translate(250,250)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">output</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="$cell_id"/>
+
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+
+  <g s:type="split" transform="translate(350,250)" s:width="5" s:height="40">
+    <rect width="5" height="40" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_split_"/>
+
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(5, 10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">hi:lo</text>
+    </g>
+    <g transform="translate(5, 30)" s:x="4" s:y="30" s:pid="out1">
+      <text x="5" y="-4">hi:lo</text>
+    </g>
+  </g>
+
+  <g s:type="join" transform="translate(450,250)" s:width="4" s:height="40">
+    <rect width="5" height="40" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_join_"/>
+    <g s:x="5" s:y="20"  s:pid="out"/>
+    <g transform="translate(0, 10)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">hi:lo</text>
+    </g>
+    <g transform="translate(0, 30)" s:x="0" s:y="30" s:pid="in1">
+      <text x="-3" y="-4" class="inputPortLabel">hi:lo</text>
+    </g>
+  </g>
+
+  <g s:type="generic" onClick="reply_click(this.id)" transform="translate(550,250)" s:width="30" s:height="40">
+    <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">generic</text>
+    <rect width="30" height="40" s:generic="body" class="$cell_id"/>
+
+    <g transform="translate(30, 10)" s:x="30" s:y="10" s:pid="out0">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="$cell_id">out0</text>
+    </g>
+    <g transform="translate(30, 30)" s:x="30" s:y="30" s:pid="out1">
+      <text x="5" y="-4" style="fill:#000;stroke:none" class="$cell_id">out1</text>
+    </g>
+    <g transform="translate(0, 10)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel $cell_id">in0</text>
+    </g>
+    <g transform="translate(0, 30)" s:x="0" s:y="30" s:pid="in1">
+      <text x="-3" y="-4" class="inputPortLabel $cell_id">in1</text>
+    </g>
+  </g>
+
+</svg>
