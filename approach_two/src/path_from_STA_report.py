@@ -1,3 +1,19 @@
+# Copyright 2023 AUC Open Source Hardware Lab
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); 
+# you may not use this file except in compliance with the License. 
+# You may obtain a copy of the License at:
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software 
+# distributed under the License is distributed on an "AS IS" BASIS, 
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+# See the License for the specific language governing permissions and 
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+
 import os
 import re
 import copy
@@ -137,6 +153,9 @@ def get_all_paths_in_report(staReportFile):
                 pinName = cellInfo[-1]
                 cellInfo.pop()
                 cellId = '_'.join(cellInfo)
+                cellId = cellId.replace('.', '_')
+                cellId = cellId.replace('[', '_')
+                cellId = cellId.replace(']', '_')
                 
                 _cell.append(cellId)
                 _cell.append(cellNameAndPin)
@@ -263,8 +282,9 @@ def addInteraction(path, i):
 # Main Class
 def main():
     #staReportFile = "./../../sta_reports/mprj-max.rpt"
-    staReportFile = "./../../sta_reports/mprj-min.rpt"
+    #staReportFile = "./../../sta_reports/mprj-min.rpt"
     #staReportFile = "./../../sta_reports/timing_path.txt"
+    staReportFile ="./../../sta_reports/prv32_cpu_min_max.rpt"
     
     if not os.path.exists("../output"):
         os.makedirs("../output")
