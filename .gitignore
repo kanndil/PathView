@@ -130,10 +130,12 @@ dmypy.json
 
 
 # generated
-.DS_Store
-*.DS_Store
+*/.DS_Store
 */output
 *.zip
 *sta.tcl
 */approach_one
 /old_approach
+/output
+.DS_Store
+*.DS_Store
