@@ -161,9 +161,21 @@ For example:
 <br/><br/>
 
 ## Second: Run interactive_SVG_schematics
+Clone this repo
+    git clone https://github.com/kanndil/interactive_SVG_schematics.git
 
-    python3 interactive_SVG_schematics.py -i <staReportFile.txt>
+Run:
+    cd src/
+    python3 interactive_SVG_schematics.py -i <staReportFilePath>
 
+<br/><br/>
+
+# Support new Standard Cell Library
+
+Run:
+    cd src/
+    python3 generate_schemetic_model.py -i <libertyFilePath>
+    
 <br/><br/>
 
 # Authors

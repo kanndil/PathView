@@ -1,20 +1,22 @@
 # Copyright 2023 AUC Open Source Hardware Lab
 #
-# Licensed under the Apache License, Version 2.0 (the "License"); 
-# you may not use this file except in compliance with the License. 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at:
 #
 #      http://www.apache.org/licenses/LICENSE-2.0
 #
-# Unless required by applicable law or agreed to in writing, software 
-# distributed under the License is distributed on an "AS IS" BASIS, 
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
-# See the License for the specific language governing permissions and 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
 # limitations under the License.
 #
 # SPDX-License-Identifier: Apache-2.0
 
+import getopt
 import os
+import sys
 from pyeda.inter import *
 import copy
 from sympy.logic import simplify_logic as simplifyLogic
@@ -59,23 +61,23 @@ def reformatBooleanExpression(expression):
         elif char == "s":
             expression = expression.replace("s", "replaced")
         elif char == "I":
-            expression = expression.replace("I", "replaced")   
+            expression = expression.replace("I", "replaced")
     return expression
 
 
 ##########################################################################################
 def writeCellSVG(dirPath, cell_group, cellRepRef):
 
-    f = open("./representations/" + cellRepRef.svgFile, "r")
+    f = open("../representations/" + cellRepRef.svgFile, "r")
     svgRep = f.read()
     cellName = str(cell_group.args[0])
     cleanedCellName = str(cellName).replace('"', "")
     print("writing " + cleanedCellName)
     svgRep = svgRep.replace("name", cleanedCellName)
-    
-    alias = '''<s:alias val="''' + cleanedCellName + '''"/>'''
+
+    alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
     svgRep = svgRep.replace("alias", alias)
-    
+
     inputPinCount = 0
     outputPinCount = 0
     for pinGroup in cell_group.get_groups("pin"):
@@ -93,7 +95,7 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
             # print("replacing "+ str(pinName))
 
-    with open(dirPath + "/default.svg", "a") as f:
+    with open("../genSVG/" + dirPath + "/default.svg", "a") as f:
         f.write(svgRep + "\n\n")
 
 
@@ -105,7 +107,7 @@ def writeLibraryDefaultSVG(tobeWritten, libraryName):
     if not os.path.exists(dirpath):
         os.makedirs(dirpath)
 
-    with open(dirpath + "/default.svg", "w") as f:
+    with open("../genSVG/" + dirpath + "/default.svg", "w") as f:
         f.write(
             """
  <svg  xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +150,7 @@ text {
     for cell in tobeWritten:
         writeCellSVG(dirpath, cell[0], cell[1])
 
-    with open(dirpath + "/default.svg", "a") as f:
+    with open("../genSVG/" + dirpath + "/default.svg", "a") as f:
         f.write(
             """
 
@@ -278,7 +280,24 @@ text {
 
 ##########################################################################################
 # Main Class
-def main():
+def main(argv):
+
+    libertyFile = ""
+
+    try:
+        opts, args = getopt.getopt(argv, "i:", ["ifile="])
+    except getopt.GetoptError:
+        print("invalid arguments!")
+        print("run: python3 generate_schemetic_model.py -i <libertyFilePath>\n")
+        sys.exit(2)
+
+    for opt, arg in opts:
+        if opt in ("-h", "--help"):
+            print("run: python3 generate_schemetic_model.py -i <libertyFilePath>\n")
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            libertyFile = arg
+
     cellRepresentations = [
         CellRepresentation("AND2", "A&B", "AND2.svg"),
         CellRepresentation("AND2b", "(~A_N&B)", "AND2b.svg"),
@@ -331,8 +350,9 @@ def main():
     ]
     #####################################
 
-    #libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/liberty/sky130_fd_sc_hd.lib"
-    libertyFile = "../liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib"
+    # libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/liberty/sky130_fd_sc_hd.lib"
+    # libertyFile = "../liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib"
+
     # Read and parse a library.
     library = parseLiberty(open(libertyFile).read())
 
@@ -344,7 +364,6 @@ def main():
         is_isolation_cell = cell_group["is_isolation_cell"] != None
         is_level_shifter = cell_group["is_level_shifter"] != None
 
-        # print(is_isolation_cell,cell_group["is_isolation_cell"] )
         if is_flipflop:
             pass
         elif is_latch:
@@ -354,7 +373,6 @@ def main():
         elif is_isolation_cell:
             pass
         else:
-            # print(cell_group.get_groups("ff"))
             outputPinCounter = 0
             cellRepRef = None
             flag = False
@@ -367,14 +385,14 @@ def main():
                         iterationLibraryCellFunction = reformatBooleanExpression(
                             copy.copy(str(pinGroup["function"]))
                         )
-                        print(cell_group.args[0],iterationLibraryCellFunction)
+                        print(cell_group.args[0], iterationLibraryCellFunction)
 
                         for cell in cellRepresentations:
                             new_library_cell_function = reformatBooleanExpression(
                                 copy.copy(cell.function)
                             )
-                            
-                            #try:
+
+                            # try:
                             function1 = parse_expr(iterationLibraryCellFunction)
                             function2 = parse_expr(new_library_cell_function)
                             simplifyLogic(function1)
@@ -386,27 +404,11 @@ def main():
                                 pinRef = pinGroup
                                 translationRef = out
                                 print("done", cell.name)
-                            #except:
+                            # except:
                             #    pass
-                            
 
             if (outputPinCounter == 1) & (flag == True):
                 tobeWritten.append([copy.copy(cell_group), copy.copy(cellRepRef)])
-
-                # print(
-                #    "cell name: ",
-                #    cell_group.args[0],
-                #    "pin name: ",
-                #    pinRef.args[0],
-                #    "function: ",
-                #    pinRef["function"],
-                #    "new function: ",
-                #    cellRepRef.function,
-                #    "translation: ",
-                #    translationRef,
-                #    "svg: ",
-                #    cellRepRef.svgFile,
-                # )
 
     libraryName = copy.copy(libertyFile)
     libraryName = libraryName.split("/")[-1]
@@ -415,4 +417,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
