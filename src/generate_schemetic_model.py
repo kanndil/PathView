@@ -95,7 +95,7 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
             # print("replacing "+ str(pinName))
 
-    with open("../genSVG/" + dirPath + "/default.svg", "a") as f:
+    with open( dirPath + "/default.svg", "a") as f:
         f.write(svgRep + "\n\n")
 
 
@@ -103,11 +103,11 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
 
 
 def writeLibraryDefaultSVG(tobeWritten, libraryName):
-    dirpath = "./" + libraryName + "_representations"
+    dirpath = "../genSVG/" + libraryName + "_representations"
     if not os.path.exists(dirpath):
         os.makedirs(dirpath)
 
-    with open("../genSVG/" + dirpath + "/default.svg", "w") as f:
+    with open( dirpath + "/default.svg", "w") as f:
         f.write(
             """
  <svg  xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ text {
     for cell in tobeWritten:
         writeCellSVG(dirpath, cell[0], cell[1])
 
-    with open("../genSVG/" + dirpath + "/default.svg", "a") as f:
+    with open( dirpath + "/default.svg", "a") as f:
         f.write(
             """
 
