@@ -14,9 +14,11 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+import getopt
 import os
 import re
 import copy
+import sys
 ##########################################################################################
 
 
@@ -280,11 +282,24 @@ def addInteraction(path, i):
 ##########################################################################################
 
 # Main Class
-def main():
-    #staReportFile = "./../sta_reports/mprj-max.rpt"
-    #staReportFile = "./../sta_reports/mprj-min.rpt"
-    #staReportFile = "./../sta_reports/timing_path.txt"
-    staReportFile ="./../sta_reports/prv32_cpu_min_max.rpt"
+def main(argv):
+    
+    staReportFile =""
+    
+    try:
+        opts, args = getopt.getopt(argv,"i:",["ifile="])
+    except getopt.GetoptError:
+        print ('invalid arguments!')
+        print ('run: python3 interactive_SVG_schematics.py -i <staReportFile.txt>\n')
+        sys.exit(2)
+        
+    for opt, arg in opts:
+        if opt in ('-h', "--help"):
+            print ('run: python3 interactive_SVG_schematics.py -i <staReportFile.txt>\n')
+            sys.exit()
+        elif opt in ("-i", "--dfile"):
+            staReportFile = arg
+
     
     if not os.path.exists("../output"):
         os.makedirs("../output")
@@ -306,4 +321,4 @@ def main():
     #test_print()
     #len(criticalPaths)
 if __name__ == "__main__":
-   main()
+   main(sys.argv[1:])
