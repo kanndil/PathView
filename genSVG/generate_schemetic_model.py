@@ -58,6 +58,8 @@ def reformatBooleanExpression(expression):
             expression = expression.replace("S", "replaced")
         elif char == "s":
             expression = expression.replace("s", "replaced")
+        elif char == "I":
+            expression = expression.replace("I", "replaced")   
     return expression
 
 
@@ -329,7 +331,8 @@ def main():
     ]
     #####################################
 
-    libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/liberty/sky130_fd_sc_hd.lib"
+    #libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/liberty/sky130_fd_sc_hd.lib"
+    libertyFile = "../liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib"
     # Read and parse a library.
     library = parseLiberty(open(libertyFile).read())
 
@@ -364,12 +367,14 @@ def main():
                         iterationLibraryCellFunction = reformatBooleanExpression(
                             copy.copy(str(pinGroup["function"]))
                         )
-                        # print(iterationLibraryCellFunction)
+                        print(cell_group.args[0],iterationLibraryCellFunction)
 
                         for cell in cellRepresentations:
                             new_library_cell_function = reformatBooleanExpression(
                                 copy.copy(cell.function)
                             )
+                            
+                            #try:
                             function1 = parse_expr(iterationLibraryCellFunction)
                             function2 = parse_expr(new_library_cell_function)
                             simplifyLogic(function1)
@@ -380,6 +385,10 @@ def main():
                                 cellRepRef = cell
                                 pinRef = pinGroup
                                 translationRef = out
+                                print("done", cell.name)
+                            #except:
+                            #    pass
+                            
 
             if (outputPinCounter == 1) & (flag == True):
                 tobeWritten.append([copy.copy(cell_group), copy.copy(cellRepRef)])
