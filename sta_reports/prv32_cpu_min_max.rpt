@@ -1,0 +1,1130 @@
+Startpoint: _0839_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0826_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0839_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.06    0.31    0.31 ^ _0839_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.00                           ir_1[8] (net)
+                  0.06    0.00    0.31 ^ _0826_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.31   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0826_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.04   -0.04   library hold time
+                                 -0.04   data required time
+-----------------------------------------------------------------------------
+                                 -0.04   data required time
+                                 -0.31   data arrival time
+-----------------------------------------------------------------------------
+                                  0.35   slack (MET)
+
+
+Startpoint: _0840_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0827_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0840_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.06    0.31    0.31 ^ _0840_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.00                           ir_1[9] (net)
+                  0.06    0.00    0.31 ^ _0827_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.31   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0827_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.04   -0.04   library hold time
+                                 -0.04   data required time
+-----------------------------------------------------------------------------
+                                 -0.04   data required time
+                                 -0.31   data arrival time
+-----------------------------------------------------------------------------
+                                  0.35   slack (MET)
+
+
+Startpoint: _0841_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0828_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0841_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.06    0.31    0.31 ^ _0841_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.00                           ir_1[10] (net)
+                  0.06    0.00    0.31 ^ _0828_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.31   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0828_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.04   -0.04   library hold time
+                                 -0.04   data required time
+-----------------------------------------------------------------------------
+                                 -0.04   data required time
+                                 -0.31   data arrival time
+-----------------------------------------------------------------------------
+                                  0.35   slack (MET)
+
+
+Startpoint: _0842_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0829_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0842_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.06    0.31    0.31 ^ _0842_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.00                           ir_1[11] (net)
+                  0.06    0.00    0.31 ^ _0829_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.31   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0829_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.04   -0.04   library hold time
+                                 -0.04   data required time
+-----------------------------------------------------------------------------
+                                 -0.04   data required time
+                                 -0.31   data arrival time
+-----------------------------------------------------------------------------
+                                  0.35   slack (MET)
+
+
+Startpoint: _0838_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0825_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0838_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.08    0.33    0.33 ^ _0838_/Q (sky130_fd_sc_hd__dfrtp_1)
+     3    0.01                           ir_1[7] (net)
+                  0.08    0.00    0.33 ^ _0825_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.33   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0825_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.05   -0.05   library hold time
+                                 -0.05   data required time
+-----------------------------------------------------------------------------
+                                 -0.05   data required time
+                                 -0.33   data arrival time
+-----------------------------------------------------------------------------
+                                  0.37   slack (MET)
+
+
+Startpoint: _0788_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0900_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0788_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.09    0.34    0.34 ^ _0788_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.01                           pc_0[0] (net)
+                  0.09    0.00    0.34 ^ _0900_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.34   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0900_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.05   -0.05   library hold time
+                                 -0.05   data required time
+-----------------------------------------------------------------------------
+                                 -0.05   data required time
+                                 -0.34   data arrival time
+-----------------------------------------------------------------------------
+                                  0.39   slack (MET)
+
+
+Startpoint: _0789_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0901_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0789_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.09    0.34    0.34 ^ _0789_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.01                           pc_0[1] (net)
+                  0.09    0.00    0.34 ^ _0901_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.34   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0901_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.05   -0.05   library hold time
+                                 -0.05   data required time
+-----------------------------------------------------------------------------
+                                 -0.05   data required time
+                                 -0.34   data arrival time
+-----------------------------------------------------------------------------
+                                  0.39   slack (MET)
+
+
+Startpoint: _0790_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0902_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0790_/CLK (sky130_fd_sc_hd__dfstp_2)
+                  0.03    0.35    0.35 v _0790_/Q (sky130_fd_sc_hd__dfstp_2)
+     2    0.01                           pc_0[2] (net)
+                  0.03    0.00    0.35 v _0902_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.35   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0902_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.05   -0.05   library hold time
+                                 -0.05   data required time
+-----------------------------------------------------------------------------
+                                 -0.05   data required time
+                                 -0.35   data arrival time
+-----------------------------------------------------------------------------
+                                  0.40   slack (MET)
+
+
+Startpoint: _0791_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0903_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0791_/CLK (sky130_fd_sc_hd__dfstp_2)
+                  0.03    0.35    0.35 v _0791_/Q (sky130_fd_sc_hd__dfstp_2)
+     2    0.01                           pc_0[3] (net)
+                  0.03    0.00    0.35 v _0903_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.35   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0903_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.05   -0.05   library hold time
+                                 -0.05   data required time
+-----------------------------------------------------------------------------
+                                 -0.05   data required time
+                                 -0.35   data arrival time
+-----------------------------------------------------------------------------
+                                  0.40   slack (MET)
+
+
+Startpoint: _0792_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0904_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0792_/CLK (sky130_fd_sc_hd__dfstp_2)
+                  0.03    0.35    0.35 v _0792_/Q (sky130_fd_sc_hd__dfstp_2)
+     2    0.01                           pc_0[4] (net)
+                  0.03    0.00    0.35 v _0904_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.35   data arrival time
+
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _0904_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.05   -0.05   library hold time
+                                 -0.05   data required time
+-----------------------------------------------------------------------------
+                                 -0.05   data required time
+                                 -0.35   data arrival time
+-----------------------------------------------------------------------------
+                                  0.40   slack (MET)
+
+
+Startpoint: _0835_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0835_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.11    0.41    0.41 v _0835_/Q (sky130_fd_sc_hd__dfrtp_1)
+    10    0.02                           ir_1[4] (net)
+                  0.11    0.00    0.41 v _1812_/D_N (sky130_fd_sc_hd__or4b_1)
+                  0.12    0.24    0.65 ^ _1812_/X (sky130_fd_sc_hd__or4b_1)
+     5    0.01                           _0507_ (net)
+                  0.12    0.00    0.65 ^ _1818_/B1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.05    0.70 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.70 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.50 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.50 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.45 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.45 v alu.adder.genblk1.genblk1.adder.A11.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.37 v alu.adder.genblk1.genblk1.adder.A11.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[1] (net)
+                  0.10    0.00   10.37 v alu.adder.genblk1.genblk1.adder.A11.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.76 v alu.adder.genblk1.genblk1.adder.A11.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[2] (net)
+                  0.10    0.00   10.76 v alu.adder.genblk1.genblk1.adder.A11.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.14 v alu.adder.genblk1.genblk1.adder.A11.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[3] (net)
+                  0.10    0.00   11.14 v alu.adder.genblk1.genblk1.adder.A11.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.53 v alu.adder.genblk1.genblk1.adder.A11.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[4] (net)
+                  0.10    0.00   11.53 v alu.adder.genblk1.genblk1.adder.A11.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.92 v alu.adder.genblk1.genblk1.adder.A11.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[5] (net)
+                  0.10    0.00   11.92 v alu.adder.genblk1.genblk1.adder.A11.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.30 v alu.adder.genblk1.genblk1.adder.A11.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[6] (net)
+                  0.10    0.00   12.30 v alu.adder.genblk1.genblk1.adder.A11.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.69 v alu.adder.genblk1.genblk1.adder.A11.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[7] (net)
+                  0.10    0.00   12.69 v alu.adder.genblk1.genblk1.adder.A11.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   13.05 v alu.adder.genblk1.genblk1.adder.A11.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.co (net)
+                  0.08    0.00   13.05 v _1280_/A1 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.59   13.64 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.64 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.32 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.32 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.75 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.75 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.11 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.11 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.20 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.20 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.29 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.29 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.79 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.79 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.79   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.79   data arrival time
+-----------------------------------------------------------------------------
+                                  4.07   slack (MET)
+
+
+Startpoint: _0835_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0835_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.11    0.41    0.41 v _0835_/Q (sky130_fd_sc_hd__dfrtp_1)
+    10    0.02                           ir_1[4] (net)
+                  0.11    0.00    0.41 v _1812_/D_N (sky130_fd_sc_hd__or4b_1)
+                  0.12    0.24    0.65 ^ _1812_/X (sky130_fd_sc_hd__or4b_1)
+     5    0.01                           _0507_ (net)
+                  0.12    0.00    0.65 ^ _1818_/B1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.05    0.70 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.70 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.50 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.50 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.45 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.45 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.37 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.37 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.76 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.76 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.14 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.14 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.53 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.53 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.92 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.92 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.30 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.30 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.69 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.69 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   13.05 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   13.05 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.61 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.61 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.29 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.29 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.72 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.72 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.09 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.09 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.17 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.17 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.26 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.26 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.76 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.76 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.76   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.76   data arrival time
+-----------------------------------------------------------------------------
+                                  4.10   slack (MET)
+
+
+Startpoint: _0837_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0837_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.20    0.42    0.42 ^ _0837_/Q (sky130_fd_sc_hd__dfrtp_1)
+    10    0.02                           ir_1[6] (net)
+                  0.20    0.00    0.42 ^ _1812_/C (sky130_fd_sc_hd__or4b_1)
+                  0.12    0.20    0.61 ^ _1812_/X (sky130_fd_sc_hd__or4b_1)
+     5    0.01                           _0507_ (net)
+                  0.12    0.00    0.61 ^ _1818_/B1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.05    0.66 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.66 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.47 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.47 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.41 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.41 v alu.adder.genblk1.genblk1.adder.A11.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.33 v alu.adder.genblk1.genblk1.adder.A11.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[1] (net)
+                  0.10    0.00   10.33 v alu.adder.genblk1.genblk1.adder.A11.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.72 v alu.adder.genblk1.genblk1.adder.A11.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[2] (net)
+                  0.10    0.00   10.72 v alu.adder.genblk1.genblk1.adder.A11.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.11 v alu.adder.genblk1.genblk1.adder.A11.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[3] (net)
+                  0.10    0.00   11.11 v alu.adder.genblk1.genblk1.adder.A11.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.49 v alu.adder.genblk1.genblk1.adder.A11.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[4] (net)
+                  0.10    0.00   11.49 v alu.adder.genblk1.genblk1.adder.A11.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.88 v alu.adder.genblk1.genblk1.adder.A11.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[5] (net)
+                  0.10    0.00   11.88 v alu.adder.genblk1.genblk1.adder.A11.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.26 v alu.adder.genblk1.genblk1.adder.A11.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[6] (net)
+                  0.10    0.00   12.26 v alu.adder.genblk1.genblk1.adder.A11.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.65 v alu.adder.genblk1.genblk1.adder.A11.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.c[7] (net)
+                  0.10    0.00   12.65 v alu.adder.genblk1.genblk1.adder.A11.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   13.01 v alu.adder.genblk1.genblk1.adder.A11.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A11.co (net)
+                  0.08    0.00   13.01 v _1280_/A1 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.59   13.60 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.60 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.28 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.28 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.72 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.72 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.08 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.08 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.17 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.17 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.25 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.25 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.75 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.75 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.75   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.75   data arrival time
+-----------------------------------------------------------------------------
+                                  4.11   slack (MET)
+
+
+Startpoint: _0837_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0837_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.20    0.42    0.42 ^ _0837_/Q (sky130_fd_sc_hd__dfrtp_1)
+    10    0.02                           ir_1[6] (net)
+                  0.20    0.00    0.42 ^ _1812_/C (sky130_fd_sc_hd__or4b_1)
+                  0.12    0.20    0.61 ^ _1812_/X (sky130_fd_sc_hd__or4b_1)
+     5    0.01                           _0507_ (net)
+                  0.12    0.00    0.61 ^ _1818_/B1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.05    0.66 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.66 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.47 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.47 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.41 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.41 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.33 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.33 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.72 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.72 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.11 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.11 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.49 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.49 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.88 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.88 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.26 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.26 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.65 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.65 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   13.01 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   13.01 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.57 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.57 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.25 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.25 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.69 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.69 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.05 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.05 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.14 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.14 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.22 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.22 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.72 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.72 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.72   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.72   data arrival time
+-----------------------------------------------------------------------------
+                                  4.14   slack (MET)
+
+
+Startpoint: _0834_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0834_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.18    0.40    0.40 ^ _0834_/Q (sky130_fd_sc_hd__dfrtp_1)
+     9    0.02                           ir_1[3] (net)
+                  0.18    0.00    0.40 ^ _1812_/A (sky130_fd_sc_hd__or4b_1)
+                  0.12    0.20    0.60 ^ _1812_/X (sky130_fd_sc_hd__or4b_1)
+     5    0.01                           _0507_ (net)
+                  0.12    0.00    0.60 ^ _1818_/B1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.05    0.65 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.65 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.45 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.45 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.40 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.40 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.32 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.32 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.71 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.71 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.09 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.09 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.48 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.48 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.86 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.86 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.25 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.25 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.64 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.64 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   13.00 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   13.00 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.56 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.56 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.24 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.24 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.67 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.67 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.03 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.03 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.12 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.12 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.21 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.21 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.71 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.71 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.71   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.71   data arrival time
+-----------------------------------------------------------------------------
+                                  4.15   slack (MET)
+
+
+Startpoint: _0844_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0844_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.18    0.41    0.41 ^ _0844_/Q (sky130_fd_sc_hd__dfrtp_1)
+    10    0.02                           ir_1[13] (net)
+                  0.18    0.00    0.41 ^ _1816_/A_N (sky130_fd_sc_hd__nand3b_1)
+                  0.10    0.16    0.56 ^ _1816_/Y (sky130_fd_sc_hd__nand3b_1)
+     3    0.01                           _0510_ (net)
+                  0.10    0.00    0.56 ^ _1818_/A2 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.08    0.65 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.65 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.45 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.45 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.39 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.39 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.32 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.32 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.70 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.70 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.09 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.09 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.48 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.48 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.86 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.86 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.25 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.25 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.63 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.63 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   13.00 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   13.00 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.56 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.56 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.24 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.24 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.67 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.67 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.03 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.03 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.12 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.12 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.21 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.21 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.70 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.70 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.70   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.70   data arrival time
+-----------------------------------------------------------------------------
+                                  4.16   slack (MET)
+
+
+Startpoint: _0833_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0833_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.18    0.40    0.40 ^ _0833_/Q (sky130_fd_sc_hd__dfrtp_1)
+     9    0.02                           ir_1[2] (net)
+                  0.18    0.00    0.40 ^ _1812_/B (sky130_fd_sc_hd__or4b_1)
+                  0.12    0.19    0.60 ^ _1812_/X (sky130_fd_sc_hd__or4b_1)
+     5    0.01                           _0507_ (net)
+                  0.12    0.00    0.60 ^ _1818_/B1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.05    0.64 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.64 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.45 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.45 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.39 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.39 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.31 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.31 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.70 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.70 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.09 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.09 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.47 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.47 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.86 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.86 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.25 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.25 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.63 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.63 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   12.99 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   12.99 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.56 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.56 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.24 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.24 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.67 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.67 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   15.03 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   15.03 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.12 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.12 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.21 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.21 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.70 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.70 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.70   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.70   data arrival time
+-----------------------------------------------------------------------------
+                                  4.16   slack (MET)
+
+
+Startpoint: _0845_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0845_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.10    0.40    0.40 v _0845_/Q (sky130_fd_sc_hd__dfrtp_1)
+     8    0.02                           ir_1[14] (net)
+                  0.10    0.00    0.40 v _1816_/C (sky130_fd_sc_hd__nand3b_1)
+                  0.10    0.13    0.53 ^ _1816_/Y (sky130_fd_sc_hd__nand3b_1)
+     3    0.01                           _0510_ (net)
+                  0.10    0.00    0.53 ^ _1818_/A2 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.08    0.61 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.61 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.41 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.41 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.36 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.36 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.28 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.28 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.67 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.67 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.05 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.05 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.44 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.44 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.82 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.82 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.21 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.21 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.60 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.60 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   12.96 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   12.96 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.52 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.52 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.20 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.20 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.63 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.63 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   14.99 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   14.99 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.08 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.08 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.17 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.17 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.67 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.67 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.67   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.67   data arrival time
+-----------------------------------------------------------------------------
+                                  4.19   slack (MET)
+
+
+Startpoint: _0843_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0843_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.10    0.40    0.40 v _0843_/Q (sky130_fd_sc_hd__dfrtp_1)
+     8    0.02                           ir_1[12] (net)
+                  0.10    0.00    0.40 v _1816_/B (sky130_fd_sc_hd__nand3b_1)
+                  0.10    0.13    0.53 ^ _1816_/Y (sky130_fd_sc_hd__nand3b_1)
+     3    0.01                           _0510_ (net)
+                  0.10    0.00    0.53 ^ _1818_/A2 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.08    0.61 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.61 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.41 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.41 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.36 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.36 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.28 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.28 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.67 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.67 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.05 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.05 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.44 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.44 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.82 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.82 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.21 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.21 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.60 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.60 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   12.96 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   12.96 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.52 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.52 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.20 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.20 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.63 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.63 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   14.99 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   14.99 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.08 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.08 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.17 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.17 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.67 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.67 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.67   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.67   data arrival time
+-----------------------------------------------------------------------------
+                                  4.19   slack (MET)
+
+
+Startpoint: _0844_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _0868_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _0844_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.18    0.41    0.41 ^ _0844_/Q (sky130_fd_sc_hd__dfrtp_1)
+    10    0.02                           ir_1[13] (net)
+                  0.18    0.00    0.41 ^ _1814_/B1 (sky130_fd_sc_hd__a2111o_1)
+                  0.04    0.13    0.54 ^ _1814_/X (sky130_fd_sc_hd__a2111o_1)
+     1    0.00                           _0508_ (net)
+                  0.04    0.00    0.54 ^ _1818_/A1 (sky130_fd_sc_hd__a31oi_1)
+                  0.05    0.06    0.60 v _1818_/Y (sky130_fd_sc_hd__a31oi_1)
+     1    0.00                           _0512_ (net)
+                  0.05    0.00    0.60 v _1819_/C (sky130_fd_sc_hd__nor3_1)
+                 10.53    7.80    8.40 ^ _1819_/Y (sky130_fd_sc_hd__nor3_1)
+   105    0.39                           alu.adder.genblk1.genblk1.adder.A00.ci (net)
+                 10.53    0.00    8.40 ^ _1249_/A (sky130_fd_sc_hd__xor2_1)
+                  1.39    0.94    9.34 v _1249_/X (sky130_fd_sc_hd__xor2_1)
+     2    0.01                           alu.op_b[8] (net)
+                  1.39    0.00    9.34 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.92   10.27 v alu.adder.genblk1.genblk1.adder.A10.genblk1[0].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[1] (net)
+                  0.10    0.00   10.27 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   10.65 v alu.adder.genblk1.genblk1.adder.A10.genblk1[1].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[2] (net)
+                  0.10    0.00   10.65 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.04 v alu.adder.genblk1.genblk1.adder.A10.genblk1[2].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[3] (net)
+                  0.10    0.00   11.04 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.43 v alu.adder.genblk1.genblk1.adder.A10.genblk1[3].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[4] (net)
+                  0.10    0.00   11.43 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   11.81 v alu.adder.genblk1.genblk1.adder.A10.genblk1[4].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[5] (net)
+                  0.10    0.00   11.81 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.20 v alu.adder.genblk1.genblk1.adder.A10.genblk1[5].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[6] (net)
+                  0.10    0.00   12.20 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.10    0.39   12.58 v alu.adder.genblk1.genblk1.adder.A10.genblk1[6].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.c[7] (net)
+                  0.10    0.00   12.58 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.36   12.95 v alu.adder.genblk1.genblk1.adder.A10.genblk1[7].FA/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           alu.adder.genblk1.genblk1.adder.A10.co (net)
+                  0.08    0.00   12.95 v _1280_/A0 (sky130_fd_sc_hd__mux2i_1)
+                  0.72    0.56   13.51 ^ _1280_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0221_ (net)
+                  0.72    0.00   13.51 ^ _1289_/S (sky130_fd_sc_hd__mux2i_1)
+                  0.70    0.68   14.19 ^ _1289_/Y (sky130_fd_sc_hd__mux2i_1)
+     9    0.03                           _0222_ (net)
+                  0.70    0.00   14.19 ^ _1298_/S (sky130_fd_sc_hd__mux2_1)
+                  0.10    0.43   14.62 v _1298_/X (sky130_fd_sc_hd__mux2_1)
+     4    0.01                           alu.adder.genblk1.genblk1.adder.co (net)
+                  0.10    0.00   14.62 v _1034_/A (sky130_fd_sc_hd__xnor3_1)
+                  0.05    0.36   14.98 ^ _1034_/X (sky130_fd_sc_hd__xnor3_1)
+     1    0.00                           _0046_ (net)
+                  0.05    0.00   14.98 ^ _1035_/C (sky130_fd_sc_hd__or3_1)
+                  0.05    0.09   15.07 ^ _1035_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _0047_ (net)
+                  0.05    0.00   15.07 ^ _1054_/A (sky130_fd_sc_hd__nand4_1)
+                  0.12    0.09   15.16 v _1054_/Y (sky130_fd_sc_hd__nand4_1)
+     4    0.00                           result_mux[0].a (net)
+                  0.12    0.00   15.16 v result_mux[0].mux/A0 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49   15.65 v result_mux[0].mux/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           result_mux[0].x (net)
+                  0.08    0.00   15.65 v _0868_/D (sky130_fd_sc_hd__dfrtp_1)
+                                 15.65   data arrival time
+
+                  0.00   20.00   20.00   clock clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                          0.00   20.00   clock reconvergence pessimism
+                                 20.00 ^ _0868_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.14   19.86   library setup time
+                                 19.86   data required time
+-----------------------------------------------------------------------------
+                                 19.86   data required time
+                                -15.65   data arrival time
+-----------------------------------------------------------------------------
+                                  4.21   slack (MET)
+
+
