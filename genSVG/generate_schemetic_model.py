@@ -329,7 +329,7 @@ def main():
     ]
     #####################################
 
-    libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/lib/sky130_fd_sc_hd.lib"
+    libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/liberty/sky130_fd_sc_hd.lib"
     # Read and parse a library.
     library = parseLiberty(open(libertyFile).read())
 
