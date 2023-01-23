@@ -3,13 +3,13 @@
 
 ## Table of contents
 
-* [Overview](-overview)
-* [File structure](file-structure)
-* [Dependencies](-dependencies)
-* [How to use](-how-to-use)
+* [Overview](#-overview)
+* [File structure](#file-structure)
+* [Dependencies](#-dependencies)
+* [How to use](#-how-to-use)
 * [Support new library]()
-* [Authors](authors)
-* [Copyright and Licensing](-copyright-and-licensing)
+* [Authors](#authors)
+* [Copyright and Licensing](#-copyright-and-licensing)
 
 # 📖 Overview
 
