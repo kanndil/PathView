@@ -17,5 +17,6 @@
     <g s:x="-2.5" s:y="15" s:pid="input3"/>
     <g s:x="-3.4" s:y="20" s:pid="input4"/>
     <g s:x="37" s:y="12.5" s:pid="output1"/>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
   </g>

@@ -11,5 +11,6 @@
     <g s:x="0" s:y="30" s:pid="input2"/>
     <g s:x="10" s:y="35" s:pid="input3"/>
     <g s:x="20" s:y="20" s:pid="output1"/>
+    <g s:x="20" s:y="20" s:pid="out"/>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
   </g>
