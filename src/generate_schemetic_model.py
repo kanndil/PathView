@@ -77,6 +77,12 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
 
     alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
     svgRep = svgRep.replace("alias", alias)
+    
+    shortName = copy.copy(cleanedCellName)
+    shortName = shortName.replace(technology, "")
+    print("writing " + shortName)
+    svgRep = svgRep.replace("shortName", shortName)
+
 
     inputPinCount = 0
     outputPinCount = 0
@@ -107,11 +113,16 @@ def writeFlipFlopSVG(dirpath, flipflop):
     svgRep = f.read()
     cellName = str(flipflop.args[0])
     cleanedCellName = str(cellName).replace('"', "")
-    print("writing " + cleanedCellName)
+    #print("writing " + cleanedCellName)
     svgRep = svgRep.replace("name", cleanedCellName)
 
     alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
     svgRep = svgRep.replace("alias", alias)
+
+    shortName = copy.copy(cleanedCellName)
+    shortName = shortName.replace(technology, "")
+    print("writing " + shortName)
+    svgRep = svgRep.replace("shortName", shortName)
 
     inputPinCount = 0
     outputPinCount = 0
@@ -467,6 +478,11 @@ def main(argv):
     libraryName = copy.copy(libertyFile)
     libraryName = libraryName.split("/")[-1]
     libraryName = libraryName.split(".")[0]
+    
+    global technology
+    technology = copy.copy(libraryName)
+    technology = technology.split("__")[0]
+    technology = technology+ "__"
     writeLibraryDefaultSVG(tobeWritten, libraryName, ff_tobeWritten, latch_tobeWritten)
 
 
