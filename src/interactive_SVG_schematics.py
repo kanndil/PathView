@@ -47,6 +47,7 @@ class StandardCell:
         self.id = id
         self.pins = []
 
+
     def addPin(self, pin):
         self.pins.append(pin)
 
@@ -68,12 +69,18 @@ def add_cell_to_path(_standardCell, tempCriticalPath):
         if _standardCell.id == iterationCell.id:
             flag == True
             # take care of deep copy
-            iterationCell.pins.append(copy.deepcopy(_standardCell.pins[0]))
-            return
+            pinFlag = False
+            for pin in iterationCell.pins:
+                if pin.name == _standardCell.pins[0].name:
+                    pinFlag= True
+                    return pin.net
+            if pinFlag == False:
+                iterationCell.pins.append(copy.deepcopy(_standardCell.pins[0]))
+            return copy.copy(_standardCell.pins[0].net)
 
     if flag == False:
         tempCriticalPath.append(copy.deepcopy(_standardCell))
-    return
+    return copy.copy(_standardCell.pins[0].net)
 
 
 ##############################
@@ -110,9 +117,12 @@ def add_blackbox_cell(_standardCell):
 
 def manage_net_names(tempCriticalPath):
     for i in range(0, len(tempCriticalPath) - 1):
-        tempCriticalPath[i].pins[1].net = "net" + str(i)
-        tempCriticalPath[i + 1].pins[0].net = "net" + str(i)
-    tempCriticalPath[-1].pins.append(Pin("out", "net" + str(len(tempCriticalPath) - 1), "output"))
+        if tempCriticalPath[i].isEndSectionOne == True:
+            tempCriticalPath[i].pins.append(Pin("out", "net" + str(i), "output"))
+        else:
+            tempCriticalPath[i].pins[1].net = "net" + str(i)
+            tempCriticalPath[i + 1].pins[0].net = "net" + str(i)
+
     
     for cell in tempCriticalPath:
         add_blackbox_cell(cell)
@@ -129,8 +139,10 @@ def get_all_paths_in_report(staReportFile):
     tempPath = []
     tempCriticalPath = []
     offset = 0
-    net_index = 0
+    net_index = -1
     counter = 0
+    wire =0
+    _net = ""
     _pinType = "input"
     for line in f:
         counter += 1
@@ -148,12 +160,19 @@ def get_all_paths_in_report(staReportFile):
             pass
         elif processingPath:
             if "data arrival time" in line:
-                manage_net_names(tempCriticalPath)
+                tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
+                wire+=1
+                net_index = -1
+            elif "data required time" in line:
+                for cell in tempCriticalPath:
+                    add_blackbox_cell(cell)
                 allPaths.append(copy.deepcopy(tempPath))
                 criticalPaths.append(copy.deepcopy(tempCriticalPath))
                 processingPath = False
                 offset = 0
-                net_index = 0
+                wire=0
+                net_index = -1
+                pass
             elif "(net)" in line:
                 pass
             elif "/" in line:
@@ -187,10 +206,19 @@ def get_all_paths_in_report(staReportFile):
 
                 _standardCell = StandardCell(cellName, cellId)
 
-                _net = ""
-                if net_index == 0:
+                
+                if net_index == -1:
                     _net = "clk "
                     net_index += 1
+                else:
+                    if net_index == 0:
+                        _net = "net" + str(wire)
+                        net_index += 1
+                    elif net_index == 1:
+                        
+                        net_index = 0
+                        wire+=1
+                        
 
                 _pin = Pin(pinName, _net, _pinType)
 
@@ -201,7 +229,7 @@ def get_all_paths_in_report(staReportFile):
 
                 _standardCell.addPin(copy.deepcopy(_pin))
 
-                add_cell_to_path(_standardCell, tempCriticalPath)
+                _net = add_cell_to_path(_standardCell, tempCriticalPath)
                 
 
     return
@@ -227,7 +255,7 @@ def write_verilog_from_path(critica_path, path):
 
         ## writing output pin
         f.write(
-            """\nassign out =  net"""+str(len(critica_path)-1)+ """;\nendmodule\n\n"""
+            """\nassign out = net_out ;\nendmodule\n\n"""
         )
 
         for cell in blackboxCells:
@@ -271,7 +299,8 @@ read_verilog ../output/"""
             + """/verilog/"""
             + path
             + """.v
-prep -top top
+hierarchy -check -top top
+proc 
 write_json ../output/"""
             + designName
             + """/json/"""
@@ -317,16 +346,16 @@ def addInteraction(path, i):
         + str(allPaths[i])
         + """ ;
                 var cellName = "cell name is " ;
-                var delay = "delay = " ;
-                var time = "time = " ;
+                var delay = "\\n" ;
+                var time = "\\n" ;
                 for (let i = 0; i < cells.length; i++) { 
                     if (("cell_" + cells[i][0]) == id ){
-                        data = "delay = " + cells[i][2];
-                        cellName = "cell name is " + cells[i][0];
-                        time = "time = " + cells[i][3]  ;
+                        delay += "Pin  " +cells[i][1]+ "\\t delay = " + cells[i][2]+"\\n";
+                        cellName = "cell name is " + cells[i][0]+"\\n";
+                        time += "Pin  " +cells[i][1]+  "\\t time = " + cells[i][3] +"\\n" ;
                     }
                 }
-                var data = cellName + "\\n" + data + "\\n" + time + "\\n";
+                var data = cellName + "\\n" + delay + "\\n" + time + "\\n";
                 alert(data);
             }
         </script>
@@ -377,7 +406,7 @@ def main(argv):
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
     get_all_paths_in_report(staReportFile)
-    for i in range(3):
+    for i in range(len(criticalPaths)):
         if not os.path.exists("../output/" + designName):
             os.makedirs("../output/" + designName)
         write_verilog_from_path(criticalPaths[i], "path" + str(i))
