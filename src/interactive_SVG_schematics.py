@@ -112,6 +112,11 @@ def manage_net_names(tempCriticalPath):
     for i in range(0, len(tempCriticalPath) - 1):
         tempCriticalPath[i].pins[1].net = "net" + str(i)
         tempCriticalPath[i + 1].pins[0].net = "net" + str(i)
+    tempCriticalPath[-1].pins.append(Pin("out", "net" + str(len(tempCriticalPath) - 1), "output"))
+    
+    for cell in tempCriticalPath:
+        add_blackbox_cell(cell)
+    
     return
 
 
@@ -197,7 +202,7 @@ def get_all_paths_in_report(staReportFile):
                 _standardCell.addPin(copy.deepcopy(_pin))
 
                 add_cell_to_path(_standardCell, tempCriticalPath)
-                add_blackbox_cell(_standardCell)
+                
 
     return
 
@@ -210,18 +215,19 @@ def write_verilog_from_path(critica_path, path):
         os.makedirs("../output/" + designName + "/verilog")
     with open("../output/" + designName + "/verilog/" + path + ".v", "w") as f:
         f.write("""module top (input clk, output out);\n""")
-        for i in range(len(critica_path) - 1):
+        for i in range(len(critica_path) ):
             f.write("""\nwire net""" + str(i) + """;""")
 
-        for cell in critica_path:
-            f.write("""\n\n""" + cell.name + """ """ + cell.id + """(""")
-            for pin in cell.pins:
+        for i in range(len(critica_path)):
+            f.write("""\n\n""" + critica_path[i].name + """ """ + critica_path[i].id + """(""")
+            for pin in critica_path[i].pins:
                 f.write(""".""" + pin.name + """(""" + pin.net + """), """)
 
             f.write(""");""")
 
+        ## writing output pin
         f.write(
-            """assign out = """ + critica_path[-1].pins[0].net + """;\nendmodule\n\n"""
+            """\nassign out =  net"""+str(len(critica_path)-1)+ """;\nendmodule\n\n"""
         )
 
         for cell in blackboxCells:
@@ -371,7 +377,7 @@ def main(argv):
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
     get_all_paths_in_report(staReportFile)
-    for i in range(len(criticalPaths)):
+    for i in range(3):
         if not os.path.exists("../output/" + designName):
             os.makedirs("../output/" + designName)
         write_verilog_from_path(criticalPaths[i], "path" + str(i))
