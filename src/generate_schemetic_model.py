@@ -102,7 +102,48 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
 ##########################################################################################
 
 
-def writeLibraryDefaultSVG(tobeWritten, libraryName):
+def writeFlipFlopSVG(dirpath, flipflop):
+    f = open("../representations/FLIPFLOP.svg", "r")
+    svgRep = f.read()
+    cellName = str(flipflop.args[0])
+    cleanedCellName = str(cellName).replace('"', "")
+    print("writing " + cleanedCellName)
+    svgRep = svgRep.replace("name", cleanedCellName)
+
+    alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
+    svgRep = svgRep.replace("alias", alias)
+
+    inputPinCount = 0
+    outputPinCount = 0
+    for pinGroup in flipflop.get_groups("pin"):
+        pinName = pinGroup.args[0]
+        if pinGroup["direction"] == "input":
+            if pinGroup["clock"] == "true":
+                pinReplacer = "clk" 
+                cleanedPinName = str(pinName).replace('"', "")
+                svgRep = svgRep.replace(pinReplacer, cleanedPinName)
+                # print("replacing "+ str(pinName))
+                pass
+            else:
+                inputPinCount = inputPinCount + 1
+                pinReplacer = "input" + str(inputPinCount)
+                cleanedPinName = str(pinName).replace('"', "")
+                svgRep = svgRep.replace(pinReplacer, cleanedPinName)
+                # print("replacing "+ str(pinName))
+        if pinGroup["direction"] == "output":
+            outputPinCount = outputPinCount + 1
+            pinReplacer = "output" + str(outputPinCount)
+            cleanedPinName = str(pinName).replace('"', "")
+            svgRep = svgRep.replace(pinReplacer, cleanedPinName)
+            # print("replacing "+ str(pinName))
+
+    with open( dirpath + "/default.svg", "a") as f:
+        f.write(svgRep + "\n\n")
+    pass
+##########################################################################################
+
+
+def writeLibraryDefaultSVG(tobeWritten, libraryName,ff_tobeWritten, latch_tobeWritten):
     dirpath = "../genSVG/" + libraryName + "_representations"
     if not os.path.exists(dirpath):
         os.makedirs(dirpath)
@@ -147,8 +188,18 @@ text {
                 """
         )
 
+    
+    # write representations of normal cells
     for cell in tobeWritten:
         writeCellSVG(dirpath, cell[0], cell[1])
+
+    # write representations of flipflops
+    for flipflop in ff_tobeWritten:
+        writeFlipFlopSVG(dirpath, flipflop)
+    
+    # write representations of latches
+    #for latch in latch_tobeWritten:
+    #    writeCellSVG(dirpath, latch)
 
     with open( dirpath + "/default.svg", "a") as f:
         f.write(
@@ -357,7 +408,8 @@ def main(argv):
     library = parseLiberty(open(libertyFile).read())
 
     tobeWritten = []
-
+    ff_tobeWritten = []
+    latch_tobeWritten = []
     for cell_group in library.get_groups("cell"):
         is_flipflop = (len(cell_group.get_groups("ff"))) != 0
         is_latch = (len(cell_group.get_groups("latch"))) != 0
@@ -365,8 +417,10 @@ def main(argv):
         is_level_shifter = cell_group["is_level_shifter"] != None
 
         if is_flipflop:
+            ff_tobeWritten.append(copy.copy(cell_group))
             pass
         elif is_latch:
+            latch_tobeWritten.append(copy.copy(cell_group))
             pass
         elif is_level_shifter:
             pass
@@ -413,7 +467,7 @@ def main(argv):
     libraryName = copy.copy(libertyFile)
     libraryName = libraryName.split("/")[-1]
     libraryName = libraryName.split(".")[0]
-    writeLibraryDefaultSVG(tobeWritten, libraryName)
+    writeLibraryDefaultSVG(tobeWritten, libraryName, ff_tobeWritten, latch_tobeWritten)
 
 
 if __name__ == "__main__":

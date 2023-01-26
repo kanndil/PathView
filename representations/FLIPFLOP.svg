@@ -1,0 +1,23 @@
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    alias
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="clk"/>
+    <g s:x="0" s:y="10" s:pid="input1"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="output1"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">flipflop</text>
+  </g>
