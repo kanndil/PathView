@@ -48,7 +48,7 @@ text {
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_0</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -66,7 +66,7 @@ text {
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -84,7 +84,7 @@ text {
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -102,7 +102,7 @@ text {
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -121,7 +121,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -140,7 +140,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -159,7 +159,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2b_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -176,7 +176,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -193,7 +193,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -210,7 +210,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_4</text>
   </g>
 
 
@@ -229,7 +229,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b_1</text>
   </g>
 
 
@@ -248,7 +248,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b_2</text>
   </g>
 
 
@@ -267,7 +267,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3b_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -285,7 +285,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -303,7 +303,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -321,7 +321,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -340,7 +340,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -359,7 +359,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -378,7 +378,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4b_4</text>
   </g>
 
 
@@ -401,7 +401,7 @@ text {
     <g s:x="-3.4" s:y="20" s:pid="D"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4bb_1</text>
   </g>
 
 
@@ -425,7 +425,7 @@ text {
     <g s:x="-3.4" s:y="20" s:pid="D"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4bb_2</text>
   </g>
 
 
@@ -449,7 +449,7 @@ text {
     <g s:x="-3.4" s:y="20" s:pid="D"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4bb_4</text>
   </g>
 
 
@@ -465,7 +465,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -480,7 +480,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -495,7 +495,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -510,7 +510,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -525,7 +525,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -540,7 +540,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_6</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -555,7 +555,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -570,7 +570,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufbuf_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -585,7 +585,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufbuf_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -601,7 +601,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufinv_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -617,7 +617,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufinv_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -632,7 +632,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -647,7 +647,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -662,7 +662,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -677,7 +677,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -692,7 +692,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -707,7 +707,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s15_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -722,7 +722,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s15_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -737,7 +737,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s18_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -752,7 +752,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s18_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -767,7 +767,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s25_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -782,7 +782,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s25_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -797,7 +797,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s50_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -812,7 +812,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkdlybuf4s50_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -828,7 +828,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -844,7 +844,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -860,7 +860,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -876,7 +876,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -892,7 +892,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -908,7 +908,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinvlp_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -924,7 +924,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinvlp_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -939,7 +939,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlygate4sd1_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -954,7 +954,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlygate4sd2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -969,7 +969,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlygate4sd3_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -984,7 +984,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlymetal6s2s_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -999,7 +999,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlymetal6s4s_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1014,7 +1014,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlymetal6s6s_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1029,7 +1029,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">ebufn_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1044,7 +1044,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">ebufn_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1059,7 +1059,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">ebufn_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1074,7 +1074,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">ebufn_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1090,7 +1090,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvn_0</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1106,7 +1106,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvn_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1122,7 +1122,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvn_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1138,7 +1138,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvn_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1154,7 +1154,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvn_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1170,7 +1170,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvp_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1186,7 +1186,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvp_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1202,7 +1202,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvp_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1218,7 +1218,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Z"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">einvp_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1234,7 +1234,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1250,7 +1250,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1266,7 +1266,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1282,7 +1282,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1298,7 +1298,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1314,7 +1314,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_6</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1330,7 +1330,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1345,7 +1345,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkbufkapwr_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1360,7 +1360,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkbufkapwr_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1375,7 +1375,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkbufkapwr_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1390,7 +1390,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkbufkapwr_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1405,7 +1405,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkbufkapwr_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1421,7 +1421,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkinvkapwr_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1437,7 +1437,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkinvkapwr_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1453,7 +1453,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkinvkapwr_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1469,7 +1469,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkinvkapwr_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1485,7 +1485,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="25" s:y="10" s:pid="Y"/>
     <g s:x="25" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_clkinvkapwr_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1502,7 +1502,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1519,7 +1519,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1536,7 +1536,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1553,7 +1553,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_8</text>
   </g>
 
 
@@ -1572,7 +1572,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="27" s:y="20" s:pid="Y"/>
     <g s:x="27" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i_1</text>
   </g>
 
 
@@ -1591,7 +1591,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="27" s:y="20" s:pid="Y"/>
     <g s:x="27" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i_2</text>
   </g>
 
 
@@ -1610,7 +1610,7 @@ text {
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="27" s:y="20" s:pid="Y"/>
     <g s:x="27" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2i_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1630,7 +1630,7 @@ text {
     <g s:x="15" s:y="35"  s:pid="S1"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1650,7 +1650,7 @@ text {
     <g s:x="15" s:y="35"  s:pid="S1"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1670,7 +1670,7 @@ text {
     <g s:x="15" s:y="35"  s:pid="S1"/>
     <g s:x="20" s:y="20" s:pid="X"/>
     <g s:x="20" s:y="20" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux4_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1687,7 +1687,7 @@ text {
     <g s:x="0" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1704,7 +1704,7 @@ text {
     <g s:x="0" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1721,7 +1721,7 @@ text {
     <g s:x="0" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1738,7 +1738,7 @@ text {
     <g s:x="0" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1756,7 +1756,7 @@ text {
     <g s:x="0"  s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1774,7 +1774,7 @@ text {
     <g s:x="0"  s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1792,7 +1792,7 @@ text {
     <g s:x="0"  s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1810,7 +1810,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3_1</text>
   </g>
 
 
@@ -1829,7 +1829,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3_2</text>
   </g>
 
 
@@ -1848,7 +1848,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3_4</text>
   </g>
 
 
@@ -1868,7 +1868,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1887,7 +1887,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1906,7 +1906,7 @@ text {
     <g s:x="0" s:y="20" s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3b_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1925,7 +1925,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4_1</text>
   </g>
 
 
@@ -1945,7 +1945,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4_2</text>
   </g>
 
 
@@ -1965,7 +1965,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4_4</text>
   </g>
 
 
@@ -1986,7 +1986,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2006,7 +2006,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2026,7 +2026,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4b_4</text>
   </g>
 
 
@@ -2048,7 +2048,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb_1</text>
   </g>
 
 
@@ -2070,7 +2070,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb_2</text>
   </g>
 
 
@@ -2092,7 +2092,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D"/>  
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2110,7 +2110,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2128,7 +2128,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2146,7 +2146,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2164,7 +2164,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2183,7 +2183,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="B_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2202,7 +2202,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="B_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2221,7 +2221,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="B_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2b_4</text>
   </g>
 
 
@@ -2241,7 +2241,7 @@ text {
     <g s:x="3" s:y="20"   s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3_1</text>
   </g>
 
 
@@ -2262,7 +2262,7 @@ text {
     <g s:x="3" s:y="20"   s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3_2</text>
   </g>
 
 
@@ -2283,7 +2283,7 @@ text {
     <g s:x="3" s:y="20"   s:pid="C"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3_4</text>
   </g>
 
 
@@ -2305,7 +2305,7 @@ text {
     <g s:x="-4" s:y="20"  s:pid="C_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b_1</text>
   </g>
 
 
@@ -2327,7 +2327,7 @@ text {
     <g s:x="-4" s:y="20"  s:pid="C_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b_2</text>
   </g>
 
 
@@ -2349,7 +2349,7 @@ text {
     <g s:x="-4" s:y="20"  s:pid="C_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3b_4</text>
   </g>
 
 
@@ -2370,7 +2370,7 @@ text {
     <g s:x="3" s:y="20" s:pid="D"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4_1</text>
   </g>
 
 
@@ -2391,7 +2391,7 @@ text {
     <g s:x="3" s:y="20" s:pid="D"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4_2</text>
   </g>
 
 
@@ -2412,7 +2412,7 @@ text {
     <g s:x="3" s:y="20" s:pid="D"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4_4</text>
   </g>
 
 
@@ -2435,7 +2435,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="D_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b_1</text>
   </g>
 
 
@@ -2443,9 +2443,9 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4b -->
-  <g s:type="sky130_fd_sc_hd__nor4b_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4b_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="50" s:height="25">
     
-    <s:alias val="sky130_fd_sc_hd__nor4b_2"/>
+    <s:alias val=" "/>
     
     <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
@@ -2458,7 +2458,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="D_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b_2</text>
   </g>
 
 
@@ -2481,7 +2481,7 @@ text {
     <g s:x="-4" s:y="20" s:pid="D_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4b_4</text>
   </g>
 
 
@@ -2505,7 +2505,7 @@ text {
     <g s:x="-3.4" s:y="20" s:pid="D_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb_1</text>
   </g>
 
 
@@ -2529,7 +2529,7 @@ text {
     <g s:x="-3.4" s:y="20" s:pid="D_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb_2</text>
   </g>
 
 
@@ -2553,7 +2553,7 @@ text {
     <g s:x="-3.4" s:y="20" s:pid="D_N"/>
     <g s:x="37" s:y="12.5" s:pid="Y"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4bb_4</text>
   </g>
 
 
@@ -2572,7 +2572,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_0</text>
   </g>
 
 
@@ -2591,7 +2591,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_1</text>
   </g>
 
 
@@ -2610,7 +2610,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_2</text>
   </g>
 
 
@@ -2629,7 +2629,7 @@ text {
     <g s:x="3" s:y="20" s:pid="B"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_4</text>
   </g>
 
 
@@ -2648,7 +2648,7 @@ text {
     <g s:x="0"  s:y="20" s:pid="B_N"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2666,7 +2666,7 @@ text {
     <g s:x="0"  s:y="20" s:pid="B_N"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2684,7 +2684,7 @@ text {
     <g s:x="0"  s:y="20" s:pid="B_N"/>
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2b_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2702,7 +2702,7 @@ text {
     <g s:x="3" s:y="20"   s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2720,7 +2720,7 @@ text {
     <g s:x="3" s:y="20"   s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2738,7 +2738,7 @@ text {
     <g s:x="3" s:y="20"   s:pid="C"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2757,7 +2757,7 @@ text {
     <g s:x="-7" s:y="20"  s:pid="C_N"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2776,7 +2776,7 @@ text {
     <g s:x="-7" s:y="20"  s:pid="C_N"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2795,7 +2795,7 @@ text {
     <g s:x="-7" s:y="20"  s:pid="C_N"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3b_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2814,7 +2814,7 @@ text {
     <g s:x="3" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4_1</text>
   </g>
 
 
@@ -2834,7 +2834,7 @@ text {
     <g s:x="3" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4_2</text>
   </g>
 
 
@@ -2854,7 +2854,7 @@ text {
     <g s:x="3" s:y="20" s:pid="D"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4_4</text>
   </g>
 
 
@@ -2875,7 +2875,7 @@ text {
     <g s:x="-7" s:y="20" s:pid="D_N"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2895,7 +2895,7 @@ text {
     <g s:x="-7" s:y="20" s:pid="D_N"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2915,7 +2915,7 @@ text {
     <g s:x="-7" s:y="20" s:pid="D_N"/>
     <g s:x="30" s:y="12.5" s:pid="X"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4b_4</text>
   </g>
 
 
@@ -2937,7 +2937,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D_N"/>  
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4bb_1</text>
   </g>
 
 
@@ -2959,7 +2959,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D_N"/>  
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4bb_2</text>
   </g>
 
 
@@ -2981,7 +2981,7 @@ text {
     <g s:x="0" s:y="20" s:pid="D_N"/>  
     <g s:x="37" s:y="12.5" s:pid="X"/>
     <g s:x="37" s:y="12.5" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4bb</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4bb_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -2996,7 +2996,7 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">probe_p_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -3011,7 +3011,1087 @@ text {
     <g s:x="0" s:y="10" s:pid="A"/>
     <g s:x="20" s:y="10" s:pid="X"/>
     <g s:x="20" s:y="10" s:pid="out"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">probec_p_8</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfbbn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfbbn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SET_B"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfbbn_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfbbn_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SET_B"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfbbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfbbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SET_B"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfrbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfrbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfrbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfrbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfrtn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfrtn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfrtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfrtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfrtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfrtp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfrtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfrtp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfsbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfsbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfsbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfsbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfstp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfstp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfstp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfstp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfstp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfstp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfxbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfxbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfxbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfxtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfxtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfxtp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__dfxtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dfxtp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__edfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__edfxbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__edfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__edfxtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfbbn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfbbn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfbbn_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfbbn_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfbbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfbbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfrbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfrbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfrbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfrbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfrtn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfrtn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfrtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfrtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfrtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfrtp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfrtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfrtp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfsbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfsbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="SET_B"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfsbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfsbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="SET_B"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfstp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfstp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="SET_B"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfstp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfstp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="SET_B"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfstp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfstp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="SET_B"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfxbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfxbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfxbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfxtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfxtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfxtp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sdfxtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sdfxtp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SCD"/> 
+    <g s:x="0" s:y="20" s:pid="SCE"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sedfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sedfxbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sedfxbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sedfxbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sedfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sedfxtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sedfxtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sedfxtp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="sky130_fd_sc_hd__sedfxtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__sedfxtp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="DE"/> 
+    <g s:x="0" s:y="20" s:pid="SCD"/>
+    <g s:x="0" s:y="25" s:pid="SCE"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_4</text>
   </g>
 
 

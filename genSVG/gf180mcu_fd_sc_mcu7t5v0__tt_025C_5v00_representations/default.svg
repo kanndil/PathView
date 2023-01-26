@@ -46,7 +46,9 @@ text {
     <g s:x="0" s:y="5" s:pid="A1"/>
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -62,7 +64,9 @@ text {
     <g s:x="0" s:y="5" s:pid="A1"/>
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -78,7 +82,9 @@ text {
     <g s:x="0" s:y="5" s:pid="A1"/>
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -94,7 +100,8 @@ text {
     <g s:x="0" s:y="12.5" s:pid="A2"/>
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -110,7 +117,8 @@ text {
     <g s:x="0" s:y="12.5" s:pid="A2"/>
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -126,7 +134,8 @@ text {
     <g s:x="0" s:y="12.5" s:pid="A2"/>
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -143,7 +152,8 @@ text {
     <g s:x="0" s:y="25" s:pid="A3"/>
     <g s:x="0" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -160,7 +170,8 @@ text {
     <g s:x="0" s:y="25" s:pid="A3"/>
     <g s:x="0" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -177,7 +188,8 @@ text {
     <g s:x="0" s:y="25" s:pid="A3"/>
     <g s:x="0" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -191,7 +203,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -205,7 +218,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -219,7 +233,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_3</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -233,7 +248,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -247,7 +263,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -261,7 +278,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -275,7 +293,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -289,7 +308,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf_20</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -303,7 +323,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -317,7 +338,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -331,7 +353,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_3</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -345,7 +368,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -359,7 +383,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -373,7 +398,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -387,7 +413,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">bufz_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -401,7 +428,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -415,7 +443,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -429,7 +458,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_3</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -443,7 +473,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -457,7 +488,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -471,7 +503,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -485,7 +518,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -499,7 +533,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkbuf_20</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -514,7 +549,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -529,7 +565,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -544,7 +581,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_3</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -559,7 +597,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -574,7 +613,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -589,7 +629,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -604,7 +645,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -619,7 +661,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">clkinv_20</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -633,7 +676,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlya_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -647,7 +691,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlya_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -661,7 +706,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlya_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -675,7 +721,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyb_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -689,7 +736,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyb_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -703,7 +751,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyb_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -717,7 +766,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyc_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -731,7 +781,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyc_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -745,7 +796,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyc_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -759,7 +811,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyd_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -773,7 +826,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyd_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -787,7 +841,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="20" s:y="10" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">buf</text>
+    <g s:x="20" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlyd_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -802,7 +857,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -817,7 +873,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -832,7 +889,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_3</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -847,7 +905,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -862,7 +921,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -877,7 +937,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -892,7 +953,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -907,7 +969,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="I"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv_20</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -922,7 +985,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -937,7 +1001,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -952,7 +1017,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_3</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -967,7 +1033,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -982,7 +1049,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -997,7 +1065,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_12</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1012,7 +1081,8 @@ text {
 
     <g s:x="0" s:y="10" s:pid="EN"/>
     <g s:x="25" s:y="10" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">inv</text>
+    <g s:x="25" s:y="10" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">invz_16</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1028,7 +1098,8 @@ text {
     <g s:x="0" s:y="30" s:pid="I1"/>
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <g s:x="20" s:y="20" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1044,7 +1115,8 @@ text {
     <g s:x="0" s:y="30" s:pid="I1"/>
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <g s:x="20" s:y="20" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1060,7 +1132,8 @@ text {
     <g s:x="0" s:y="30" s:pid="I1"/>
     <g s:x="10" s:y="35" s:pid="S"/>
     <g s:x="20" s:y="20" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2</text>
+    <g s:x="20" s:y="20" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">mux2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1076,7 +1149,8 @@ text {
     <g s:x="0" s:y="5" s:pid="A1"/>
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1092,7 +1166,8 @@ text {
     <g s:x="0" s:y="5" s:pid="A1"/>
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1108,7 +1183,8 @@ text {
     <g s:x="0" s:y="5" s:pid="A1"/>
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1125,7 +1201,8 @@ text {
     <g s:x="0" s:y="12.5" s:pid="A2"/>
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3_1</text>
   </g>
 
 
@@ -1143,7 +1220,8 @@ text {
     <g s:x="0" s:y="12.5" s:pid="A2"/>
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3_2</text>
   </g>
 
 
@@ -1161,7 +1239,8 @@ text {
     <g s:x="0" s:y="12.5" s:pid="A2"/>
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand3_4</text>
   </g>
 
 
@@ -1180,7 +1259,8 @@ text {
     <g s:x="0" s:y="15" s:pid="A3"/>
     <g s:x="0" s:y="20" s:pid="A4"/>  
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4_1</text>
   </g>
 
 
@@ -1199,7 +1279,8 @@ text {
     <g s:x="0" s:y="15" s:pid="A3"/>
     <g s:x="0" s:y="20" s:pid="A4"/>  
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4_2</text>
   </g>
 
 
@@ -1218,7 +1299,8 @@ text {
     <g s:x="0" s:y="15" s:pid="A3"/>
     <g s:x="0" s:y="20" s:pid="A4"/>  
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nand4_4</text>
   </g>
 
 
@@ -1236,7 +1318,8 @@ text {
     <g s:x="3" s:y="5"  s:pid="A1"/>
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1253,7 +1336,8 @@ text {
     <g s:x="3" s:y="5"  s:pid="A1"/>
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1270,7 +1354,8 @@ text {
     <g s:x="3" s:y="5"  s:pid="A1"/>
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_4</text>
   </g>
 
 
@@ -1289,7 +1374,8 @@ text {
     <g s:x="3" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3_1</text>
   </g>
 
 
@@ -1309,7 +1395,8 @@ text {
     <g s:x="3" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3_2</text>
   </g>
 
 
@@ -1329,7 +1416,8 @@ text {
     <g s:x="3" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor3_4</text>
   </g>
 
 
@@ -1349,7 +1437,8 @@ text {
     <g s:x="3" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4_1</text>
   </g>
 
 
@@ -1369,7 +1458,8 @@ text {
     <g s:x="3" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4_2</text>
   </g>
 
 
@@ -1389,7 +1479,8 @@ text {
     <g s:x="3" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4</text>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor4_4</text>
   </g>
 
 
@@ -1407,7 +1498,8 @@ text {
     <g s:x="3" s:y="5"  s:pid="A1"/>
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_1</text>
   </g>
 
 
@@ -1425,7 +1517,8 @@ text {
     <g s:x="3" s:y="5"  s:pid="A1"/>
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_2</text>
   </g>
 
 
@@ -1443,7 +1536,8 @@ text {
     <g s:x="3" s:y="5"  s:pid="A1"/>
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or2_4</text>
   </g>
 
 
@@ -1461,7 +1555,8 @@ text {
     <g s:x="3" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1478,7 +1573,8 @@ text {
     <g s:x="3" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1495,7 +1591,8 @@ text {
     <g s:x="3" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or3_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1513,7 +1610,8 @@ text {
     <g s:x="3" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4_1</text>
   </g>
 
 
@@ -1532,7 +1630,8 @@ text {
     <g s:x="3" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4_2</text>
   </g>
 
 
@@ -1551,9 +1650,874 @@ text {
     <g s:x="3" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4</text>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">or4_4</text>
   </g>
 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnrnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnrnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnrnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnrsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnrsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnrsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLKN"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffnsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffrnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffrnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffrnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffrsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffrsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffrsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dffsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SE"/> 
+    <g s:x="0" s:y="20" s:pid="SI"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SE"/> 
+    <g s:x="0" s:y="20" s:pid="SI"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SE"/> 
+    <g s:x="0" s:y="20" s:pid="SI"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SE"/>
+    <g s:x="0" s:y="25" s:pid="SI"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffrnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SE"/>
+    <g s:x="0" s:y="25" s:pid="SI"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffrnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SE"/>
+    <g s:x="0" s:y="25" s:pid="SI"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffrnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SE"/>
+    <g s:x="0" s:y="25" s:pid="SETN"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffrsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SE"/>
+    <g s:x="0" s:y="25" s:pid="SETN"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffrsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SE"/>
+    <g s:x="0" s:y="25" s:pid="SETN"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffrsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SE"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="SI"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SE"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="SI"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- flipflop -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SE"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="SI"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffsnq_4</text>
+  </g>
 
 
 
