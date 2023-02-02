@@ -243,8 +243,8 @@ def write_verilog_from_path(critica_path, path):
         os.makedirs("../output/" + designName + "/verilog")
     with open("../output/" + designName + "/verilog/" + path + ".v", "w") as f:
         f.write("""module top (input clk, output out);\n""")
-        for i in range(len(critica_path) ):
-            f.write("""\nwire net""" + str(i) + """;""")
+        #for i in range(len(critica_path) ):
+        #    f.write("""\nwire net""" + str(i) + """;""")
 
         for i in range(len(critica_path)):
             f.write("""\n\n""" + critica_path[i].name + """ """ + critica_path[i].id + """(""")
@@ -413,11 +413,11 @@ def main(argv):
         generate_JSON_from_verilog("path" + str(i))
         generate_SVG_from_JSON("path" + str(i))
         addInteraction("path" + str(i), i)
+        print(i)
+
 
     print(designName)
-
-    # test_print()
-    # len(criticalPaths)
+    # 
 
 
 if __name__ == "__main__":
