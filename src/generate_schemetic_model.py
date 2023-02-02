@@ -168,9 +168,11 @@ def writeLibraryDefaultSVG(tobeWritten, libraryName,ff_tobeWritten, latch_tobeWr
   width="800" height="300">
   <s:properties>
     <s:layoutEngine
-      org.eclipse.elk.layered.spacing.nodeNodeBetweenLayers="35"
-      org.eclipse.elk.spacing.nodeNode= "35"
-      org.eclipse.elk.layered.layering.strategy= "LONGEST_PATH"
+      org.eclipse.elk.layered.spacing.baseValue = "50"
+      org.eclipse.elk.nodeSize.options = "SPACE_EFFICIENT_PORT_LABELS"
+      org.eclipse.elk.layered.layering.strategy = "NETWORK_SIMPLEX"
+      org.eclipse.elk.layered.compaction.postCompaction.strategy = "EDGE_LENGTH"
+      org.eclipse.elk.layered.thoroughness = "10000"
     />
     <s:low_priority_alias val="$dff" />
   </s:properties>
@@ -412,8 +414,6 @@ def main(argv):
     ]
     #####################################
 
-    # libertyFile = "/Users/youssef/Documents/Work/AUC_Open_Hardware_Lab/interactive_sVG_schematics/liberty/sky130_fd_sc_hd.lib"
-    # libertyFile = "../liberty/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib"
 
     # Read and parse a library.
     library = parseLiberty(open(libertyFile).read())
