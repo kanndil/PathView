@@ -72,17 +72,15 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
     svgRep = f.read()
     cellName = str(cell_group.args[0])
     cleanedCellName = str(cellName).replace('"', "")
-    print("writing " + cleanedCellName)
     svgRep = svgRep.replace("name", cleanedCellName)
 
     alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
     svgRep = svgRep.replace("alias", alias)
-    
+
     shortName = copy.copy(cleanedCellName)
     shortName = shortName.replace(technology, "")
-    print("writing " + shortName)
+    # print("writing " + shortName)
     svgRep = svgRep.replace("shortName", shortName)
-
 
     inputPinCount = 0
     outputPinCount = 0
@@ -101,7 +99,7 @@ def writeCellSVG(dirPath, cell_group, cellRepRef):
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
             # print("replacing "+ str(pinName))
 
-    with open( dirPath + "/default.svg", "a") as f:
+    with open(dirPath + "/default.svg", "a") as f:
         f.write(svgRep + "\n\n")
 
 
@@ -113,7 +111,7 @@ def writeFlipFlopSVG(dirpath, flipflop):
     svgRep = f.read()
     cellName = str(flipflop.args[0])
     cleanedCellName = str(cellName).replace('"', "")
-    #print("writing " + cleanedCellName)
+    # print("writing " + cleanedCellName)
     svgRep = svgRep.replace("name", cleanedCellName)
 
     alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
@@ -121,7 +119,7 @@ def writeFlipFlopSVG(dirpath, flipflop):
 
     shortName = copy.copy(cleanedCellName)
     shortName = shortName.replace(technology, "")
-    print("writing " + shortName)
+    # print("writing " + shortName)
     svgRep = svgRep.replace("shortName", shortName)
 
     inputPinCount = 0
@@ -130,7 +128,7 @@ def writeFlipFlopSVG(dirpath, flipflop):
         pinName = pinGroup.args[0]
         if pinGroup["direction"] == "input":
             if pinGroup["clock"] == "true":
-                pinReplacer = "clk" 
+                pinReplacer = "clk"
                 cleanedPinName = str(pinName).replace('"', "")
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
                 # print("replacing "+ str(pinName))
@@ -148,18 +146,20 @@ def writeFlipFlopSVG(dirpath, flipflop):
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
             # print("replacing "+ str(pinName))
 
-    with open( dirpath + "/default.svg", "a") as f:
+    with open(dirpath + "/default.svg", "a") as f:
         f.write(svgRep + "\n\n")
     pass
+
+
 ##########################################################################################
 
 
-def writeLibraryDefaultSVG(tobeWritten, libraryName,ff_tobeWritten, latch_tobeWritten):
-    dirpath = "../genSVG/" + libraryName + "_representations"
+def writeLibraryDefaultSVG(tobeWritten, libraryName, ff_tobeWritten, latch_tobeWritten):
+    dirpath = "../skinFiles/" + libraryName + "_representations"
     if not os.path.exists(dirpath):
         os.makedirs(dirpath)
 
-    with open( dirpath + "/default.svg", "w") as f:
+    with open(dirpath + "/default.svg", "w") as f:
         f.write(
             """
  <svg  xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,6 @@ text {
                 """
         )
 
-    
     # write representations of normal cells
     for cell in tobeWritten:
         writeCellSVG(dirpath, cell[0], cell[1])
@@ -209,12 +208,12 @@ text {
     # write representations of flipflops
     for flipflop in ff_tobeWritten:
         writeFlipFlopSVG(dirpath, flipflop)
-    
+
     # write representations of latches
-    #for latch in latch_tobeWritten:
+    # for latch in latch_tobeWritten:
     #    writeCellSVG(dirpath, latch)
 
-    with open( dirpath + "/default.svg", "a") as f:
+    with open(dirpath + "/default.svg", "a") as f:
         f.write(
             """
 
@@ -414,7 +413,6 @@ def main(argv):
     ]
     #####################################
 
-
     # Read and parse a library.
     library = parseLiberty(open(libertyFile).read())
 
@@ -450,7 +448,7 @@ def main(argv):
                         iterationLibraryCellFunction = reformatBooleanExpression(
                             copy.copy(str(pinGroup["function"]))
                         )
-                        print(cell_group.args[0], iterationLibraryCellFunction)
+                        # print(cell_group.args[0], iterationLibraryCellFunction)
 
                         for cell in cellRepresentations:
                             new_library_cell_function = reformatBooleanExpression(
@@ -468,7 +466,7 @@ def main(argv):
                                 cellRepRef = cell
                                 pinRef = pinGroup
                                 translationRef = out
-                                print("done", cell.name)
+
                             # except:
                             #    pass
 
@@ -478,11 +476,11 @@ def main(argv):
     libraryName = copy.copy(libertyFile)
     libraryName = libraryName.split("/")[-1]
     libraryName = libraryName.split(".")[0]
-    
+
     global technology
     technology = copy.copy(libraryName)
     technology = technology.split("__")[0]
-    technology = technology+ "__"
+    technology = technology + "__"
     writeLibraryDefaultSVG(tobeWritten, libraryName, ff_tobeWritten, latch_tobeWritten)
 
 
