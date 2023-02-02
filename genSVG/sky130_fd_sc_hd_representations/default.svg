@@ -5,9 +5,11 @@
   width="800" height="300">
   <s:properties>
     <s:layoutEngine
-      org.eclipse.elk.layered.spacing.nodeNodeBetweenLayers="35"
-      org.eclipse.elk.spacing.nodeNode= "35"
-      org.eclipse.elk.layered.layering.strategy= "LONGEST_PATH"
+      org.eclipse.elk.layered.spacing.baseValue = "50"
+      org.eclipse.elk.nodeSize.options = "SPACE_EFFICIENT_PORT_LABELS"
+      org.eclipse.elk.layered.layering.strategy = "NETWORK_SIMPLEX"
+      org.eclipse.elk.layered.compaction.postCompaction.strategy = "EDGE_LENGTH"
+      org.eclipse.elk.layered.thoroughness = "10000"
     />
     <s:low_priority_alias val="$dff" />
   </s:properties>
@@ -37,7 +39,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="sky130_fd_sc_hd__and2_0" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2_0" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and2_0"/>
     
@@ -55,7 +57,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="sky130_fd_sc_hd__and2_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and2_1"/>
     
@@ -73,7 +75,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="sky130_fd_sc_hd__and2_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and2_2"/>
     
@@ -91,7 +93,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="sky130_fd_sc_hd__and2_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and2_4"/>
     
@@ -108,7 +110,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor2b -->
-  <g s:type="sky130_fd_sc_hd__and2b_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2b_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and2b_1"/>
     
@@ -127,7 +129,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor2b -->
-  <g s:type="sky130_fd_sc_hd__and2b_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2b_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and2b_2"/>
     
@@ -146,7 +148,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor2b -->
-  <g s:type="sky130_fd_sc_hd__and2b_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and2b_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and2b_4"/>
     
@@ -165,7 +167,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="sky130_fd_sc_hd__and3_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and3_1"/>
 
@@ -182,7 +184,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="sky130_fd_sc_hd__and3_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and3_2"/>
 
@@ -199,7 +201,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="sky130_fd_sc_hd__and3_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and3_4"/>
 
@@ -217,7 +219,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3b -->
-  <g s:type="sky130_fd_sc_hd__and3b_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and3b_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and3b_1"/>
 
@@ -236,7 +238,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3b -->
-  <g s:type="sky130_fd_sc_hd__and3b_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and3b_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and3b_2"/>
 
@@ -255,7 +257,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3b -->
-  <g s:type="sky130_fd_sc_hd__and3b_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and3b_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and3b_4"/>
 
@@ -273,7 +275,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="sky130_fd_sc_hd__and4_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and4_1"/>
     
@@ -291,7 +293,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="sky130_fd_sc_hd__and4_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and4_2"/>
     
@@ -309,7 +311,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="sky130_fd_sc_hd__and4_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="sky130_fd_sc_hd__and4_4"/>
     
@@ -327,7 +329,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4b -->
-  <g s:type="sky130_fd_sc_hd__and4b_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4b_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and4b_1"/>
 
@@ -346,7 +348,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4b -->
-  <g s:type="sky130_fd_sc_hd__and4b_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4b_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and4b_2"/>
 
@@ -365,7 +367,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4b -->
-  <g s:type="sky130_fd_sc_hd__and4b_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4b_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and4b_4"/>
 
@@ -385,7 +387,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4bb -->
-  <g s:type="sky130_fd_sc_hd__and4bb_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4bb_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and4bb_1"/>
     
@@ -409,7 +411,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4bb -->
-  <g s:type="sky130_fd_sc_hd__and4bb_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4bb_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and4bb_2"/>
     
@@ -433,7 +435,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4bb -->
-  <g s:type="sky130_fd_sc_hd__and4bb_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__and4bb_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__and4bb_4"/>
     
@@ -456,7 +458,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_1"/>
     
@@ -471,7 +473,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_12"/>
     
@@ -486,7 +488,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_16"/>
     
@@ -501,7 +503,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_2"/>
     
@@ -516,7 +518,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_4"/>
     
@@ -531,7 +533,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_6" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_6" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_6"/>
     
@@ -546,7 +548,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__buf_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__buf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__buf_8"/>
     
@@ -561,7 +563,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__bufbuf_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__bufbuf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__bufbuf_16"/>
     
@@ -576,7 +578,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__bufbuf_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__bufbuf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__bufbuf_8"/>
     
@@ -591,7 +593,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__bufinv_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__bufinv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__bufinv_16"/>
 
@@ -607,7 +609,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__bufinv_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__bufinv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__bufinv_8"/>
 
@@ -623,7 +625,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkbuf_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkbuf_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkbuf_1"/>
     
@@ -638,7 +640,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkbuf_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkbuf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkbuf_16"/>
     
@@ -653,7 +655,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkbuf_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkbuf_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkbuf_2"/>
     
@@ -668,7 +670,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkbuf_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkbuf_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkbuf_4"/>
     
@@ -683,7 +685,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkbuf_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkbuf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkbuf_8"/>
     
@@ -698,7 +700,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s15_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s15_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s15_1"/>
     
@@ -713,7 +715,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s15_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s15_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s15_2"/>
     
@@ -728,7 +730,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s18_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s18_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s18_1"/>
     
@@ -743,7 +745,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s18_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s18_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s18_2"/>
     
@@ -758,7 +760,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s25_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s25_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s25_1"/>
     
@@ -773,7 +775,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s25_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s25_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s25_2"/>
     
@@ -788,7 +790,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s50_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s50_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s50_1"/>
     
@@ -803,7 +805,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__clkdlybuf4s50_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkdlybuf4s50_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__clkdlybuf4s50_2"/>
     
@@ -818,7 +820,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinv_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinv_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinv_1"/>
 
@@ -834,7 +836,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinv_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinv_16"/>
 
@@ -850,7 +852,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinv_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinv_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinv_2"/>
 
@@ -866,7 +868,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinv_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinv_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinv_4"/>
 
@@ -882,7 +884,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinv_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinv_8"/>
 
@@ -898,7 +900,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinvlp_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinvlp_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinvlp_2"/>
 
@@ -914,7 +916,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__clkinvlp_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__clkinvlp_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__clkinvlp_4"/>
 
@@ -930,7 +932,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__dlygate4sd1_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__dlygate4sd1_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__dlygate4sd1_1"/>
     
@@ -945,7 +947,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__dlygate4sd2_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__dlygate4sd2_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__dlygate4sd2_1"/>
     
@@ -960,7 +962,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__dlygate4sd3_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__dlygate4sd3_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__dlygate4sd3_1"/>
     
@@ -975,7 +977,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__dlymetal6s2s_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__dlymetal6s2s_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__dlymetal6s2s_1"/>
     
@@ -990,7 +992,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__dlymetal6s4s_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__dlymetal6s4s_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__dlymetal6s4s_1"/>
     
@@ -1005,7 +1007,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__dlymetal6s6s_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__dlymetal6s6s_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__dlymetal6s6s_1"/>
     
@@ -1020,7 +1022,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__ebufn_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__ebufn_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__ebufn_1"/>
     
@@ -1035,7 +1037,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__ebufn_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__ebufn_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__ebufn_2"/>
     
@@ -1050,7 +1052,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__ebufn_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__ebufn_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__ebufn_4"/>
     
@@ -1065,7 +1067,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__ebufn_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__ebufn_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__ebufn_8"/>
     
@@ -1080,7 +1082,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvn_0" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvn_0" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvn_0"/>
 
@@ -1096,7 +1098,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvn_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvn_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvn_1"/>
 
@@ -1112,7 +1114,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvn_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvn_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvn_2"/>
 
@@ -1128,7 +1130,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvn_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvn_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvn_4"/>
 
@@ -1144,7 +1146,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvn_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvn_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvn_8"/>
 
@@ -1160,7 +1162,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvp_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvp_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvp_1"/>
 
@@ -1176,7 +1178,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvp_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvp_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvp_2"/>
 
@@ -1192,7 +1194,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvp_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvp_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvp_4"/>
 
@@ -1208,7 +1210,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__einvp_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__einvp_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__einvp_8"/>
 
@@ -1224,7 +1226,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_1"/>
 
@@ -1240,7 +1242,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_12"/>
 
@@ -1256,7 +1258,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_16"/>
 
@@ -1272,7 +1274,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_2"/>
 
@@ -1288,7 +1290,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_4"/>
 
@@ -1304,7 +1306,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_6" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_6" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_6"/>
 
@@ -1320,7 +1322,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__inv_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__inv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__inv_8"/>
 
@@ -1336,7 +1338,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__lpflow_clkbufkapwr_1"/>
     
@@ -1351,7 +1353,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__lpflow_clkbufkapwr_16"/>
     
@@ -1366,7 +1368,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__lpflow_clkbufkapwr_2"/>
     
@@ -1381,7 +1383,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__lpflow_clkbufkapwr_4"/>
     
@@ -1396,7 +1398,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkbufkapwr_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__lpflow_clkbufkapwr_8"/>
     
@@ -1411,7 +1413,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__lpflow_clkinvkapwr_1"/>
 
@@ -1427,7 +1429,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__lpflow_clkinvkapwr_16"/>
 
@@ -1443,7 +1445,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__lpflow_clkinvkapwr_2"/>
 
@@ -1459,7 +1461,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__lpflow_clkinvkapwr_4"/>
 
@@ -1475,7 +1477,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__lpflow_clkinvkapwr_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="sky130_fd_sc_hd__lpflow_clkinvkapwr_8"/>
 
@@ -1491,7 +1493,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="sky130_fd_sc_hd__mux2_1" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2_1" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2_1"/>
     
@@ -1508,7 +1510,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="sky130_fd_sc_hd__mux2_2" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2_2" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2_2"/>
     
@@ -1525,7 +1527,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="sky130_fd_sc_hd__mux2_4" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2_4" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2_4"/>
     
@@ -1542,7 +1544,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="sky130_fd_sc_hd__mux2_8" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2_8" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2_8"/>
     
@@ -1560,7 +1562,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2i -->
-  <g s:type="sky130_fd_sc_hd__mux2i_1" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2i_1" onClick="reply_click(this.id)" s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2i_1"/>
 
@@ -1579,7 +1581,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2i -->
-  <g s:type="sky130_fd_sc_hd__mux2i_2" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2i_2" onClick="reply_click(this.id)" s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2i_2"/>
 
@@ -1598,7 +1600,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2i -->
-  <g s:type="sky130_fd_sc_hd__mux2i_4" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="sky130_fd_sc_hd__mux2i_4" onClick="reply_click(this.id)" s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux2i_4"/>
 
@@ -1616,7 +1618,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux4 -->
-<g s:type="sky130_fd_sc_hd__mux4_1" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+<g s:type="sky130_fd_sc_hd__mux4_1" onClick="reply_click(this.id)" s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux4_1"/>
     
@@ -1636,7 +1638,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux4 -->
-<g s:type="sky130_fd_sc_hd__mux4_2" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+<g s:type="sky130_fd_sc_hd__mux4_2" onClick="reply_click(this.id)" s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux4_2"/>
     
@@ -1656,7 +1658,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux4 -->
-<g s:type="sky130_fd_sc_hd__mux4_4" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+<g s:type="sky130_fd_sc_hd__mux4_4" onClick="reply_click(this.id)" s:width="20" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__mux4_4"/>
     
@@ -1676,7 +1678,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="sky130_fd_sc_hd__nand2_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2_1"/>
     
@@ -1693,7 +1695,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="sky130_fd_sc_hd__nand2_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2_2"/>
     
@@ -1710,7 +1712,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="sky130_fd_sc_hd__nand2_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2_4"/>
     
@@ -1727,7 +1729,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="sky130_fd_sc_hd__nand2_8" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2_8" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2_8"/>
     
@@ -1744,7 +1746,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2b -->
-  <g s:type="sky130_fd_sc_hd__nand2b_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2b_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2b_1"/>
     
@@ -1762,7 +1764,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2b -->
-  <g s:type="sky130_fd_sc_hd__nand2b_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2b_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2b_2"/>
     
@@ -1780,7 +1782,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2b -->
-  <g s:type="sky130_fd_sc_hd__nand2b_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand2b_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand2b_4"/>
     
@@ -1798,7 +1800,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="sky130_fd_sc_hd__nand3_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     <s:alias val="sky130_fd_sc_hd__nand3_1"/>
     
@@ -1817,7 +1819,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="sky130_fd_sc_hd__nand3_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     <s:alias val="sky130_fd_sc_hd__nand3_2"/>
     
@@ -1836,7 +1838,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="sky130_fd_sc_hd__nand3_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     <s:alias val="sky130_fd_sc_hd__nand3_4"/>
     
@@ -1855,7 +1857,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3b -->
-  <g s:type="sky130_fd_sc_hd__nand3b_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand3b_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand3b_1"/>
             
@@ -1874,7 +1876,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3b -->
-  <g s:type="sky130_fd_sc_hd__nand3b_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand3b_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand3b_2"/>
             
@@ -1893,7 +1895,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3b -->
-  <g s:type="sky130_fd_sc_hd__nand3b_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand3b_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand3b_4"/>
             
@@ -1912,7 +1914,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="sky130_fd_sc_hd__nand4_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand4_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand4_1"/>
     
@@ -1932,7 +1934,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="sky130_fd_sc_hd__nand4_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand4_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand4_2"/>
     
@@ -1952,7 +1954,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="sky130_fd_sc_hd__nand4_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand4_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand4_4"/>
     
@@ -1972,7 +1974,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4b -->
-  <g s:type="sky130_fd_sc_hd__nand4b_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand4b_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand4b_1"/>
     
@@ -1992,7 +1994,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4b -->
-  <g s:type="sky130_fd_sc_hd__nand4b_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand4b_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand4b_2"/>
     
@@ -2012,7 +2014,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4b -->
-  <g s:type="sky130_fd_sc_hd__nand4b_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nand4b_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nand4b_4"/>
     
@@ -2033,7 +2035,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     <s:alias val="sky130_fd_sc_hd__nand4bb_1"/>
     
@@ -2055,7 +2057,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     <s:alias val="sky130_fd_sc_hd__nand4bb_2"/>
     
@@ -2077,7 +2079,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     <s:alias val="sky130_fd_sc_hd__nand4bb_4"/>
     
@@ -2098,79 +2100,75 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="sky130_fd_sc_hd__nor2_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="sky130_fd_sc_hd__nor2_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="sky130_fd_sc_hd__nor2_1"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A"/>
-    <g s:x="3" s:y="20" s:pid="B"/>
-    <g s:x="37" s:y="12.5" s:pid="Y"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="sky130_fd_sc_hd__nor2_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="sky130_fd_sc_hd__nor2_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="sky130_fd_sc_hd__nor2_2"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A"/>
-    <g s:x="3" s:y="20" s:pid="B"/>
-    <g s:x="37" s:y="12.5" s:pid="Y"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="sky130_fd_sc_hd__nor2_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="sky130_fd_sc_hd__nor2_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="sky130_fd_sc_hd__nor2_4"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A"/>
-    <g s:x="3" s:y="20" s:pid="B"/>
-    <g s:x="37" s:y="12.5" s:pid="Y"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="sky130_fd_sc_hd__nor2_8" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="sky130_fd_sc_hd__nor2_8" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="sky130_fd_sc_hd__nor2_8"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A"/>
-    <g s:x="3" s:y="20" s:pid="B"/>
-    <g s:x="37" s:y="12.5" s:pid="Y"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_8</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor2b -->
-  <g s:type="sky130_fd_sc_hd__nor2b_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor2b_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor2b_1"/>
     
@@ -2189,7 +2187,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor2b -->
-  <g s:type="sky130_fd_sc_hd__nor2b_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor2b_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor2b_2"/>
     
@@ -2208,7 +2206,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor2b -->
-  <g s:type="sky130_fd_sc_hd__nor2b_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor2b_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor2b_4"/>
     
@@ -2228,7 +2226,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="sky130_fd_sc_hd__nor3_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor3_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
         
     <s:alias val="sky130_fd_sc_hd__nor3_1"/>
     
@@ -2249,7 +2247,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="sky130_fd_sc_hd__nor3_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor3_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
         
     <s:alias val="sky130_fd_sc_hd__nor3_2"/>
     
@@ -2270,7 +2268,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="sky130_fd_sc_hd__nor3_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor3_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
         
     <s:alias val="sky130_fd_sc_hd__nor3_4"/>
     
@@ -2291,7 +2289,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3b -->
-  <g s:type="sky130_fd_sc_hd__nor3b_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor3b_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor3b_1"/>
     
@@ -2313,7 +2311,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3b -->
-  <g s:type="sky130_fd_sc_hd__nor3b_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor3b_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor3b_2"/>
     
@@ -2335,7 +2333,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3b -->
-  <g s:type="sky130_fd_sc_hd__nor3b_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor3b_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor3b_4"/>
     
@@ -2356,7 +2354,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="sky130_fd_sc_hd__nor4_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4_1"/>
     
@@ -2377,7 +2375,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="sky130_fd_sc_hd__nor4_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4_2"/>
     
@@ -2398,7 +2396,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="sky130_fd_sc_hd__nor4_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4_4"/>
     
@@ -2420,7 +2418,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4b -->
-  <g s:type="sky130_fd_sc_hd__nor4b_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4b_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4b_1"/>
     
@@ -2443,9 +2441,9 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4b -->
-  <g s:type="sky130_fd_sc_hd__nor4b_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="50" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4b_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
-    <s:alias val=" "/>
+    <s:alias val="sky130_fd_sc_hd__nor4b_2"/>
     
     <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
@@ -2466,7 +2464,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4b -->
-  <g s:type="sky130_fd_sc_hd__nor4b_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4b_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4b_4"/>
     
@@ -2489,7 +2487,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4bb -->
-  <g s:type="sky130_fd_sc_hd__nor4bb_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4bb_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4bb_1"/>
     
@@ -2513,7 +2511,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4bb -->
-  <g s:type="sky130_fd_sc_hd__nor4bb_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4bb_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4bb_2"/>
     
@@ -2537,7 +2535,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4bb -->
-  <g s:type="sky130_fd_sc_hd__nor4bb_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="sky130_fd_sc_hd__nor4bb_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__nor4bb_4"/>
     
@@ -2561,7 +2559,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="sky130_fd_sc_hd__or2_0" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2_0" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2_0"/>
     
@@ -2580,7 +2578,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="sky130_fd_sc_hd__or2_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2_1"/>
     
@@ -2599,7 +2597,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="sky130_fd_sc_hd__or2_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2_2"/>
     
@@ -2618,7 +2616,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="sky130_fd_sc_hd__or2_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2_4"/>
     
@@ -2636,7 +2634,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2b -->
-  <g s:type="sky130_fd_sc_hd__or2b_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2b_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2b_1"/>
     
@@ -2654,7 +2652,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2b -->
-  <g s:type="sky130_fd_sc_hd__or2b_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2b_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2b_2"/>
     
@@ -2672,7 +2670,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2b -->
-  <g s:type="sky130_fd_sc_hd__or2b_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or2b_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or2b_4"/>
     
@@ -2690,7 +2688,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="sky130_fd_sc_hd__or3_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or3_1"/>
     
@@ -2708,7 +2706,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="sky130_fd_sc_hd__or3_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or3_2"/>
     
@@ -2726,7 +2724,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="sky130_fd_sc_hd__or3_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or3_4"/>
     
@@ -2744,7 +2742,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3b -->
-  <g s:type="sky130_fd_sc_hd__or3b_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or3b_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or3b_1"/>
     
@@ -2763,7 +2761,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3b -->
-  <g s:type="sky130_fd_sc_hd__or3b_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or3b_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or3b_2"/>
     
@@ -2782,7 +2780,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3b -->
-  <g s:type="sky130_fd_sc_hd__or3b_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or3b_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or3b_4"/>
     
@@ -2801,7 +2799,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="sky130_fd_sc_hd__or4_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or4_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or4_1"/>
     
@@ -2821,7 +2819,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="sky130_fd_sc_hd__or4_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or4_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or4_2"/>
     
@@ -2841,7 +2839,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="sky130_fd_sc_hd__or4_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or4_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or4_4"/>
     
@@ -2861,7 +2859,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4b -->
-  <g s:type="sky130_fd_sc_hd__or4b_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or4b_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or4b_1"/>
     
@@ -2881,7 +2879,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4b -->
-  <g s:type="sky130_fd_sc_hd__or4b_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or4b_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or4b_2"/>
     
@@ -2901,7 +2899,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4b -->
-  <g s:type="sky130_fd_sc_hd__or4b_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="sky130_fd_sc_hd__or4b_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="sky130_fd_sc_hd__or4b_4"/>
     
@@ -2922,7 +2920,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     <s:alias val="sky130_fd_sc_hd__or4bb_1"/>
     
@@ -2944,7 +2942,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     <s:alias val="sky130_fd_sc_hd__or4bb_2"/>
     
@@ -2966,7 +2964,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     <s:alias val="sky130_fd_sc_hd__or4bb_4"/>
     
@@ -2987,7 +2985,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__probe_p_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__probe_p_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__probe_p_8"/>
     
@@ -3002,7 +3000,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="sky130_fd_sc_hd__probec_p_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="sky130_fd_sc_hd__probec_p_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="sky130_fd_sc_hd__probec_p_8"/>
     
@@ -3017,7 +3015,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfbbn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfbbn_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfbbn_1"/>
 
@@ -3041,7 +3039,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfbbn_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfbbn_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfbbn_2"/>
 
@@ -3065,7 +3063,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfbbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfbbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfbbp_1"/>
 
@@ -3089,7 +3087,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfrbp_1"/>
 
@@ -3113,7 +3111,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfrbp_2"/>
 
@@ -3137,7 +3135,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtn_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfrtn_1"/>
 
@@ -3161,7 +3159,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_1"/>
 
@@ -3185,7 +3183,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_2"/>
 
@@ -3209,7 +3207,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_4"/>
 
@@ -3233,7 +3231,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfsbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfsbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfsbp_1"/>
 
@@ -3257,7 +3255,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfsbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfsbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfsbp_2"/>
 
@@ -3281,7 +3279,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfstp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfstp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfstp_1"/>
 
@@ -3305,7 +3303,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfstp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfstp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfstp_2"/>
 
@@ -3329,7 +3327,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfstp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfstp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfstp_4"/>
 
@@ -3353,7 +3351,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfxbp_1"/>
 
@@ -3377,7 +3375,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfxbp_2"/>
 
@@ -3401,7 +3399,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxtp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_1"/>
 
@@ -3425,7 +3423,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxtp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_2"/>
 
@@ -3449,7 +3447,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxtp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_4"/>
 
@@ -3473,7 +3471,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__edfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__edfxbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__edfxbp_1"/>
 
@@ -3497,7 +3495,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__edfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__edfxtp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__edfxtp_1"/>
 
@@ -3521,7 +3519,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfbbn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfbbn_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfbbn_1"/>
 
@@ -3545,7 +3543,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfbbn_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfbbn_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfbbn_2"/>
 
@@ -3569,7 +3567,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfbbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfbbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfbbp_1"/>
 
@@ -3593,7 +3591,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfrbp_1"/>
 
@@ -3617,7 +3615,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfrbp_2"/>
 
@@ -3641,7 +3639,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtn_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtn_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtn_1"/>
 
@@ -3665,7 +3663,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_1"/>
 
@@ -3689,7 +3687,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_2"/>
 
@@ -3713,7 +3711,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_4"/>
 
@@ -3737,7 +3735,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfsbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfsbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfsbp_1"/>
 
@@ -3761,7 +3759,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfsbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfsbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfsbp_2"/>
 
@@ -3785,7 +3783,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfstp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfstp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_1"/>
 
@@ -3809,7 +3807,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfstp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfstp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_2"/>
 
@@ -3833,7 +3831,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfstp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfstp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_4"/>
 
@@ -3857,7 +3855,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfxbp_1"/>
 
@@ -3881,7 +3879,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfxbp_2"/>
 
@@ -3905,7 +3903,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxtp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_1"/>
 
@@ -3929,7 +3927,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxtp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_2"/>
 
@@ -3953,7 +3951,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxtp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_4"/>
 
@@ -3977,7 +3975,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxbp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxbp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sedfxbp_1"/>
 
@@ -4001,7 +3999,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxbp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxbp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sedfxbp_2"/>
 
@@ -4025,7 +4023,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxtp_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxtp_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_1"/>
 
@@ -4049,7 +4047,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxtp_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxtp_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_2"/>
 
@@ -4073,7 +4071,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxtp_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxtp_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_4"/>
 

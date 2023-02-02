@@ -5,9 +5,11 @@
   width="800" height="300">
   <s:properties>
     <s:layoutEngine
-      org.eclipse.elk.layered.spacing.nodeNodeBetweenLayers="35"
-      org.eclipse.elk.spacing.nodeNode= "35"
-      org.eclipse.elk.layered.layering.strategy= "LONGEST_PATH"
+      org.eclipse.elk.layered.spacing.baseValue = "50"
+      org.eclipse.elk.nodeSize.options = "SPACE_EFFICIENT_PORT_LABELS"
+      org.eclipse.elk.layered.layering.strategy = "NETWORK_SIMPLEX"
+      org.eclipse.elk.layered.compaction.postCompaction.strategy = "EDGE_LENGTH"
+      org.eclipse.elk.layered.thoroughness = "10000"
     />
     <s:low_priority_alias val="$dff" />
   </s:properties>
@@ -37,7 +39,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and2_1"/>
     
@@ -55,7 +57,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and2_2"/>
     
@@ -73,7 +75,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and2_4"/>
     
@@ -90,7 +92,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and3_1"/>
 
@@ -107,7 +109,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and3_2"/>
 
@@ -124,7 +126,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and3_4"/>
 
@@ -141,7 +143,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_1" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and4_1"/>
     
@@ -159,7 +161,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_2" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and4_2"/>
     
@@ -177,7 +179,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_4" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and4_4"/>
     
@@ -195,7 +197,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_1"/>
     
@@ -210,7 +212,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_2"/>
     
@@ -225,7 +227,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_3" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_3"/>
     
@@ -240,7 +242,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_4"/>
     
@@ -255,7 +257,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_8"/>
     
@@ -270,7 +272,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_12"/>
     
@@ -285,7 +287,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_16"/>
     
@@ -300,7 +302,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_20" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_20"/>
     
@@ -315,7 +317,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_1"/>
     
@@ -330,7 +332,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_2"/>
     
@@ -345,7 +347,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_3" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_3"/>
     
@@ -360,7 +362,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_4"/>
     
@@ -375,7 +377,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_8"/>
     
@@ -390,7 +392,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_12"/>
     
@@ -405,7 +407,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_16"/>
     
@@ -420,7 +422,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_1"/>
     
@@ -435,7 +437,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_2"/>
     
@@ -450,7 +452,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_3" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_3"/>
     
@@ -465,7 +467,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_4"/>
     
@@ -480,7 +482,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_8"/>
     
@@ -495,7 +497,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_12"/>
     
@@ -510,7 +512,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_16"/>
     
@@ -525,7 +527,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_20" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_20"/>
     
@@ -540,7 +542,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_1"/>
 
@@ -556,7 +558,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_2"/>
 
@@ -572,7 +574,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_3" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_3"/>
 
@@ -588,7 +590,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_4"/>
 
@@ -604,7 +606,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_8"/>
 
@@ -620,7 +622,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_12"/>
 
@@ -636,7 +638,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_16"/>
 
@@ -652,7 +654,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_20" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_20"/>
 
@@ -668,7 +670,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlya_1"/>
     
@@ -683,7 +685,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlya_2"/>
     
@@ -698,7 +700,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlya_4"/>
     
@@ -713,7 +715,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyb_1"/>
     
@@ -728,7 +730,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyb_2"/>
     
@@ -743,7 +745,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyb_4"/>
     
@@ -758,7 +760,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyc_1"/>
     
@@ -773,7 +775,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyc_2"/>
     
@@ -788,7 +790,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyc_4"/>
     
@@ -803,7 +805,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyd_1"/>
     
@@ -818,7 +820,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyd_2"/>
     
@@ -833,7 +835,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyd_4"/>
     
@@ -848,7 +850,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_1"/>
 
@@ -864,7 +866,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_2"/>
 
@@ -880,7 +882,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_3" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_3"/>
 
@@ -896,7 +898,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_4"/>
 
@@ -912,7 +914,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_8"/>
 
@@ -928,7 +930,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_12"/>
 
@@ -944,7 +946,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_16"/>
 
@@ -960,7 +962,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_20" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_20"/>
 
@@ -976,7 +978,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_1" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_1"/>
 
@@ -992,7 +994,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_2" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_2"/>
 
@@ -1008,7 +1010,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_3" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_3"/>
 
@@ -1024,7 +1026,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_4" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_4"/>
 
@@ -1040,7 +1042,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_8" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_8"/>
 
@@ -1056,7 +1058,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_12" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_12"/>
 
@@ -1072,7 +1074,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_16" onClick="reply_click(this.id)" transform="translate(450,100)" s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_16"/>
 
@@ -1088,7 +1090,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_1" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_1" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__mux2_1"/>
     
@@ -1105,7 +1107,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_2" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_2" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__mux2_2"/>
     
@@ -1122,7 +1124,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_4" onClick="reply_click(this.id)" transform="translate(50, 50)" s:width="20" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_4" onClick="reply_click(this.id)"  s:width="20" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__mux2_4"/>
     
@@ -1139,7 +1141,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand2_1"/>
     
@@ -1156,7 +1158,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand2_2"/>
     
@@ -1173,7 +1175,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand2_4"/>
     
@@ -1190,7 +1192,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand3_1"/>
     
@@ -1209,7 +1211,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand3_2"/>
     
@@ -1228,7 +1230,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand3_4"/>
     
@@ -1247,7 +1249,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_1" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand4_1"/>
     
@@ -1267,7 +1269,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_2" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand4_2"/>
     
@@ -1287,7 +1289,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_4" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand4_4"/>
     
@@ -1307,54 +1309,51 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor2_1"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A1"/>
-    <g s:x="3" s:y="20" s:pid="A2"/>
-    <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="30" s:y="12.5" s:pid="ZN"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor2_2"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A1"/>
-    <g s:x="3" s:y="20" s:pid="A2"/>
-    <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="30" s:y="12.5" s:pid="ZN"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
-    
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor2_4"/>
     
-    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
-    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
-    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="3" s:y="5"  s:pid="A1"/>
-    <g s:x="3" s:y="20" s:pid="A2"/>
-    <g s:x="37" s:y="12.5" s:pid="ZN"/>
-    <g s:x="37" s:y="12.5" s:pid="out"/>
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="30" s:y="12.5" s:pid="ZN"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_4</text>
   </g>
 
@@ -1362,7 +1361,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
         
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor3_1"/>
     
@@ -1383,7 +1382,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
         
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor3_2"/>
     
@@ -1404,7 +1403,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
         
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor3_4"/>
     
@@ -1424,7 +1423,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_1" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor4_1"/>
     
@@ -1445,7 +1444,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_2" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor4_2"/>
     
@@ -1466,7 +1465,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_4" onClick="reply_click(this.id)" transform="translate(250, 100)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor4_4"/>
     
@@ -1488,7 +1487,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or2_1"/>
     
@@ -1507,7 +1506,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or2_2"/>
     
@@ -1526,7 +1525,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or2_4"/>
     
@@ -1544,7 +1543,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or3_1"/>
     
@@ -1562,7 +1561,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or3_2"/>
     
@@ -1580,7 +1579,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or3_4"/>
     
@@ -1598,7 +1597,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_1" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or4_1"/>
     
@@ -1618,7 +1617,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_2" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or4_2"/>
     
@@ -1638,7 +1637,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_4" onClick="reply_click(this.id)" transform="translate(250,50)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or4_4"/>
     
@@ -1658,7 +1657,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_1"/>
 
@@ -1682,7 +1681,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_2"/>
 
@@ -1706,7 +1705,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_4"/>
 
@@ -1730,7 +1729,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1"/>
 
@@ -1754,7 +1753,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2"/>
 
@@ -1778,7 +1777,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4"/>
 
@@ -1802,7 +1801,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1"/>
 
@@ -1826,7 +1825,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2"/>
 
@@ -1850,7 +1849,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4"/>
 
@@ -1874,7 +1873,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1"/>
 
@@ -1898,7 +1897,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2"/>
 
@@ -1922,7 +1921,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4"/>
 
@@ -1946,7 +1945,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_1"/>
 
@@ -1970,7 +1969,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_2"/>
 
@@ -1994,7 +1993,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_4"/>
 
@@ -2018,7 +2017,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1"/>
 
@@ -2042,7 +2041,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2"/>
 
@@ -2066,7 +2065,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4"/>
 
@@ -2090,7 +2089,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1"/>
 
@@ -2114,7 +2113,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2"/>
 
@@ -2138,7 +2137,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4"/>
 
@@ -2162,7 +2161,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1"/>
 
@@ -2186,7 +2185,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2"/>
 
@@ -2210,7 +2209,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4"/>
 
@@ -2234,7 +2233,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_1"/>
 
@@ -2258,7 +2257,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_2"/>
 
@@ -2282,7 +2281,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_4"/>
 
@@ -2306,7 +2305,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1"/>
 
@@ -2330,7 +2329,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2"/>
 
@@ -2354,7 +2353,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4"/>
 
@@ -2378,7 +2377,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1"/>
 
@@ -2402,7 +2401,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2"/>
 
@@ -2426,7 +2425,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4"/>
 
@@ -2450,7 +2449,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1"/>
 
@@ -2474,7 +2473,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2"/>
 
@@ -2498,7 +2497,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4"/>
 
