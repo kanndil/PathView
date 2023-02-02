@@ -165,19 +165,20 @@ For example:
 
 <br/><br/>
 
-## Second: Run interactive_SVG_schematics
-Clone the repo
+# Second: Support the standard cell library you are using
 
-    git clone https://github.com/kanndil/interactive_SVG_schematics.git
 
-Run:
 
-    cd src/
-    python3 interactive_SVG_schematics.py -i <staReportFilePath>
+<details>
+  <summary>Skip this part if your standard cell library is already generated here</summary>
 
+* [sky130_fd_sc_hd_representations](https://github.com/kanndil/interactive_SVG_schematics/blob/1e3ac1b9517269c97a6a94d829ca40cedc8273f3/skinFiles/sky130_fd_sc_hd_representations/default.svg)
+* [gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00](https://github.com/kanndil/interactive_SVG_schematics/blob/1e3ac1b9517269c97a6a94d829ca40cedc8273f3/skinFiles/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00_representations/default.svg#L16)
+
+</details>
 <br/><br/>
 
-# Support new Standard Cell Library
+To generate a new skin file for your standard cell library run the following command. The skin file will be located in [this](https://github.com/kanndil/interactive_SVG_schematics/blob/1e3ac1b9517269c97a6a94d829ca40cedc8273f3/skinFiles) directory.
 
 Run:
 
@@ -185,6 +186,20 @@ Run:
     python3 generate_schemetic_model.py -i <libertyFilePath>
     
 <br/><br/>
+
+
+## Third: Generate the HTML interactive schematics
+First: Clone the repo
+
+    git clone https://github.com/kanndil/interactive_SVG_schematics.git
+
+Second: Run
+
+    cd src/
+    python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>
+
+<br/><br/>
+
 
 # Authors
 
