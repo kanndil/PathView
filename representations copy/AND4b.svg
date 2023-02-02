@@ -1,0 +1,18 @@
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- and4b -->
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(150,50)" s:width="30" s:height="25">
+    
+    alias
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="-4" cy="5" r="3" class="$cell_id"/>
+
+    <g s:x="-7" s:y="5" s:pid="input1"/>
+    <g s:x="0" s:y="10" s:pid="input2"/>
+    <g s:x="0" s:y="25" s:pid="input3"/>
+    <g s:x="0" s:y="20" s:pid="input4"/>
+    <g s:x="30" s:y="12.5" s:pid="output1"/>
+    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">shortName</text>
+  </g>

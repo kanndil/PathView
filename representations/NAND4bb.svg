@@ -2,7 +2,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4bb -->
-  <g s:type="nand4bb" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="nand4bb" onClick="reply_click(this.id)" s:width="30" s:height="25">
        
     alias
     

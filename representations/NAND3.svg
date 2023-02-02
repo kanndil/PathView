@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(150,100)" s:width="30" s:height="25">
+  <g s:type="name" onClick="reply_click(this.id)" s:width="30" s:height="25">
             
     alias
     

@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(350,150)" s:width="30" s:height="40">
+  <g s:type="name" onClick="reply_click(this.id)"  s:width="30" s:height="40">
 
     alias
 
