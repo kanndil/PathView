@@ -200,7 +200,7 @@ Second: Run
 
 # Examples
 
-```html 
+
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="2784" height="169"><style>svg {
   stroke:#000;
@@ -243,7 +243,7 @@ text {
         </script>
     
 
-```
+
 
 
 <br/><br/>
