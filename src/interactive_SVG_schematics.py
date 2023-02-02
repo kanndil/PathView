@@ -47,7 +47,6 @@ class StandardCell:
         self.id = id
         self.pins = []
 
-
     def addPin(self, pin):
         self.pins.append(pin)
 
@@ -72,7 +71,7 @@ def add_cell_to_path(_standardCell, tempCriticalPath):
             pinFlag = False
             for pin in iterationCell.pins:
                 if pin.name == _standardCell.pins[0].name:
-                    pinFlag= True
+                    pinFlag = True
                     return pin.net
             if pinFlag == False:
                 iterationCell.pins.append(copy.deepcopy(_standardCell.pins[0]))
@@ -123,10 +122,9 @@ def manage_net_names(tempCriticalPath):
             tempCriticalPath[i].pins[1].net = "net" + str(i)
             tempCriticalPath[i + 1].pins[0].net = "net" + str(i)
 
-    
     for cell in tempCriticalPath:
         add_blackbox_cell(cell)
-    
+
     return
 
 
@@ -141,7 +139,7 @@ def get_all_paths_in_report(staReportFile):
     offset = 0
     net_index = -1
     counter = 0
-    wire =0
+    wire = 0
     _net = ""
     _pinType = "input"
     for line in f:
@@ -161,7 +159,7 @@ def get_all_paths_in_report(staReportFile):
         elif processingPath:
             if "data arrival time" in line:
                 tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
-                wire+=1
+                wire += 1
                 net_index = -1
             elif "data required time" in line:
                 for cell in tempCriticalPath:
@@ -170,7 +168,7 @@ def get_all_paths_in_report(staReportFile):
                 criticalPaths.append(copy.deepcopy(tempCriticalPath))
                 processingPath = False
                 offset = 0
-                wire=0
+                wire = 0
                 net_index = -1
                 pass
             elif "(net)" in line:
@@ -206,7 +204,6 @@ def get_all_paths_in_report(staReportFile):
 
                 _standardCell = StandardCell(cellName, cellId)
 
-                
                 if net_index == -1:
                     _net = "clk "
                     net_index += 1
@@ -215,10 +212,9 @@ def get_all_paths_in_report(staReportFile):
                         _net = "net" + str(wire)
                         net_index += 1
                     elif net_index == 1:
-                        
+
                         net_index = 0
-                        wire+=1
-                        
+                        wire += 1
 
                 _pin = Pin(pinName, _net, _pinType)
 
@@ -230,7 +226,6 @@ def get_all_paths_in_report(staReportFile):
                 _standardCell.addPin(copy.deepcopy(_pin))
 
                 _net = add_cell_to_path(_standardCell, tempCriticalPath)
-                
 
     return
 
@@ -243,20 +238,24 @@ def write_verilog_from_path(critica_path, path):
         os.makedirs("../output/" + designName + "/verilog")
     with open("../output/" + designName + "/verilog/" + path + ".v", "w") as f:
         f.write("""module top (input clk, output out);\n""")
-        #for i in range(len(critica_path) ):
+        # for i in range(len(critica_path) ):
         #    f.write("""\nwire net""" + str(i) + """;""")
 
         for i in range(len(critica_path)):
-            f.write("""\n\n""" + critica_path[i].name + """ """ + critica_path[i].id + """(""")
+            f.write(
+                """\n\n"""
+                + critica_path[i].name
+                + """ """
+                + critica_path[i].id
+                + """("""
+            )
             for pin in critica_path[i].pins:
                 f.write(""".""" + pin.name + """(""" + pin.net + """), """)
 
             f.write(""");""")
 
         ## writing output pin
-        f.write(
-            """\nassign out = net_out ;\nendmodule\n\n"""
-        )
+        f.write("""\nassign out = net_out ;\nendmodule\n\n""")
 
         for cell in blackboxCells:
             f.write("""\n\n(* blackbox *)\n module """ + cell.name + """ (""")
@@ -315,7 +314,7 @@ write_json ../output/"""
 ##########################################################################################
 
 
-def generate_SVG_from_JSON(path):
+def generate_SVG_from_JSON(path, skinfile):
     if not os.path.exists("../output/" + designName + "/schematics"):
         os.makedirs("../output/" + designName + "/schematics")
     os.system(
@@ -327,7 +326,8 @@ def generate_SVG_from_JSON(path):
         + designName
         + "/schematics/"
         + path
-        + ".svg"
+        + ".svg --skin "
+        + skinfile
     )
     return
 
@@ -384,9 +384,10 @@ def addInteraction(path, i):
 def main(argv):
 
     staReportFile = ""
+    skinFile = ""
 
     try:
-        opts, args = getopt.getopt(argv, "i:", ["ifile="])
+        opts, args = getopt.getopt(argv, "i:s:", ["ifile=", "sfile="])
     except getopt.GetoptError:
         print("invalid arguments!")
         print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath>\n")
@@ -398,6 +399,8 @@ def main(argv):
             sys.exit()
         elif opt in ("-i", "--ifile"):
             staReportFile = arg
+        elif opt in ("-s", "--sfile"):
+            skinFile = arg
 
     if not os.path.exists("../output"):
         os.makedirs("../output")
@@ -406,18 +409,17 @@ def main(argv):
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
     get_all_paths_in_report(staReportFile)
-    for i in range(len(criticalPaths)):
+    for i in range(5):
         if not os.path.exists("../output/" + designName):
             os.makedirs("../output/" + designName)
         write_verilog_from_path(criticalPaths[i], "path" + str(i))
         generate_JSON_from_verilog("path" + str(i))
-        generate_SVG_from_JSON("path" + str(i))
+        generate_SVG_from_JSON("path" + str(i), skinFile)
         addInteraction("path" + str(i), i)
         print(i)
 
-
     print(designName)
-    # 
+    #
 
 
 if __name__ == "__main__":
