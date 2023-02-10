@@ -161,6 +161,7 @@ def get_all_paths_in_report(staReportFile):
                 tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
                 wire += 1
                 net_index = -1
+                _pinType = "input"
             elif "data required time" in line:
                 for cell in tempCriticalPath:
                     add_blackbox_cell(cell)
@@ -169,6 +170,7 @@ def get_all_paths_in_report(staReportFile):
                 processingPath = False
                 offset = 0
                 wire = 0
+                _pinType = "input"
                 net_index = -1
                 pass
             elif "(net)" in line:
@@ -390,12 +392,12 @@ def main(argv):
         opts, args = getopt.getopt(argv, "i:s:", ["ifile=", "sfile="])
     except getopt.GetoptError:
         print("invalid arguments!")
-        print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath>\n")
+        print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n")
         sys.exit(2)
 
     for opt, arg in opts:
         if opt in ("-h", "--help"):
-            print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath>\n")
+            print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n")
             sys.exit()
         elif opt in ("-i", "--ifile"):
             staReportFile = arg
@@ -409,7 +411,7 @@ def main(argv):
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
     get_all_paths_in_report(staReportFile)
-    for i in range(5):
+    for i in range(len(criticalPaths)):
         if not os.path.exists("../output/" + designName):
             os.makedirs("../output/" + designName)
         write_verilog_from_path(criticalPaths[i], "path" + str(i))
