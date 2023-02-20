@@ -382,14 +382,50 @@ def addInteraction(path, i):
 
 ##########################################################################################
 
+def generate_website(numberOfPaths):
+    path = "../schematics/"+ "path"
+    html= '''
+    <html>
+  <head>
+    <title>interactive_SVG_schematics</title>
+  </head>
+  <body>
+
+    <h1 id="interactive_svg_schematics">interactive_SVG_schematics</h1>
+    <h2 id="examples">Examples</h2>
+    <ul>
+'''
+
+    path_format = '''    <li><a href="link">name</a></li>'''
+    for i in range(numberOfPaths):
+        path_html = copy.copy(path_format)
+        html +=  path_html.replace("link", path +str(i)+".html").replace("name", "Path_"+str(i)) + "\n"
+
+    html += ''''
+    
+    </ul>
+    
+  </body>
+</html>'''
+
+
+    if not os.path.exists("../output/" + designName + "/website"):
+        os.makedirs("../output/" + designName + "/website")
+
+    with open("../output/" + designName + "/website/website"+".html", "w") as f:
+        f.write(html)
+
+
+
 # Main Class
 def main(argv):
 
     staReportFile = ""
     skinFile = ""
+    numberOfPaths = 0
 
     try:
-        opts, args = getopt.getopt(argv, "i:s:", ["ifile=", "sfile="])
+        opts, args = getopt.getopt(argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths"])
     except getopt.GetoptError:
         print("invalid arguments!")
         print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n")
@@ -403,6 +439,8 @@ def main(argv):
             staReportFile = arg
         elif opt in ("-s", "--sfile"):
             skinFile = arg
+        elif opt in ("-n", "--npaths"):
+            numberOfPaths = int(arg)
 
     if not os.path.exists("../output"):
         os.makedirs("../output")
@@ -411,7 +449,11 @@ def main(argv):
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
     get_all_paths_in_report(staReportFile)
-    for i in range(len(criticalPaths)):
+    
+    if numberOfPaths==0:
+        numberOfPaths = len(criticalPaths)
+        
+    for i in range(numberOfPaths):
         if not os.path.exists("../output/" + designName):
             os.makedirs("../output/" + designName)
         write_verilog_from_path(criticalPaths[i], "path" + str(i))
@@ -420,6 +462,7 @@ def main(argv):
         addInteraction("path" + str(i), i)
         print(i)
 
+    generate_website(numberOfPaths)
     print(designName)
     #
 
