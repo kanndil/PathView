@@ -19,14 +19,16 @@ import os
 import re
 import copy
 import sys
+import json
+import time
 
 ##########################################################################################
-
 
 criticalPathCells = []
 allPaths = []
 criticalPaths = []
 blackboxCells = []
+no_nets = 200
 
 ##########################################################################################
 
@@ -83,6 +85,7 @@ def add_cell_to_path(_standardCell, tempCriticalPath):
 
 
 ##############################
+
 def add_pin_to_blackbox_cell(pin, cell):
     flag = False
     for iterationPin in cell.pins:
@@ -110,24 +113,6 @@ def add_blackbox_cell(_standardCell):
         blackboxCells.append(copy.deepcopy(_standardCell))
     return
 
-
-##############################
-
-
-def manage_net_names(tempCriticalPath):
-    for i in range(0, len(tempCriticalPath) - 1):
-        if tempCriticalPath[i].isEndSectionOne == True:
-            tempCriticalPath[i].pins.append(Pin("out", "net" + str(i), "output"))
-        else:
-            tempCriticalPath[i].pins[1].net = "net" + str(i)
-            tempCriticalPath[i + 1].pins[0].net = "net" + str(i)
-
-    for cell in tempCriticalPath:
-        add_blackbox_cell(cell)
-
-    return
-
-
 ##############################
 
 
@@ -144,7 +129,7 @@ def get_all_paths_in_report(staReportFile):
     _pinType = "input"
     for line in f:
         counter += 1
-        print(counter)
+        #print(counter)
         line = line[offset:]
         line = line.strip()
         if "Delay" in line:
@@ -234,91 +219,7 @@ def get_all_paths_in_report(staReportFile):
 
 ##########################################################################################
 
-
-def write_verilog_from_path(critica_path, path):
-    if not os.path.exists("../output/" + designName + "/verilog"):
-        os.makedirs("../output/" + designName + "/verilog")
-    with open("../output/" + designName + "/verilog/" + path + ".v", "w") as f:
-        f.write("""module top (input clk, output out);\n""")
-        # for i in range(len(critica_path) ):
-        #    f.write("""\nwire net""" + str(i) + """;""")
-
-        for i in range(len(critica_path)):
-            f.write(
-                """\n\n"""
-                + critica_path[i].name
-                + """ """
-                + critica_path[i].id
-                + """("""
-            )
-            for pin in critica_path[i].pins:
-                f.write(""".""" + pin.name + """(""" + pin.net + """), """)
-
-            f.write(""");""")
-
-        ## writing output pin
-        f.write("""\nassign out = net_out ;\nendmodule\n\n""")
-
-        for cell in blackboxCells:
-            f.write("""\n\n(* blackbox *)\n module """ + cell.name + """ (""")
-            for pin in cell.pins:
-                f.write(""" """ + pin.type + """ """ + pin.name + """,""")
-
-            f.write(""");\nendmodule""")
-
-    return
-
-
-##########################################################################################
-
-
-def test_print():
-    for criticalPath in criticalPaths:
-        for standardCell in criticalPath:
-            print(standardCell.id, standardCell.name, len(standardCell.pins))
-            for pin in standardCell.pins:
-                print("     ", pin.name, pin.net)
-        print("\n\n\n")
-    return
-
-
-##########################################################################################
-
-
-def generate_JSON_from_verilog(path):
-    if not os.path.exists("../output/" + designName + "/scripts"):
-        os.makedirs("../output/" + designName + "/scripts")
-
-    if not os.path.exists("../output/" + designName + "/json"):
-        os.makedirs("../output/" + designName + "/json")
-
-    with open("../output/" + designName + "/scripts/generateJSON.ys", "w") as f:
-        f.write(
-            """
-read_verilog ../output/"""
-            + designName
-            + """/verilog/"""
-            + path
-            + """.v
-hierarchy -check -top top
-proc 
-write_json ../output/"""
-            + designName
-            + """/json/"""
-            + path
-            + """.json
-                """
-        )
-    os.system("yosys ../output/" + designName + "/scripts/generateJSON.ys")
-    return
-
-
-##########################################################################################
-
-
 def generate_SVG_from_JSON(path, skinfile):
-    if not os.path.exists("../output/" + designName + "/schematics"):
-        os.makedirs("../output/" + designName + "/schematics")
     os.system(
         "netlistsvg ../output/"
         + designName
@@ -332,7 +233,6 @@ def generate_SVG_from_JSON(path, skinfile):
         + skinfile
     )
     return
-
 
 ##########################################################################################
 
@@ -408,12 +308,112 @@ def generate_website(numberOfPaths):
   </body>
 </html>'''
 
-
-    if not os.path.exists("../output/" + designName + "/website"):
-        os.makedirs("../output/" + designName + "/website")
-
     with open("../output/" + designName + "/website/website"+".html", "w") as f:
         f.write(html)
+
+def get_json_blackbox_cells():
+    json_blackbox_modules = {}
+    for i in range(len(blackboxCells)):
+        sub_module={}
+        ports= {}
+        
+        sub_module['attributes']= {
+                                    "blackbox": "00000000000000000000000000000001",
+                                    }
+        
+        for pin in blackboxCells[i].pins:
+            ports[pin.name] = {
+                                "direction": pin.type,
+                                "bits": [0]
+                                }
+        sub_module['ports']= ports
+        json_blackbox_modules[blackboxCells[i].name] = sub_module
+    
+    return json_blackbox_modules
+        
+
+def json_from_report(critica_path, path, json_blackbox_modules):
+        
+    modules = {"modules": {}}
+    modules["modules"].update(json_blackbox_modules)
+    
+    top_module ={
+                "top": {
+                    "attributes": {
+                        "top": "00000000000000000000000000000001"
+                    },
+                    "cells": {},
+                    "netnames": {},      
+                    "ports": {}
+                    }
+                }
+    
+    ports = {
+                "clk": {
+                    "direction": "input",
+                    "bits": [ -2 ]
+                    },
+                "out": {
+                    "direction": "output",
+                    "bits": [ -1 ]
+                    }
+                }
+    
+    top_module["top"]["ports"].update(ports)
+    
+    for i in range(len(critica_path)):
+        cell = {}
+        cell[critica_path[i].id] = {
+                                    "type": critica_path[i].name,
+                                    "attributes": {
+                                        "module_not_derived": "00000000000000000000000000000001",
+                                    },
+                                    "port_directions": {},
+                                    "connections": {}
+                                    }
+        for pin in critica_path[i].pins:
+            connection_number = copy.copy(pin.net)
+            #print(connection_number)
+            if ("clk" in connection_number  ):
+                connection_number = -2
+            elif ("out" in connection_number):
+                connection_number = -1
+            else:
+                connection_number = int(connection_number.replace("net",""))
+                
+            cell[critica_path[i].id]["connections"][pin.name] = [connection_number]
+            cell[critica_path[i].id]["port_directions"][pin.name] = pin.type
+        top_module["top"]["cells"].update(cell)
+        
+    for i in range(no_nets):
+        net ={
+                "net"+str(i): {
+                    "bits": [ i ],
+                    "hide_name": 0,
+                } 
+            }
+        top_module["top"]["netnames"].update(net)
+        
+    modules["modules"].update(top_module)
+    
+    with open("../output/" + designName + "/json/" + path + ".json", "w") as jsonfile:
+        json.dump(modules, jsonfile,indent=4)
+
+
+def generate_dirs(designName):
+    if not os.path.exists("../output/" + designName):
+        os.makedirs("../output/" + designName)
+        
+    if not os.path.exists("../output/" + designName + "/schematics"):
+        os.makedirs("../output/" + designName + "/schematics")
+
+    if not os.path.exists("../output/" + designName + "/json"):
+        os.makedirs("../output/" + designName + "/json")
+        
+    if not os.path.exists("../output/" + designName + "/website"):
+        os.makedirs("../output/" + designName + "/website")
+    
+
 
 
 
@@ -442,30 +442,36 @@ def main(argv):
         elif opt in ("-n", "--npaths"):
             numberOfPaths = int(arg)
 
+
+    start = time.time()
+
     if not os.path.exists("../output"):
         os.makedirs("../output")
     global designName
     designName = copy.copy(staReportFile)
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
+    
+    generate_dirs(designName)
+    
     get_all_paths_in_report(staReportFile)
     
     if numberOfPaths==0:
         numberOfPaths = len(criticalPaths)
-        
+    
+    json_blackbox_modules = get_json_blackbox_cells()
+    
     for i in range(numberOfPaths):
-        if not os.path.exists("../output/" + designName):
-            os.makedirs("../output/" + designName)
-        write_verilog_from_path(criticalPaths[i], "path" + str(i))
-        generate_JSON_from_verilog("path" + str(i))
+        json_from_report(criticalPaths[i], "path" + str(i), json_blackbox_modules)
         generate_SVG_from_JSON("path" + str(i), skinFile)
         addInteraction("path" + str(i), i)
-        print(i)
-
+        
+        #print(i)
+        
     generate_website(numberOfPaths)
-    print(designName)
-    #
 
-
+    end = time.time()
+    print("time taken: ", end - start)
+    
 if __name__ == "__main__":
     main(sys.argv[1:])
