@@ -86,6 +86,7 @@ def add_cell_to_path(_standardCell, tempCriticalPath):
 
 ##############################
 
+
 def add_pin_to_blackbox_cell(pin, cell):
     flag = False
     for iterationPin in cell.pins:
@@ -113,6 +114,7 @@ def add_blackbox_cell(_standardCell):
         blackboxCells.append(copy.deepcopy(_standardCell))
     return
 
+
 ##############################
 
 
@@ -129,7 +131,7 @@ def get_all_paths_in_report(staReportFile):
     _pinType = "input"
     for line in f:
         counter += 1
-        #print(counter)
+        # print(counter)
         line = line[offset:]
         line = line.strip()
         if "Delay" in line:
@@ -219,6 +221,7 @@ def get_all_paths_in_report(staReportFile):
 
 ##########################################################################################
 
+
 def generate_SVG_from_JSON(path, skinfile):
     os.system(
         "netlistsvg ../output/"
@@ -234,12 +237,93 @@ def generate_SVG_from_JSON(path, skinfile):
     )
     return
 
+
 ##########################################################################################
 
 
-def addInteraction(path, i):
+def addInteraction(path, i, numberOfPaths):
+
+    html = (
+        """
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+
+<h2>Interactive SVG Schematics</h2>
+
+<h4>Example """
+        + str(i)
+        + """</h4>
+    """
+    )
+
+    hrefs = """<div class="sidenav">"""
+    for j in range(numberOfPaths):
+        hrefs += (
+            """<a href="path"""
+            + str(j)
+            + """.html">Path """
+            + str(j)
+            + """</a></li> """
+        )
+        pass
+
+    hrefs += """</div>"""
+
     jsScript = (
         """ 
+    
+</div>
+   
+</body>
+</html> 
+
+
         
         <script type="text/javascript">
             function reply_click(id)
@@ -263,8 +347,11 @@ def addInteraction(path, i):
         </script>
     """
     )
-    with open("../output/" + designName + "/schematics/" + path + ".svg", "a") as f:
-        f.write(jsScript)
+    body = ""
+    with open("../output/" + designName + "/schematics/" + path + ".svg", "r") as f:
+        body = f.read()
+    with open("../output/" + designName + "/schematics/" + path + ".svg", "w") as f:
+        f.write(html + hrefs + body + jsScript)
 
     os.system(
         "mv ../output/"
@@ -282,139 +369,98 @@ def addInteraction(path, i):
 
 ##########################################################################################
 
-def generate_website(numberOfPaths):
-    path = "../schematics/"+ "path"
-    html= '''
-    <html>
-  <head>
-    <title>interactive_SVG_schematics</title>
-  </head>
-  <body>
-
-    <h1 id="interactive_svg_schematics">interactive_SVG_schematics</h1>
-    <h2 id="examples">Examples</h2>
-    <ul>
-'''
-
-    path_format = '''    <li><a href="link">name</a></li>'''
-    for i in range(numberOfPaths):
-        path_html = copy.copy(path_format)
-        html +=  path_html.replace("link", path +str(i)+".html").replace("name", "Path_"+str(i)) + "\n"
-
-    html += ''''
-    
-    </ul>
-    
-  </body>
-</html>'''
-
-    with open("../output/" + designName + "/website/website"+".html", "w") as f:
-        f.write(html)
 
 def get_json_blackbox_cells():
     json_blackbox_modules = {}
     for i in range(len(blackboxCells)):
-        sub_module={}
-        ports= {}
-        
-        sub_module['attributes']= {
-                                    "blackbox": "00000000000000000000000000000001",
-                                    }
-        
+        sub_module = {}
+        ports = {}
+
+        sub_module["attributes"] = {
+            "blackbox": "00000000000000000000000000000001",
+        }
+
         for pin in blackboxCells[i].pins:
-            ports[pin.name] = {
-                                "direction": pin.type,
-                                "bits": [0]
-                                }
-        sub_module['ports']= ports
+            ports[pin.name] = {"direction": pin.type, "bits": [0]}
+        sub_module["ports"] = ports
         json_blackbox_modules[blackboxCells[i].name] = sub_module
-    
+
     return json_blackbox_modules
-        
+
 
 def json_from_report(critica_path, path, json_blackbox_modules):
-        
+
     modules = {"modules": {}}
     modules["modules"].update(json_blackbox_modules)
-    
-    top_module ={
-                "top": {
-                    "attributes": {
-                        "top": "00000000000000000000000000000001"
-                    },
-                    "cells": {},
-                    "netnames": {},      
-                    "ports": {}
-                    }
-                }
-    
+
+    top_module = {
+        "top": {
+            "attributes": {"top": "00000000000000000000000000000001"},
+            "cells": {},
+            "netnames": {},
+            "ports": {},
+        }
+    }
+
     ports = {
-                "clk": {
-                    "direction": "input",
-                    "bits": [ -2 ]
-                    },
-                "out": {
-                    "direction": "output",
-                    "bits": [ -1 ]
-                    }
-                }
-    
+        "clk": {"direction": "input", "bits": [-2]},
+        "out": {"direction": "output", "bits": [-1]},
+    }
+
     top_module["top"]["ports"].update(ports)
-    
+
     for i in range(len(critica_path)):
         cell = {}
         cell[critica_path[i].id] = {
-                                    "type": critica_path[i].name,
-                                    "attributes": {
-                                        "module_not_derived": "00000000000000000000000000000001",
-                                    },
-                                    "port_directions": {},
-                                    "connections": {}
-                                    }
+            "type": critica_path[i].name,
+            "attributes": {
+                "module_not_derived": "00000000000000000000000000000001",
+            },
+            "port_directions": {},
+            "connections": {},
+        }
         for pin in critica_path[i].pins:
             connection_number = copy.copy(pin.net)
-            #print(connection_number)
-            if ("clk" in connection_number  ):
+            # print(connection_number)
+            if "clk" in connection_number:
                 connection_number = -2
-            elif ("out" in connection_number):
+            elif "out" in connection_number:
                 connection_number = -1
             else:
-                connection_number = int(connection_number.replace("net",""))
-                
+                connection_number = int(connection_number.replace("net", ""))
+
             cell[critica_path[i].id]["connections"][pin.name] = [connection_number]
             cell[critica_path[i].id]["port_directions"][pin.name] = pin.type
         top_module["top"]["cells"].update(cell)
-        
+
     for i in range(no_nets):
-        net ={
-                "net"+str(i): {
-                    "bits": [ i ],
-                    "hide_name": 0,
-                } 
+        net = {
+            "net"
+            + str(i): {
+                "bits": [i],
+                "hide_name": 0,
             }
+        }
         top_module["top"]["netnames"].update(net)
-        
+
     modules["modules"].update(top_module)
-    
+
     with open("../output/" + designName + "/json/" + path + ".json", "w") as jsonfile:
-        json.dump(modules, jsonfile,indent=4)
+        json.dump(modules, jsonfile, indent=4)
 
 
 def generate_dirs(designName):
     if not os.path.exists("../output/" + designName):
         os.makedirs("../output/" + designName)
-        
+
     if not os.path.exists("../output/" + designName + "/schematics"):
         os.makedirs("../output/" + designName + "/schematics")
 
     if not os.path.exists("../output/" + designName + "/json"):
         os.makedirs("../output/" + designName + "/json")
-        
+
     if not os.path.exists("../output/" + designName + "/website"):
         os.makedirs("../output/" + designName + "/website")
-    
-
-
 
 
 # Main Class
@@ -425,15 +471,21 @@ def main(argv):
     numberOfPaths = 0
 
     try:
-        opts, args = getopt.getopt(argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths"])
+        opts, args = getopt.getopt(
+            argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths"]
+        )
     except getopt.GetoptError:
         print("invalid arguments!")
-        print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n")
+        print(
+            "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n"
+        )
         sys.exit(2)
 
     for opt, arg in opts:
         if opt in ("-h", "--help"):
-            print("run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n")
+            print(
+                "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n"
+            )
             sys.exit()
         elif opt in ("-i", "--ifile"):
             staReportFile = arg
@@ -441,7 +493,6 @@ def main(argv):
             skinFile = arg
         elif opt in ("-n", "--npaths"):
             numberOfPaths = int(arg)
-
 
     start = time.time()
 
@@ -451,27 +502,24 @@ def main(argv):
     designName = copy.copy(staReportFile)
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
-    
+
     generate_dirs(designName)
-    
+
     get_all_paths_in_report(staReportFile)
-    
-    if numberOfPaths==0:
+
+    if numberOfPaths == 0:
         numberOfPaths = len(criticalPaths)
-    
+
     json_blackbox_modules = get_json_blackbox_cells()
-    
+
     for i in range(numberOfPaths):
         json_from_report(criticalPaths[i], "path" + str(i), json_blackbox_modules)
         generate_SVG_from_JSON("path" + str(i), skinFile)
-        addInteraction("path" + str(i), i)
-        
-        #print(i)
-        
-    generate_website(numberOfPaths)
+        addInteraction("path" + str(i), i, numberOfPaths)
 
     end = time.time()
     print("time taken: ", end - start)
-    
+
+
 if __name__ == "__main__":
     main(sys.argv[1:])
