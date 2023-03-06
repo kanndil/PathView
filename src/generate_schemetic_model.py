@@ -410,26 +410,42 @@ def main(argv):
             "MUX8.svg",
         ),
         CellRepresentation("MUX2i", "(~A0&~sel) | (~A1&sel)", "MUX2i.svg"),
-    
-        CellRepresentation("AO21",   "(A1&A2)|(B1)",  "AO21.svg"),
-        CellRepresentation("AO22",   "(B1&B2)|(A1&A2)",  "AO22.svg"),
-        CellRepresentation("AO31",   "(A1&A2&A3)|(B1)",  "AO31.svg"),
-        CellRepresentation("AO32",   "(A1&A2&A3)|(B1&B2)",  "AO32.svg"),
-        CellRepresentation("AO211",  "(A1&A2)|(B1)|(C1)", "AO211.svg"),
-        CellRepresentation("AO221",  "(B1&B2)|(A1&A2)|(C1)", "AO221.svg"),
-        #CellRepresentation("AO222",  "", "AO222.svg"),
-        CellRepresentation("AO311",  "(A1&A2&A3)|(B1)|(C1)", "AO311.svg"),
-        CellRepresentation("AO2111", "(A1&A2)|(B1)|(C1)|(D1)","AO2111.svg"),
-        CellRepresentation("AOI21",   "(~A1&~B1) | (~A2&~B1)",  "AOI21.svg"),
-        CellRepresentation("AOI22",   "(~A1&~B1) | (~A1&~B2) | (~A2&~B1) | (~A2&~B2)",  "AOI22.svg"),
-        CellRepresentation("AOI31",   "(~A1&~B1) | (~A2&~B1) | (~A3&~B1)",  "AOI31.svg"),
-        CellRepresentation("AOI32",   "(~A1&~B1) | (~A1&~B2) | (~A2&~B1) | (~A3&~B1) | (~A2&~B2) | (~A3&~B2)",  "AOI32.svg"),
-        CellRepresentation("AOI211",  "(~A1&~B1&~C1) | (~A2&~B1&~C1)", "AOI211.svg"),
-        CellRepresentation("AOI221",  "(~A1&~B1&~C1) | (~A1&~B2&~C1) | (~A2&~B1&~C1) | (~A2&~B2&~C1)", "AOI221.svg"),
-        CellRepresentation("AOI222",  "(~A1&~B1&~C1) | (~A1&~B1&~C2) | (~A1&~B2&~C1) | (~A2&~B1&~C1) | (~A1&~B2&~C2) | (~A2&~B1&~C2) | (~A2&~B2&~C1) | (~A2&~B2&~C2)", "AOI222.svg"),
-        CellRepresentation("AOI311",  "(~A1&~B1&~C1) | (~A2&~B1&~C1) | (~A3&~B1&~C1)", "AOI311.svg"),
-        CellRepresentation("AOI2111", "(~A1&~B1&~C1&~D1) | (~A2&~B1&~C1&~D1)","AOI2111.svg"),
-
+        CellRepresentation("AO21", "(A1&A2)|(B1)", "AO21.svg"),
+        CellRepresentation("AO22", "(B1&B2)|(A1&A2)", "AO22.svg"),
+        CellRepresentation("AO31", "(A1&A2&A3)|(B1)", "AO31.svg"),
+        CellRepresentation("AO32", "(A1&A2&A3)|(B1&B2)", "AO32.svg"),
+        CellRepresentation("AO211", "(A1&A2)|(B1)|(C1)", "AO211.svg"),
+        CellRepresentation("AO221", "(B1&B2)|(A1&A2)|(C1)", "AO221.svg"),
+        # CellRepresentation("AO222",  "", "AO222.svg"),
+        CellRepresentation("AO311", "(A1&A2&A3)|(B1)|(C1)", "AO311.svg"),
+        CellRepresentation("AO2111", "(A1&A2)|(B1)|(C1)|(D1)", "AO2111.svg"),
+        CellRepresentation("AOI21", "(~A1&~B1) | (~A2&~B1)", "AOI21.svg"),
+        CellRepresentation(
+            "AOI22", "(~A1&~B1) | (~A1&~B2) | (~A2&~B1) | (~A2&~B2)", "AOI22.svg"
+        ),
+        CellRepresentation("AOI31", "(~A1&~B1) | (~A2&~B1) | (~A3&~B1)", "AOI31.svg"),
+        CellRepresentation(
+            "AOI32",
+            "(~A1&~B1) | (~A1&~B2) | (~A2&~B1) | (~A3&~B1) | (~A2&~B2) | (~A3&~B2)",
+            "AOI32.svg",
+        ),
+        CellRepresentation("AOI211", "(~A1&~B1&~C1) | (~A2&~B1&~C1)", "AOI211.svg"),
+        CellRepresentation(
+            "AOI221",
+            "(~A1&~B1&~C1) | (~A1&~B2&~C1) | (~A2&~B1&~C1) | (~A2&~B2&~C1)",
+            "AOI221.svg",
+        ),
+        CellRepresentation(
+            "AOI222",
+            "(~A1&~B1&~C1) | (~A1&~B1&~C2) | (~A1&~B2&~C1) | (~A2&~B1&~C1) | (~A1&~B2&~C2) | (~A2&~B1&~C2) | (~A2&~B2&~C1) | (~A2&~B2&~C2)",
+            "AOI222.svg",
+        ),
+        CellRepresentation(
+            "AOI311", "(~A1&~B1&~C1) | (~A2&~B1&~C1) | (~A3&~B1&~C1)", "AOI311.svg"
+        ),
+        CellRepresentation(
+            "AOI2111", "(~A1&~B1&~C1&~D1) | (~A2&~B1&~C1&~D1)", "AOI2111.svg"
+        ),
     ]
     #####################################
 
