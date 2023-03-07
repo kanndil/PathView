@@ -37,6 +37,1189 @@ text {
 </style>
                 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111o_1" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111o_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+ 
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+    
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111o_1</text>
+  </g> 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111o_2" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111o_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+ 
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+    
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111o_2</text>
+  </g> 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111o_4" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111o_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+ 
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+    
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111o_4</text>
+  </g> 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111oi_0" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111oi_0"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111oi_0</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111oi_1" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111oi_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111oi_2" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111oi_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111oi_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao2111 -->
+  <g s:type="sky130_fd_sc_hd__a2111oi_4" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a2111oi_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="39" s:y="30" s:pid="B1"/>
+    <g s:x="37" s:y="37.5" s:pid="C1"/>
+    <g s:x="33" s:y="45" s:pid="D1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a2111oi_4</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao211 -->
+  <g s:type="sky130_fd_sc_hd__a211o_1" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a211o_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="38.5" s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+    
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a211o_1</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao211 -->
+  <g s:type="sky130_fd_sc_hd__a211o_2" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a211o_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="38.5" s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+    
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a211o_2</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao211 -->
+  <g s:type="sky130_fd_sc_hd__a211o_4" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a211o_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="38.5" s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+    
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a211o_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi211 -->
+  <g s:type="sky130_fd_sc_hd__a211oi_1" onClick="reply_click(this.id)" transform="translate(20,900)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a211oi_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="38.5" s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a211oi_1</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi211 -->
+  <g s:type="sky130_fd_sc_hd__a211oi_2" onClick="reply_click(this.id)" transform="translate(20,900)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a211oi_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="38.5" s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a211oi_2</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi211 -->
+  <g s:type="sky130_fd_sc_hd__a211oi_4" onClick="reply_click(this.id)" transform="translate(20,900)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a211oi_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="38.5" s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a211oi_4</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao21 -->
+  <g s:type="sky130_fd_sc_hd__a21o_1" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a21o_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="50" s:y="25" s:pid="X"/>
+    <g s:x="50" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a21o_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao21 -->
+  <g s:type="sky130_fd_sc_hd__a21o_2" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a21o_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="50" s:y="25" s:pid="X"/>
+    <g s:x="50" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a21o_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao21 -->
+  <g s:type="sky130_fd_sc_hd__a21o_4" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a21o_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="50" s:y="25" s:pid="X"/>
+    <g s:x="50" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a21o_4</text>
+  </g>  
+
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi21 -->
+  <g s:type="sky130_fd_sc_hd__a21oi_1" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a21oi_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a21oi_1</text>
+  </g>  
+
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi21 -->
+  <g s:type="sky130_fd_sc_hd__a21oi_2" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a21oi_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a21oi_2</text>
+  </g>  
+
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi21 -->
+  <g s:type="sky130_fd_sc_hd__a21oi_4" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a21oi_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a21oi_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao221 -->
+  <g s:type="sky130_fd_sc_hd__a221o_1" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a221o_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="30" s:y="60" s:pid="C1"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60 " s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221o_1</text>
+  </g> 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao221 -->
+  <g s:type="sky130_fd_sc_hd__a221o_2" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a221o_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="30" s:y="60" s:pid="C1"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60 " s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221o_2</text>
+  </g> 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao221 -->
+  <g s:type="sky130_fd_sc_hd__a221o_4" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a221o_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="30" s:y="60" s:pid="C1"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60 " s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221o_4</text>
+  </g> 
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a221oi_1" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a221oi_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="30" s:y="60" s:pid="C1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a221oi_2" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a221oi_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="30" s:y="60" s:pid="C1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221oi_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a221oi_4" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a221oi_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="30" s:y="60" s:pid="C1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221oi_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a222oi_1" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a222oi_1"/>
+
+         
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,50 )" class="$cell_id"/>
+    <path d="M0,50  L0,50 L15,50 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 35 0 0 1 0,50" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="48  " cy="25  " r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="55" s:pid="C1"/>
+    <g s:x="0" s:y="70" s:pid="C2"/>
+
+    <g s:x="81" s:y="37.5" s:pid="Y"/>
+    <g s:x="81" s:y="37.5" s:pid="out"/> 
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a222oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao22 -->
+  <g s:type="sky130_fd_sc_hd__a22o_1" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a22o_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a22o_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao22 -->
+  <g s:type="sky130_fd_sc_hd__a22o_2" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a22o_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a22o_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao22 -->
+  <g s:type="sky130_fd_sc_hd__a22o_4" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a22o_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a22o_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a22oi_1" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a22oi_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a22oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a22oi_2" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a22oi_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a22oi_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="sky130_fd_sc_hd__a22oi_4" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a22oi_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a22oi_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao311 -->
+  <g s:type="sky130_fd_sc_hd__a311o_1" onClick="reply_click(this.id)" transform="translate(100,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a311o_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="38.5  " s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a311o_1</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao311 -->
+  <g s:type="sky130_fd_sc_hd__a311o_2" onClick="reply_click(this.id)" transform="translate(100,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a311o_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="38.5  " s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a311o_2</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao311 -->
+  <g s:type="sky130_fd_sc_hd__a311o_4" onClick="reply_click(this.id)" transform="translate(100,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a311o_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="38.5  " s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="66" s:y="30" s:pid="X"/>
+    <g s:x="66" s:y="30" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a311o_4</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi311 -->
+  <g s:type="sky130_fd_sc_hd__a311oi_1" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a311oi_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="38.5  " s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a311oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi311 -->
+  <g s:type="sky130_fd_sc_hd__a311oi_2" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a311oi_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="38.5  " s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a311oi_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi311 -->
+  <g s:type="sky130_fd_sc_hd__a311oi_4" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a311oi_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="38.5  " s:y="30" s:pid="B1"/>
+    <g s:x="36" s:y="40" s:pid="C1"/>
+
+    <g s:x="72" s:y="30" s:pid="Y"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a311oi_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao31 -->
+  <g s:type="sky130_fd_sc_hd__a31o_1" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a31o_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0"  s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="50" s:y="25" s:pid="X"/>
+    <g s:x="50" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a31o_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao31 -->
+  <g s:type="sky130_fd_sc_hd__a31o_2" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a31o_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0"  s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="50" s:y="25" s:pid="X"/>
+    <g s:x="50" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a31o_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao31 -->
+  <g s:type="sky130_fd_sc_hd__a31o_4" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a31o_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0"  s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="50" s:y="25" s:pid="X"/>
+    <g s:x="50" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a31o_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi31 -->
+  <g s:type="sky130_fd_sc_hd__a31oi_1" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a31oi_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a31oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi31 -->
+  <g s:type="sky130_fd_sc_hd__a31oi_2" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a31oi_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a31oi_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi31 -->
+  <g s:type="sky130_fd_sc_hd__a31oi_4" onClick="reply_click(this.id)" transform="translate(20,500)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a31oi_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="30" s:pid="B1"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a31oi_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao32 -->
+  <g s:type="sky130_fd_sc_hd__a32o_1" onClick="reply_click(this.id)" transform="translate(100,1300)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a32o_1"/>
+ 
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a32o_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao32 -->
+  <g s:type="sky130_fd_sc_hd__a32o_2" onClick="reply_click(this.id)" transform="translate(100,1300)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a32o_2"/>
+ 
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a32o_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- ao32 -->
+  <g s:type="sky130_fd_sc_hd__a32o_4" onClick="reply_click(this.id)" transform="translate(100,1300)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a32o_4"/>
+ 
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="60" s:y="25" s:pid="X"/>
+    <g s:x="60" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a32o_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi32 -->
+  <g s:type="sky130_fd_sc_hd__a32oi_1" onClick="reply_click(this.id)" transform="translate(20,1300)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a32oi_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a32oi_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi32 -->
+  <g s:type="sky130_fd_sc_hd__a32oi_2" onClick="reply_click(this.id)" transform="translate(20,1300)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a32oi_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a32oi_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi32 -->
+  <g s:type="sky130_fd_sc_hd__a32oi_4" onClick="reply_click(this.id)" transform="translate(20,1300)" s:width="50" s:height="67">
+
+    <s:alias val="sky130_fd_sc_hd__a32oi_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="Y"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a32oi_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
   <g s:type="sky130_fd_sc_hd__and2_0" onClick="reply_click(this.id)"  s:width="30" s:height="25">
