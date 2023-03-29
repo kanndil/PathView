@@ -28,6 +28,7 @@ criticalPathCells = []
 allPaths = []
 criticalPaths = []
 blackboxCells = []
+pathNames = []
 no_nets = 200
 
 ##########################################################################################
@@ -124,11 +125,15 @@ def get_all_paths_in_report(staReportFile):
     tempPath = []
     tempCriticalPath = []
     offset = 0
-    net_index = -1
     counter = 0
     wire = 0
+    net_index = -1
     _net = ""
+    startPoint = ""
+    endPoint = ""
+    slack = ""
     _pinType = "input"
+    
     for line in f:
         counter += 1
         # print(counter)
@@ -137,12 +142,25 @@ def get_all_paths_in_report(staReportFile):
         if "Delay" in line:
             offset = get_offset(line)
         elif "Startpoint" in line:
+            startPoint = copy.copy(line)
+            startPoint = startPoint.split(' ')
+            startPoint = startPoint[1]
             processingPath = True
             tempPath.clear()
             tempCriticalPath.clear()
             _pinType = "input"
         elif "Endpoint" in line:
+            endPoint = copy.copy(line)
+            endPoint = endPoint.split(' ')
+            endPoint = endPoint[1]
+            #print("from ("+startPoint+") to ("+endPoint+")")
             pass
+        elif "slack" in line :
+            slack = copy.copy(line)
+            slack = slack.split(" ")
+            slack = slack[0]
+            pathNames.append([startPoint, endPoint, slack])
+            print(startPoint+" -> "+endPoint+" (slack "+slack+")")
         elif processingPath:
             if "data arrival time" in line:
                 tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
@@ -477,14 +495,14 @@ def main(argv):
     except getopt.GetoptError:
         print("invalid arguments!")
         print(
-            "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n"
+            "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath> -n <numberOfPaths>\n"
         )
         sys.exit(2)
 
     for opt, arg in opts:
         if opt in ("-h", "--help"):
             print(
-                "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n"
+                "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath> -n <numberOfPaths>\n"
             )
             sys.exit()
         elif opt in ("-i", "--ifile"):
