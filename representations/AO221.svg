@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- ao221 -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="50" s:height="67">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="75" s:height="75">
 
     alias
 
@@ -15,10 +15,13 @@
     <g s:x="0" s:y="20" s:pid="input2"/>
     <g s:x="0" s:y="30" s:pid="input3"/>
     <g s:x="0" s:y="45" s:pid="input4"/>
-    <g s:x="30" s:y="60" s:pid="input5"/>
+    <g s:x="0" s:y="60" s:pid="input5"/>
 
     <g s:x="60" s:y="25" s:pid="output1"/>
     <g s:x="60 " s:y="25" s:pid="out"/>
+
+
+    <path d="M0,60 L30,60" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">shortName</text>
   </g> 

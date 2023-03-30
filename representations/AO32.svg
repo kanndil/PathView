@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- ao32 -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(100,1300)" s:width="50" s:height="67">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(100,1300)" s:width="75" s:height="67">
 
     alias
  
@@ -18,6 +18,7 @@
 
     <g s:x="60" s:y="25" s:pid="output1"/>
     <g s:x="60" s:y="25" s:pid="out"/>
+
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">shortName</text>
   </g>

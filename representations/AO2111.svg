@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- ao2111 -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="50" s:height="67">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(20,800)" s:width="75" s:height="67">
 
     alias
     
@@ -11,12 +11,17 @@
  
     <g s:x="0" s:y="5" s:pid="input1"/>
     <g s:x="0" s:y="20" s:pid="input2"/>
-    <g s:x="39" s:y="30" s:pid="input3"/>
-    <g s:x="37" s:y="37.5" s:pid="input4"/>
-    <g s:x="33" s:y="45" s:pid="input5"/>
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="37.5" s:pid="input4"/>
+    <g s:x="0" s:y="45" s:pid="input5"/>
     
     <g s:x="66" s:y="30" s:pid="output1"/>
     <g s:x="66" s:y="30" s:pid="out"/>
 
+
+    <path d="M0,30 L39,30" class="$cell_id"/>
+    <path d="M0,37.5 L37,37.5" class="$cell_id"/>
+    <path d="M0,45 L33,45" class="$cell_id"/>
+    
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">shortName</text>
   </g> 
