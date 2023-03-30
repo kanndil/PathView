@@ -129,9 +129,9 @@ def get_all_paths_in_report(staReportFile):
     wire = 0
     net_index = -1
     _net = ""
-    startPoint = ""
-    endPoint = ""
-    slack = ""
+    startPoint = "None"
+    endPoint = "None"
+    slack = "None"
     _pinType = "input"
     
     for line in f:
@@ -139,34 +139,42 @@ def get_all_paths_in_report(staReportFile):
         # print(counter)
         line = line[offset:]
         line = line.strip()
+        
         if "Delay" in line:
             offset = get_offset(line)
+            
         elif "Startpoint" in line:
+            startPoint = "None"
+            endPoint = "None"
+            slack = "None"
             startPoint = copy.copy(line)
-            startPoint = startPoint.split(' ')
-            startPoint = startPoint[1]
+            #startPoint = startPoint.split(' ')
+            #startPoint = startPoint[1]
             processingPath = True
             tempPath.clear()
             tempCriticalPath.clear()
             _pinType = "input"
+            
         elif "Endpoint" in line:
             endPoint = copy.copy(line)
-            endPoint = endPoint.split(' ')
-            endPoint = endPoint[1]
-            #print("from ("+startPoint+") to ("+endPoint+")")
-            pass
+            #endPoint = endPoint.split(' ')
+            #endPoint = endPoint[1]
+            
         elif "slack" in line :
-            slack = copy.copy(line)
-            slack = slack.split(" ")
-            slack = slack[0]
-            pathNames.append([startPoint, endPoint, slack])
-            print(startPoint+" -> "+endPoint+" (slack "+slack+")")
+            if startPoint != "None":
+                slack = copy.copy(line)
+                slack = slack.split(" ")
+                slack = slack[0]
+                pathNames.append([startPoint, endPoint, slack])
+                #print(startPoint+" -> "+endPoint+" (slack "+slack+")")
+                
         elif processingPath:
             if "data arrival time" in line:
                 tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
                 wire += 1
                 net_index = -1
                 _pinType = "input"
+                
             elif "data required time" in line:
                 for cell in tempCriticalPath:
                     add_blackbox_cell(cell)
@@ -178,6 +186,7 @@ def get_all_paths_in_report(staReportFile):
                 _pinType = "input"
                 net_index = -1
                 pass
+            
             elif "(net)" in line:
                 pass
             elif "/" in line:
@@ -241,6 +250,7 @@ def get_all_paths_in_report(staReportFile):
 
 
 def generate_SVG_from_JSON(path, skinfile):
+    print (path)
     os.system(
         "netlistsvg ../output/"
         + designName
@@ -253,13 +263,14 @@ def generate_SVG_from_JSON(path, skinfile):
         + ".svg --skin "
         + skinfile
     )
+    print("done svg")
     return
 
 
 ##########################################################################################
 
 
-def addInteraction(path, i, numberOfPaths):
+def addInteraction(path, i, numberOfPaths, hrefs):
 
     html = (
         """
@@ -314,25 +325,23 @@ body {
 
 <h2>Interactive SVG Schematics</h2>
 
-<h4>Example """
-        + str(i)
+<h4> Path: """
+        + str(i+1)
         + """</h4>
-    """
+
+<h5>"""
+        + pathNames[i][0]
+        + """</h5>
+        
+<h5>"""
+        + pathNames[i][1]
+        + """</h5>
+
+<h5>Slack: """
+        + pathNames[i][2]
+        + """</h5>
+    """ 
     )
-
-    hrefs = """<div class="sidenav">"""
-    for j in range(numberOfPaths):
-        hrefs += (
-            """<a href="path"""
-            + str(j)
-            + """.html">Path """
-            + str(j)
-            + """</a></li> """
-        )
-        pass
-
-    hrefs += """</div>"""
-
     jsScript = (
         """ 
     
@@ -465,6 +474,7 @@ def json_from_report(critica_path, path, json_blackbox_modules):
 
     with open("../output/" + designName + "/json/" + path + ".json", "w") as jsonfile:
         json.dump(modules, jsonfile, indent=4)
+    print("done json")
 
 
 def generate_dirs(designName):
@@ -480,13 +490,25 @@ def generate_dirs(designName):
     if not os.path.exists("../output/" + designName + "/website"):
         os.makedirs("../output/" + designName + "/website")
 
+def generate_href(numberOfPaths):
+    hrefs = """<div class="sidenav">"""
+    for j in range(numberOfPaths):
+        hrefs += (
+            """<a href="path"""
+            + str(j)
+            + """.html">Slack: """
+            + pathNames[j][2]
+            + """</a></li> """
+        )
+    hrefs += """</div>"""
+    return hrefs
 
 # Main Class
 def main(argv):
 
     staReportFile = ""
     skinFile = ""
-    numberOfPaths = 0
+    numberOfPaths = -1
 
     try:
         opts, args = getopt.getopt(
@@ -525,15 +547,15 @@ def main(argv):
 
     get_all_paths_in_report(staReportFile)
 
-    if numberOfPaths == 0:
+    if (numberOfPaths <0) or (numberOfPaths> len(criticalPaths)):
         numberOfPaths = len(criticalPaths)
 
     json_blackbox_modules = get_json_blackbox_cells()
-
+    hrefs = generate_href(numberOfPaths)
     for i in range(numberOfPaths):
         json_from_report(criticalPaths[i], "path" + str(i), json_blackbox_modules)
         generate_SVG_from_JSON("path" + str(i), skinFile)
-        addInteraction("path" + str(i), i, numberOfPaths)
+        addInteraction("path" + str(i), i, numberOfPaths, hrefs)
 
     end = time.time()
     print("time taken: ", end - start)
