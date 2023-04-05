@@ -165,7 +165,7 @@ def writeLibraryDefaultSVG(tobeWritten, libraryName, ff_tobeWritten, latch_tobeW
  <svg  xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:s="https://github.com/nturley/netlistsvg"
-  width="800" height="300">
+  width="3000" height="3000">
   <s:properties>
     <s:layoutEngine
       org.eclipse.elk.layered.spacing.baseValue = "50"
@@ -390,12 +390,12 @@ def main(argv):
         CellRepresentation("NOR4", "~(A|B|C|D)", "NOR4.svg"),
         CellRepresentation("NOR4b", "(~A&~B&~C&D_N)", "NOR4b.svg"),
         CellRepresentation("NOR4bb", "(~A&~B&C_N&D_N)", "NOR4bb.svg"),
-        # CellRepresentation("XOR2", "A^B", "XOR2.svg"),
-        # CellRepresentation("XOR3", "A^B^C", "XOR3.svg"),
-        # CellRepresentation("XOR4", "A^B^C^D", "XOR4.svg"),
-        # CellRepresentation("XNOR2", "~(A^B)", "XNOR2.svg"),
-        # CellRepresentation("XNOR3", "~(A^B^C)", "XNOR3.svg"),
-        # CellRepresentation("XNOR4", "~(A^B^C^D)", "XNOR4.svg"),
+         CellRepresentation("XOR2", "A^B", "XOR2.svg"),
+         CellRepresentation("XOR3", "A^B^C", "XOR3.svg"),
+         CellRepresentation("XOR4", "A^B^C^D", "XOR4.svg"),
+         CellRepresentation("XNOR2", "~(A^B)", "XNOR2.svg"),
+         CellRepresentation("XNOR3", "~(A^B^C)", "XNOR3.svg"),
+         CellRepresentation("XNOR4", "~(A^B^C^D)", "XNOR4.svg"),
         CellRepresentation("INV", "~A", "INV.svg"),
         CellRepresentation("BUF", "A", "BUF.svg"),
         CellRepresentation("MUX2", "(A0&~sel)|(A1&sel)", "MUX2.svg"),
@@ -446,6 +446,24 @@ def main(argv):
         CellRepresentation(
             "AOI2111", "(~A1&~B1&~C1&~D1) | (~A2&~B1&~C1&~D1)", "AOI2111.svg"
         ),
+        
+        CellRepresentation("OA21", "(A1&B1) | (A2&B1)", "OA21.svg"),
+        CellRepresentation("OA22", "(A1&B1) | (A2&B1) | (A1&B2) | (A2&B2)", "OA22.svg"),
+        CellRepresentation("OA31", "(A1&B1) | (A2&B1) | (A3&B1)", "OA31.svg"),
+        CellRepresentation("OA32", "(A1&B1) | (A1&B2) | (A2&B1) | (A3&B1) | (A2&B2) | (A3&B2)", "OA32.svg"),
+        CellRepresentation("OA211", "(A1&B1&C1) | (A2&B1&C1)", "OA211.svg"),
+        CellRepresentation("OA221", "(A1&B1&C1) | (A2&B1&C1) | (A1&B2&C1) | (A2&B2&C1)", "OA221.svg"),
+        CellRepresentation("OA311", "(A1&B1&C1) | (A2&B1&C1) | (A3&B1&C1)", "OA311.svg"),
+        CellRepresentation("OA2111", "(A1&B1&C1&D1) | (A2&B1&C1&D1)", "OA2111.svg"),
+        
+        CellRepresentation("OAI21", "(~A1&~A2) | (~B1)", "OAI21.svg"),
+        CellRepresentation("OAI22", "(~B1&~B2) | (~A1&~A2)", "OAI22.svg"),
+        CellRepresentation("OAI31", "(~A1&~A2&~A3) | (~B1)", "OAI31.svg"),
+        CellRepresentation("OAI32", "(~A1&~A2&~A3) | (~B1&~B2)", "OAI32.svg"),
+        CellRepresentation("OAI211", "(~A1&~A2) | (~B1) | (~C1)", "OAI211.svg"),
+        CellRepresentation("OAI221", "(~B1&~B2) | (~A1&~A2) | (~C1)", "OAI221.svg"),
+        CellRepresentation("OAI311", "(~A1&~A2&~A3) | (~B1) | (~C1)", "OAI311.svg"),
+        CellRepresentation("OAI2111", "(~A1&~A2) | (~B1) | (~C1) | (~D1)", "OAI2111.svg"),
     ]
     #####################################
 

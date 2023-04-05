@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3b -->
-  <g s:type="name" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(300,2000)" s:width="30" s:height="25">
     
     alias
     
@@ -10,7 +10,7 @@
     <circle cx="-4" cy="20" r="3" class="$cell_id"/>
 
     <g s:x="3" s:y="5"    s:pid="input1"/>
-    <g s:x="3" s:y="12.5" s:pid="input2"/>
+    <g s:x="3.5" s:y="12.5" s:pid="input2"/>
     <g s:x="-7" s:y="20"  s:pid="input3"/>
     <g s:x="30" s:y="12.5" s:pid="output1"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>

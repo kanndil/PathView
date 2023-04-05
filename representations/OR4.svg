@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="name" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(400,2000)" s:width="30" s:height="25">
     
     alias
     
@@ -9,8 +9,8 @@
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"  s:pid="input1"/>
-    <g s:x="3" s:y="10" s:pid="input2"/>
-    <g s:x="3" s:y="15" s:pid="input3"/>
+    <g s:x="3.5" s:y="10" s:pid="input2"/>
+    <g s:x="3.5" s:y="15" s:pid="input3"/>
     <g s:x="3" s:y="20" s:pid="input4"/>
     <g s:x="30" s:y="12.5" s:pid="output1"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>

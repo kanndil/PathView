@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- aoi22 -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(0,0)" s:width="75" s:height="70">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="75" s:height="70">
 
     alias
 

@@ -1,7 +1,7 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- ao221 -->
-  <g s:type="name" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="75" s:height="75">
+  <g s:type="name" onClick="reply_click(this.id)" transform="translate(20, 1000)" s:width="75" s:height="75">
 
     alias
 
@@ -25,3 +25,4 @@
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">shortName</text>
   </g> 
+  
