@@ -119,37 +119,44 @@ def add_blackbox_cell(_standardCell):
 
 ##############################
 
+
 def generateNetInteractions(path):
-    filename= "../output/" + designName + "/schematics/" + path + ".svg"
+    filename = "../output/" + designName + "/schematics/" + path + ".svg"
     tree = ET.parse(filename)
     root = tree.getroot()
-    
+
     # Find all line elements
-    lines = root.findall('.//{http://www.w3.org/2000/svg}line')
+    lines = root.findall(".//{http://www.w3.org/2000/svg}line")
     netInteractions = "\n"
     for line in lines:
-        classline = line.get('class')
-        if  'net_' in classline:
+        classline = line.get("class")
+        if "net_" in classline:
             # Get XML code for line element
             classline = classline.split(" ")
             classline = classline[0]
             classline = classline.split("_")
             classline = classline[1]
-            temp=""
+            temp = ""
             index = int(classline)
             if index == -2:
-                temp = 'onClick="net_click(this.id)" id="'+str(0)+'" class="net'
+                temp = 'onClick="net_click(this.id)" id="' + str(0) + '" class="net'
             elif index == -1:
                 continue
             else:
-                temp = 'onClick="net_click(this.id)" id="'+str(index+1)+'" class="net'
-            newstyle= 'stroke: white; opacity: 0 ; stroke-width: 18;'
+                temp = (
+                    'onClick="net_click(this.id)" id="'
+                    + str(index + 1)
+                    + '" class="net'
+                )
+            newstyle = "stroke: white; opacity: 0 ; stroke-width: 18;"
             lineheader = "line  "
-            
-            line_xml = ET.tostring(line, encoding='unicode')
+
+            line_xml = ET.tostring(line, encoding="unicode")
             temp_string = line_xml.replace("stroke-width: 1", newstyle)
-            temp_string = temp_string.replace('class="net_' , temp)
-            temp_string = temp_string.replace('ns0:line xmlns:ns0="http://www.w3.org/2000/svg"', lineheader)
+            temp_string = temp_string.replace('class="net_', temp)
+            temp_string = temp_string.replace(
+                'ns0:line xmlns:ns0="http://www.w3.org/2000/svg"', lineheader
+            )
             netInteractions += temp_string + "\n"
     return netInteractions
 
@@ -169,49 +176,49 @@ def get_all_paths_in_report(staReportFile, no_nets):
     endPoint = "None"
     slack = "None"
     _pinType = "input"
-    
+
     for line in f:
         line = line[offset:]
         line = line.strip()
-        
+
         if "Delay" in line:
             offset = get_offset(line)
-            
+
         elif "Startpoint" in line:
-            counter+=1
+            counter += 1
             no_nets.append(2)
             startPoint = "None"
             endPoint = "None"
             slack = "None"
             startPoint = copy.copy(line)
-            #startPoint = startPoint.split(' ')
-            #startPoint = startPoint[1]
+            # startPoint = startPoint.split(' ')
+            # startPoint = startPoint[1]
             processingPath = True
             tempPath.clear()
             temNetDelays.clear()
             tempCriticalPath.clear()
             _pinType = "input"
-            
+
         elif "Endpoint" in line:
             endPoint = copy.copy(line)
-            #endPoint = endPoint.split(' ')
-            #endPoint = endPoint[1]
-            
-        elif "slack" in line :
+            # endPoint = endPoint.split(' ')
+            # endPoint = endPoint[1]
+
+        elif "slack" in line:
             if startPoint != "None":
                 slack = copy.copy(line)
                 slack = slack.split(" ")
                 slack = slack[0]
                 pathNames.append([startPoint, endPoint, slack])
-                #print(startPoint+" -> "+endPoint+" (slack "+slack+")")
-                
+                # print(startPoint+" -> "+endPoint+" (slack "+slack+")")
+
         elif processingPath:
             if "data arrival time" in line:
                 tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
                 wire += 1
                 net_index = -1
                 _pinType = "input"
-                
+
             elif "data required time" in line:
                 for cell in tempCriticalPath:
                     add_blackbox_cell(cell)
@@ -224,7 +231,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 _pinType = "input"
                 net_index = -1
                 pass
-            
+
             elif "(net)" in line:
                 pass
             elif "/" in line:
@@ -267,7 +274,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 _pin = Pin(pinName, _net, _pinType)
 
                 if _pinType == "input":
-                    no_nets[counter]+=1
+                    no_nets[counter] += 1
                     _net_report = []
                     _net_report.append(delay)
                     _net_report.append(time)
@@ -281,7 +288,6 @@ def get_all_paths_in_report(staReportFile, no_nets):
                     _cell.append(time)
                     tempPath.append(_cell)
                     _pinType = "input"
-                    
 
                 _standardCell.addPin(copy.deepcopy(_pin))
 
@@ -294,7 +300,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
 
 
 def generate_SVG_from_JSON(path, skinfile):
-    print (path)
+    print(path)
     os.system(
         "netlistsvg ../output/"
         + designName
@@ -370,7 +376,7 @@ body {
 <h2>Interactive SVG Schematics</h2>
 
 <h4> Path: """
-        + str(i+1)
+        + str(i + 1)
         + """</h4>
 
 <h5>"""
@@ -384,7 +390,7 @@ body {
 <h5>Slack: """
         + pathNames[i][2]
         + """</h5>
-    """ 
+    """
     )
     jsScript = (
         """ 
@@ -450,16 +456,16 @@ body {
         </script>
     """
     )
-    
+
     netInteractions = generateNetInteractions(path)
-    
+
     body = ""
     with open("../output/" + designName + "/schematics/" + path + ".svg", "r") as f:
         body = f.read()
 
     body = body.replace("</svg>", " ")
     with open("../output/" + designName + "/schematics/" + path + ".svg", "w") as f:
-        f.write(html + hrefs + body + netInteractions+ "</svg>" + jsScript)
+        f.write(html + hrefs + body + netInteractions + "</svg>" + jsScript)
 
     os.system(
         "mv ../output/"
@@ -571,6 +577,7 @@ def generate_dirs(designName):
     if not os.path.exists("../output/" + designName + "/website"):
         os.makedirs("../output/" + designName + "/website")
 
+
 def generate_href(numberOfPaths):
     hrefs = """<div class="sidenav">"""
     for j in range(numberOfPaths):
@@ -583,6 +590,7 @@ def generate_href(numberOfPaths):
         )
     hrefs += """</div>"""
     return hrefs
+
 
 # Main Class
 def main(argv):
@@ -630,7 +638,7 @@ def main(argv):
 
     no_nets = get_all_paths_in_report(staReportFile, no_nets)
 
-    if (numberOfPaths <0) or (numberOfPaths> len(criticalPaths)):
+    if (numberOfPaths < 0) or (numberOfPaths > len(criticalPaths)):
         numberOfPaths = len(criticalPaths)
 
     json_blackbox_modules = get_json_blackbox_cells()
