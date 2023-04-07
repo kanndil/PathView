@@ -21,6 +21,7 @@ import copy
 import sys
 import json
 import time
+import xml.etree.ElementTree as ET
 
 ##########################################################################################
 
@@ -29,7 +30,7 @@ allPaths = []
 criticalPaths = []
 blackboxCells = []
 pathNames = []
-no_nets = 200
+netDelays = []
 
 ##########################################################################################
 
@@ -118,14 +119,49 @@ def add_blackbox_cell(_standardCell):
 
 ##############################
 
+def generateNetInteractions(path):
+    filename= "../output/" + designName + "/schematics/" + path + ".svg"
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    
+    # Find all line elements
+    lines = root.findall('.//{http://www.w3.org/2000/svg}line')
+    netInteractions = "\n"
+    for line in lines:
+        classline = line.get('class')
+        if  'net_' in classline:
+            # Get XML code for line element
+            classline = classline.split(" ")
+            classline = classline[0]
+            classline = classline.split("_")
+            classline = classline[1]
+            temp=""
+            index = int(classline)
+            if index == -2:
+                temp = 'onClick="net_click(this.id)" id="'+str(0)+'" class="net'
+            elif index == -1:
+                continue
+            else:
+                temp = 'onClick="net_click(this.id)" id="'+str(index+1)+'" class="net'
+            newstyle= 'stroke: white; opacity: 0 ; stroke-width: 18;'
+            lineheader = "line  "
+            
+            line_xml = ET.tostring(line, encoding='unicode')
+            temp_string = line_xml.replace("stroke-width: 1", newstyle)
+            temp_string = temp_string.replace('class="net_' , temp)
+            temp_string = temp_string.replace('ns0:line xmlns:ns0="http://www.w3.org/2000/svg"', lineheader)
+            netInteractions += temp_string + "\n"
+    return netInteractions
 
-def get_all_paths_in_report(staReportFile):
+
+def get_all_paths_in_report(staReportFile, no_nets):
     f = open(staReportFile, "r+")
     processingPath = False
     tempPath = []
+    temNetDelays = []
     tempCriticalPath = []
     offset = 0
-    counter = 0
+    counter = -1
     wire = 0
     net_index = -1
     _net = ""
@@ -135,8 +171,6 @@ def get_all_paths_in_report(staReportFile):
     _pinType = "input"
     
     for line in f:
-        counter += 1
-        # print(counter)
         line = line[offset:]
         line = line.strip()
         
@@ -144,6 +178,8 @@ def get_all_paths_in_report(staReportFile):
             offset = get_offset(line)
             
         elif "Startpoint" in line:
+            counter+=1
+            no_nets.append(2)
             startPoint = "None"
             endPoint = "None"
             slack = "None"
@@ -152,6 +188,7 @@ def get_all_paths_in_report(staReportFile):
             #startPoint = startPoint[1]
             processingPath = True
             tempPath.clear()
+            temNetDelays.clear()
             tempCriticalPath.clear()
             _pinType = "input"
             
@@ -179,6 +216,7 @@ def get_all_paths_in_report(staReportFile):
                 for cell in tempCriticalPath:
                     add_blackbox_cell(cell)
                 allPaths.append(copy.deepcopy(tempPath))
+                netDelays.append(copy.deepcopy(temNetDelays))
                 criticalPaths.append(copy.deepcopy(tempCriticalPath))
                 processingPath = False
                 offset = 0
@@ -190,7 +228,7 @@ def get_all_paths_in_report(staReportFile):
             elif "(net)" in line:
                 pass
             elif "/" in line:
-                _cell = []
+
                 line = line.split("(")
 
                 cellName = line[1]
@@ -212,12 +250,6 @@ def get_all_paths_in_report(staReportFile):
                 cellId = cellId.replace("[", "_")
                 cellId = cellId.replace("]", "_")
 
-                _cell.append(cellId)
-                _cell.append(cellNameAndPin)
-                _cell.append(delay)
-                _cell.append(time)
-                tempPath.append(_cell)
-
                 _standardCell = StandardCell(cellName, cellId)
 
                 if net_index == -1:
@@ -235,15 +267,27 @@ def get_all_paths_in_report(staReportFile):
                 _pin = Pin(pinName, _net, _pinType)
 
                 if _pinType == "input":
+                    no_nets[counter]+=1
+                    _net_report = []
+                    _net_report.append(delay)
+                    _net_report.append(time)
+                    temNetDelays.append(_net_report)
                     _pinType = "output"
                 else:
+                    _cell = []
+                    _cell.append(cellId)
+                    _cell.append(cellNameAndPin)
+                    _cell.append(delay)
+                    _cell.append(time)
+                    tempPath.append(_cell)
                     _pinType = "input"
+                    
 
                 _standardCell.addPin(copy.deepcopy(_pin))
 
                 _net = add_cell_to_path(_standardCell, tempCriticalPath)
 
-    return
+    return no_nets
 
 
 ##########################################################################################
@@ -351,34 +395,71 @@ body {
 </html> 
 
 
-        
         <script type="text/javascript">
             function reply_click(id)
             {
                 const cells = """
         + str(allPaths[i])
         + """ ;
-                var cellName = "cell name is " ;
-                var delay = "\\n" ;
-                var time = "\\n" ;
+        
+                var cellName = "";
+                var logicpath= "\\nLogic Path: ";
+                var clkpath= "\\nClock Path: ";
+                var count=0;
+                var data = "";
+                var flag = 0
+                
                 for (let i = 0; i < cells.length; i++) { 
                     if (("cell_" + cells[i][0]) == id ){
-                        delay += "Pin  " +cells[i][1]+ "\\t delay = " + cells[i][2]+"\\n";
-                        cellName = "cell name is " + cells[i][0]+"\\n";
-                        time += "Pin  " +cells[i][1]+  "\\t time = " + cells[i][3] +"\\n" ;
+                        flag = 1
+                        cellName = "Cell name: " + cells[i][0]+"\\n";
+                        if (count == 0){
+                            data += "\\ndelay = " + cells[i][2]+"\\n";
+                            data += "time = " + cells[i][3] +"\\n" ;
+                        }else{
+                            logicpath +=  data;
+                            clkpath += "\\ndelay = " + cells[i][2]+"\\n";
+                            clkpath += "time = " + cells[i][3] +"\\n" ;
+                            data = logicpath + clkpath;
+                        }
+                        count = count+1;
                     }
                 }
-                var data = cellName + "\\n" + delay + "\\n" + time + "\\n";
+                if (flag){
+                    alert(cellName + data);
+                }
+            }
+            
+            function net_click(id)
+            {
+                const nets = """
+        + str(netDelays[i])
+        + """ ;
+                var netName = "net_" + id;
+                var delay = "\\n" ;
+                var time = "\\n" ;
+                var i = parseInt(id);
+                
+                delay += " \\t delay = " + nets[i][0];
+                time += " \\t time = " + nets[i][1];
+                
+                var data = netName + delay + time + "\\n";
                 alert(data);
             }
+            
         </script>
     """
     )
+    
+    netInteractions = generateNetInteractions(path)
+    
     body = ""
     with open("../output/" + designName + "/schematics/" + path + ".svg", "r") as f:
         body = f.read()
+
+    body = body.replace("</svg>", " ")
     with open("../output/" + designName + "/schematics/" + path + ".svg", "w") as f:
-        f.write(html + hrefs + body + jsScript)
+        f.write(html + hrefs + body + netInteractions+ "</svg>" + jsScript)
 
     os.system(
         "mv ../output/"
@@ -460,7 +541,7 @@ def json_from_report(critica_path, path, json_blackbox_modules):
             cell[critica_path[i].id]["port_directions"][pin.name] = pin.type
         top_module["top"]["cells"].update(cell)
 
-    for i in range(no_nets):
+    for i in range(no_nets[i]):
         net = {
             "net"
             + str(i): {
@@ -510,6 +591,8 @@ def main(argv):
     skinFile = ""
     numberOfPaths = -1
 
+    global no_nets
+    no_nets = []
     try:
         opts, args = getopt.getopt(
             argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths"]
@@ -545,7 +628,7 @@ def main(argv):
 
     generate_dirs(designName)
 
-    get_all_paths_in_report(staReportFile)
+    no_nets = get_all_paths_in_report(staReportFile, no_nets)
 
     if (numberOfPaths <0) or (numberOfPaths> len(criticalPaths)):
         numberOfPaths = len(criticalPaths)
