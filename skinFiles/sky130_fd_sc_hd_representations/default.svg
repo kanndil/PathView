@@ -568,13 +568,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C1"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="60" s:y="25" s:pid="X"/>
     <g s:x="60 " s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221o_1</text>
   </g> 
@@ -597,13 +597,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C1"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="60" s:y="25" s:pid="X"/>
     <g s:x="60 " s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221o_2</text>
   </g> 
@@ -626,13 +626,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C1"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="60" s:y="25" s:pid="X"/>
     <g s:x="60 " s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221o_4</text>
   </g> 
@@ -656,13 +656,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C1"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="67" s:y="25" s:pid="Y"/>
     <g s:x="67" s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221oi_1</text>
   </g>  
@@ -685,13 +685,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C1"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="67" s:y="25" s:pid="Y"/>
     <g s:x="67" s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221oi_2</text>
   </g>  
@@ -714,13 +714,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C1"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="67" s:y="25" s:pid="Y"/>
     <g s:x="67" s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">a221oi_4</text>
   </g>  
@@ -4429,10 +4429,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="60" s:y="25" s:pid="X"/>
     <g s:x="60" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">o221a_1</text>
 </g>  
@@ -4456,10 +4458,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="60" s:y="25" s:pid="X"/>
     <g s:x="60" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">o221a_2</text>
 </g>  
@@ -4483,10 +4487,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="60" s:y="25" s:pid="X"/>
     <g s:x="60" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">o221a_4</text>
 </g>  
@@ -4511,10 +4517,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="66" s:y="25" s:pid="Y"/>
     <g s:x="66" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">o221ai_1</text>
 </g>  
@@ -4539,10 +4547,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="66" s:y="25" s:pid="Y"/>
     <g s:x="66" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">o221ai_2</text>
 </g>  
@@ -4567,10 +4577,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C1"/>
 
     <g s:x="66" s:y="25" s:pid="Y"/>
     <g s:x="66" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">o221ai_4</text>
 </g>  
@@ -4740,10 +4752,11 @@ text {
     <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
     <path d="M0,0 L0,35" transform="translate(30,12.5)" class="$cell_id"/>
 
-    <g s:x="3" s:y="5" s:pid="A1"/>
-    <g s:x="3" s:y="20" s:pid="A2"/>
-    <g s:x="0" s:y="30" s:pid="A3"/>
-    <g s:x="0" s:y="40" s:pid="B1"/>
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="40" s:pid="C1"/>
     
     <g s:x="66" s:y="30" s:pid="X"/>
     <g s:x="66" s:y="30" s:pid="out"/>
@@ -4767,10 +4780,11 @@ text {
     <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
     <path d="M0,0 L0,35" transform="translate(30,12.5)" class="$cell_id"/>
 
-    <g s:x="3" s:y="5" s:pid="A1"/>
-    <g s:x="3" s:y="20" s:pid="A2"/>
-    <g s:x="0" s:y="30" s:pid="A3"/>
-    <g s:x="0" s:y="40" s:pid="B1"/>
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="40" s:pid="C1"/>
     
     <g s:x="66" s:y="30" s:pid="X"/>
     <g s:x="66" s:y="30" s:pid="out"/>
@@ -4794,10 +4808,11 @@ text {
     <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
     <path d="M0,0 L0,35" transform="translate(30,12.5)" class="$cell_id"/>
 
-    <g s:x="3" s:y="5" s:pid="A1"/>
-    <g s:x="3" s:y="20" s:pid="A2"/>
-    <g s:x="0" s:y="30" s:pid="A3"/>
-    <g s:x="0" s:y="40" s:pid="B1"/>
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="12.5" s:pid="A2"/>
+    <g s:x="0" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="40" s:pid="C1"/>
     
     <g s:x="66" s:y="30" s:pid="X"/>
     <g s:x="66" s:y="30" s:pid="out"/>
@@ -5940,6 +5955,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_1</text>
   </g>
 
@@ -5964,6 +5980,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_2</text>
   </g>
 
@@ -5988,6 +6005,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbp_1</text>
   </g>
 
@@ -6012,6 +6030,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_1</text>
   </g>
 
@@ -6036,6 +6055,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_2</text>
   </g>
 
@@ -6060,6 +6080,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtn_1</text>
   </g>
 
@@ -6084,6 +6105,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_1</text>
   </g>
 
@@ -6108,6 +6130,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_2</text>
   </g>
 
@@ -6132,6 +6155,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_4</text>
   </g>
 
@@ -6156,6 +6180,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_1</text>
   </g>
 
@@ -6180,6 +6205,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_2</text>
   </g>
 
@@ -6204,6 +6230,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_1</text>
   </g>
 
@@ -6228,6 +6255,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_2</text>
   </g>
 
@@ -6252,6 +6280,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_4</text>
   </g>
 
@@ -6276,6 +6305,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_1</text>
   </g>
 
@@ -6300,6 +6330,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_2</text>
   </g>
 
@@ -6324,6 +6355,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_1</text>
   </g>
 
@@ -6348,6 +6380,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_2</text>
   </g>
 
@@ -6372,6 +6405,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_4</text>
   </g>
 
@@ -6396,6 +6430,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxbp_1</text>
   </g>
 
@@ -6420,6 +6455,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxtp_1</text>
   </g>
 
@@ -6444,6 +6480,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_1</text>
   </g>
 
@@ -6468,6 +6505,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_2</text>
   </g>
 
@@ -6492,6 +6530,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbp_1</text>
   </g>
 
@@ -6516,6 +6555,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_1</text>
   </g>
 
@@ -6540,6 +6580,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_2</text>
   </g>
 
@@ -6564,6 +6605,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtn_1</text>
   </g>
 
@@ -6588,6 +6630,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_1</text>
   </g>
 
@@ -6612,6 +6655,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_2</text>
   </g>
 
@@ -6636,6 +6680,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_4</text>
   </g>
 
@@ -6660,6 +6705,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_1</text>
   </g>
 
@@ -6684,6 +6730,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_2</text>
   </g>
 
@@ -6708,6 +6755,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_1</text>
   </g>
 
@@ -6732,6 +6780,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_2</text>
   </g>
 
@@ -6756,6 +6805,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_4</text>
   </g>
 
@@ -6780,6 +6830,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_1</text>
   </g>
 
@@ -6804,6 +6855,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_2</text>
   </g>
 
@@ -6828,6 +6880,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_1</text>
   </g>
 
@@ -6852,6 +6905,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_2</text>
   </g>
 
@@ -6876,6 +6930,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_4</text>
   </g>
 
@@ -6900,6 +6955,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_1</text>
   </g>
 
@@ -6924,6 +6980,7 @@ text {
     <g s:x="30" s:y="30" s:pid="Q_N"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_2</text>
   </g>
 
@@ -6948,6 +7005,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_1</text>
   </g>
 
@@ -6972,6 +7030,7 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_2</text>
   </g>
 
@@ -6996,7 +7055,458 @@ text {
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
+    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrbn_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrbn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrbn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrbn_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrbn_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrbn_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrbp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrbp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrtn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrtn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrtn_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrtn_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrtn_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrtn_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrtn_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrtn_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrtp_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrtp_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlrtp_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlrtp_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxbn_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxbn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxbn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxbn_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxbn_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxbn_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxbp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="Q_N"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxbp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxtn_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxtn_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxtn_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxtn_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxtn_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxtn_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxtn_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxtn_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE_N"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxtn_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__dlxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__dlxtp_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="GATE"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dlxtp_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="sky130_fd_sc_hd__lpflow_inputisolatch_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="sky130_fd_sc_hd__lpflow_inputisolatch_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="SLEEP_B"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">lpflow_inputisolatch_1</text>
   </g>
 
 
