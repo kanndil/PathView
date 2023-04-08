@@ -154,6 +154,53 @@ def writeFlipFlopSVG(dirpath, flipflop):
 ##########################################################################################
 
 
+def writeLatchSVG(dirpath, flipflop):
+    f = open("../representations/LATCH.svg", "r")
+    svgRep = f.read()
+    cellName = str(flipflop.args[0])
+    cleanedCellName = str(cellName).replace('"', "")
+    # print("writing " + cleanedCellName)
+    svgRep = svgRep.replace("name", cleanedCellName)
+
+    alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
+    svgRep = svgRep.replace("alias", alias)
+
+    shortName = copy.copy(cleanedCellName)
+    shortName = shortName.replace(technology, "")
+    # print("writing " + shortName)
+    svgRep = svgRep.replace("shortName", shortName)
+
+    inputPinCount = 0
+    outputPinCount = 0
+    for pinGroup in flipflop.get_groups("pin"):
+        pinName = pinGroup.args[0]
+        if pinGroup["direction"] == "input":
+            if pinGroup["clock"] == "true":
+                pinReplacer = "clk"
+                cleanedPinName = str(pinName).replace('"', "")
+                svgRep = svgRep.replace(pinReplacer, cleanedPinName)
+                # print("replacing "+ str(pinName))
+                pass
+            else:
+                inputPinCount = inputPinCount + 1
+                pinReplacer = "input" + str(inputPinCount)
+                cleanedPinName = str(pinName).replace('"', "")
+                svgRep = svgRep.replace(pinReplacer, cleanedPinName)
+                # print("replacing "+ str(pinName))
+        if pinGroup["direction"] == "output":
+            outputPinCount = outputPinCount + 1
+            pinReplacer = "output" + str(outputPinCount)
+            cleanedPinName = str(pinName).replace('"', "")
+            svgRep = svgRep.replace(pinReplacer, cleanedPinName)
+            # print("replacing "+ str(pinName))
+
+    with open(dirpath + "/default.svg", "a") as f:
+        f.write(svgRep + "\n\n")
+    pass
+
+##########################################################################################
+
+
 def writeLibraryDefaultSVG(tobeWritten, libraryName, ff_tobeWritten, latch_tobeWritten):
     dirpath = "../skinFiles/" + libraryName + "_representations"
     if not os.path.exists(dirpath):
@@ -210,8 +257,8 @@ text {
         writeFlipFlopSVG(dirpath, flipflop)
 
     # write representations of latches
-    # for latch in latch_tobeWritten:
-    #    writeCellSVG(dirpath, latch)
+    for latch in latch_tobeWritten:
+        writeLatchSVG(dirpath, latch)
 
     with open(dirpath + "/default.svg", "a") as f:
         f.write(
