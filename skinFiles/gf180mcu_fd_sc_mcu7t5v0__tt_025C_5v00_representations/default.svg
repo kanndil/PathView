@@ -2,7 +2,7 @@
  <svg  xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:s="https://github.com/nturley/netlistsvg"
-  width="800" height="300">
+  width="3000" height="3000">
   <s:properties>
     <s:layoutEngine
       org.eclipse.elk.layered.spacing.baseValue = "50"
@@ -39,7 +39,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_1" onClick="reply_click(this.id)" transform="translate(20,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and2_1"/>
     
@@ -57,7 +57,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_2" onClick="reply_click(this.id)" transform="translate(20,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and2_2"/>
     
@@ -75,7 +75,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 
   <!-- and2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and2_4" onClick="reply_click(this.id)" transform="translate(20,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and2_4"/>
     
@@ -92,7 +92,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_1" onClick="reply_click(this.id)" transform="translate(200,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and3_1"/>
 
@@ -103,13 +103,14 @@ text {
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
+    
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_1</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_2" onClick="reply_click(this.id)" transform="translate(200,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and3_2"/>
 
@@ -120,13 +121,14 @@ text {
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
+    
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_2</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and3_4" onClick="reply_click(this.id)" transform="translate(200,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and3_4"/>
 
@@ -137,13 +139,14 @@ text {
     <g s:x="0" s:y="20" s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
+    
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and3_4</text>
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_1" onClick="reply_click(this.id)" transform="translate(400,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and4_1"/>
     
@@ -161,7 +164,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_2" onClick="reply_click(this.id)" transform="translate(400,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and4_2"/>
     
@@ -179,7 +182,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- and4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__and4_4" onClick="reply_click(this.id)" transform="translate(400,1500)" s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__and4_4"/>
     
@@ -194,10 +197,421 @@ text {
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">and4_4</text>
   </g>
 
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi21 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi21_1" onClick="reply_click(this.id)" transform="translate(100,500)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi21_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <path d="M0,30 L33,30" class="$cell_id"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi21_1</text>
+  </g>  
+
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi21 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi21_2" onClick="reply_click(this.id)" transform="translate(100,500)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi21_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <path d="M0,30 L33,30" class="$cell_id"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi21_2</text>
+  </g>  
+
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi21 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi21_4" onClick="reply_click(this.id)" transform="translate(100,500)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi21_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <path d="M0,30 L33,30" class="$cell_id"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi21_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi22_1" onClick="reply_click(this.id)" transform="translate(100,600)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi22_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi22_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi22_2" onClick="reply_click(this.id)" transform="translate(100,600)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi22_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi22_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi22 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi22_4" onClick="reply_click(this.id)" transform="translate(100,600)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi22_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi22_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi211 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi211_1" onClick="reply_click(this.id)" transform="translate(100,900)"  s:width="80" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi211_1"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="0" s:y="40" s:pid="C"/>
+
+    <g s:x="72" s:y="30" s:pid="ZN"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+
+    <path d="M0,30 L38.5,30" class="$cell_id"/>
+    <path d="M0,40 L36,40" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi211_1</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi211 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi211_2" onClick="reply_click(this.id)" transform="translate(100,900)"  s:width="80" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi211_2"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="0" s:y="40" s:pid="C"/>
+
+    <g s:x="72" s:y="30" s:pid="ZN"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+
+    <path d="M0,30 L38.5,30" class="$cell_id"/>
+    <path d="M0,40 L36,40" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi211_2</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi211 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi211_4" onClick="reply_click(this.id)" transform="translate(100,900)"  s:width="80" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi211_4"/>
+    
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0  0 1 0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="0" s:y="40" s:pid="C"/>
+
+    <g s:x="72" s:y="30" s:pid="ZN"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+
+
+    <path d="M0,30 L38.5,30" class="$cell_id"/>
+    <path d="M0,40 L36,40" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi211_4</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi221 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi221_1" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="75" s:height="70">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi221_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="60" s:pid="C"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <path d="M0,60 L30,60" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi221_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi221 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi221_2" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="75" s:height="70">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi221_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="60" s:pid="C"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <path d="M0,60 L30,60" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi221_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi221 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi221_4" onClick="reply_click(this.id)" transform="translate(100,1000)" s:width="75" s:height="70">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi221_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="60" s:pid="C"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+
+    <path d="M0,60 L30,60" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi221_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi222 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi222_1" onClick="reply_click(this.id)" transform="translate(100,1100)" s:width="85" s:height="85">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi222_1"/>
+
+         
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,50 )" class="$cell_id"/>
+    <path d="M0,50  L0,50 L15,50 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 35 0 0 1 0,50" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="48  " cy="25  " r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="55" s:pid="C1"/>
+    <g s:x="0" s:y="70" s:pid="C2"/>
+
+    <g s:x="81" s:y="37.5" s:pid="ZN"/>
+    <g s:x="81" s:y="37.5" s:pid="out"/> 
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi222_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi222 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi222_2" onClick="reply_click(this.id)" transform="translate(100,1100)" s:width="85" s:height="85">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi222_2"/>
+
+         
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,50 )" class="$cell_id"/>
+    <path d="M0,50  L0,50 L15,50 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 35 0 0 1 0,50" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="48  " cy="25  " r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="55" s:pid="C1"/>
+    <g s:x="0" s:y="70" s:pid="C2"/>
+
+    <g s:x="81" s:y="37.5" s:pid="ZN"/>
+    <g s:x="81" s:y="37.5" s:pid="out"/> 
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi222_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- aoi222 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__aoi222_4" onClick="reply_click(this.id)" transform="translate(100,1100)" s:width="85" s:height="85">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__aoi222_4"/>
+
+         
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(0,50 )" class="$cell_id"/>
+    <path d="M0,50  L0,50 L15,50 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 A30 35 0 0 1 0,50" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="48  " cy="25  " r="3" transform="translate(30,12.5)"  class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A1"/>
+    <g s:x="0" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B1"/>
+    <g s:x="0" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="55" s:pid="C1"/>
+    <g s:x="0" s:y="70" s:pid="C2"/>
+
+    <g s:x="81" s:y="37.5" s:pid="ZN"/>
+    <g s:x="81" s:y="37.5" s:pid="out"/> 
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi222_4</text>
+  </g>  
+
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_1"/>
     
@@ -212,7 +626,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_2"/>
     
@@ -227,7 +641,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_3" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_3"/>
     
@@ -242,7 +656,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_4"/>
     
@@ -257,7 +671,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_8" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_8"/>
     
@@ -272,7 +686,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_12" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_12"/>
     
@@ -287,7 +701,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_16" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_16"/>
     
@@ -302,7 +716,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__buf_20" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__buf_20"/>
     
@@ -317,7 +731,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_1"/>
     
@@ -332,7 +746,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_2"/>
     
@@ -347,7 +761,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_3" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_3"/>
     
@@ -362,7 +776,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_4"/>
     
@@ -377,7 +791,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_8" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_8"/>
     
@@ -392,7 +806,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_12" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_12"/>
     
@@ -407,7 +821,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__bufz_16" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__bufz_16"/>
     
@@ -422,7 +836,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_1"/>
     
@@ -437,7 +851,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_2"/>
     
@@ -452,7 +866,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_3" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_3"/>
     
@@ -467,7 +881,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_4"/>
     
@@ -482,7 +896,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_8" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_8"/>
     
@@ -497,7 +911,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_12" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_12"/>
     
@@ -512,7 +926,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_16" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_16"/>
     
@@ -527,7 +941,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkbuf_20" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkbuf_20"/>
     
@@ -542,7 +956,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_1" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_1"/>
 
@@ -558,7 +972,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_2" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_2"/>
 
@@ -574,7 +988,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_3" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_3"/>
 
@@ -590,7 +1004,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_4" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_4"/>
 
@@ -606,7 +1020,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_8" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_8"/>
 
@@ -622,7 +1036,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_12" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_12"/>
 
@@ -638,7 +1052,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_16" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_16"/>
 
@@ -654,7 +1068,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__clkinv_20" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__clkinv_20"/>
 
@@ -670,7 +1084,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlya_1"/>
     
@@ -685,7 +1099,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlya_2"/>
     
@@ -700,7 +1114,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlya_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlya_4"/>
     
@@ -715,7 +1129,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyb_1"/>
     
@@ -730,7 +1144,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyb_2"/>
     
@@ -745,7 +1159,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyb_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyb_4"/>
     
@@ -760,7 +1174,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyc_1"/>
     
@@ -775,7 +1189,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyc_2"/>
     
@@ -790,7 +1204,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyc_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyc_4"/>
     
@@ -805,7 +1219,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_1" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyd_1"/>
     
@@ -820,7 +1234,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_2" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyd_2"/>
     
@@ -835,7 +1249,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- buf -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dlyd_4" onClick="reply_click(this.id)" transform="translate(20,1600)" s:width="30" s:height="20">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dlyd_4"/>
     
@@ -850,7 +1264,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_1" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_1"/>
 
@@ -866,7 +1280,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_2" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_2"/>
 
@@ -882,7 +1296,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_3" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_3"/>
 
@@ -898,7 +1312,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_4" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_4"/>
 
@@ -914,7 +1328,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_8" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_8"/>
 
@@ -930,7 +1344,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_12" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_12"/>
 
@@ -946,7 +1360,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_16" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_16"/>
 
@@ -962,7 +1376,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_20" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__inv_20" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__inv_20"/>
 
@@ -978,7 +1392,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_1" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_1" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_1"/>
 
@@ -994,7 +1408,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_2" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_2" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_2"/>
 
@@ -1010,7 +1424,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_3" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_3" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_3"/>
 
@@ -1026,7 +1440,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_4" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_4" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_4"/>
 
@@ -1042,7 +1456,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_8" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_8" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_8"/>
 
@@ -1058,7 +1472,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_12" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_12" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_12"/>
 
@@ -1074,7 +1488,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- inv -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_16" onClick="reply_click(this.id)"  s:width="30" s:height="20">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__invz_16" onClick="reply_click(this.id)" transform="translate(200,1600)"  s:width="30" s:height="20">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__invz_16"/>
 
@@ -1090,7 +1504,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_1" onClick="reply_click(this.id)"  s:width="20" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_1" onClick="reply_click(this.id)" transform="translate(300,1600)"  s:width="20" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__mux2_1"/>
     
@@ -1107,7 +1521,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_2" onClick="reply_click(this.id)"  s:width="20" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_2" onClick="reply_click(this.id)" transform="translate(300,1600)"  s:width="20" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__mux2_2"/>
     
@@ -1124,7 +1538,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- mux2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_4" onClick="reply_click(this.id)"  s:width="20" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__mux2_4" onClick="reply_click(this.id)" transform="translate(300,1600)"  s:width="20" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__mux2_4"/>
     
@@ -1141,7 +1555,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_1" onClick="reply_click(this.id)" transform="translate(20,1700)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand2_1"/>
     
@@ -1158,7 +1572,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_2" onClick="reply_click(this.id)" transform="translate(20,1700)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand2_2"/>
     
@@ -1175,7 +1589,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand2_4" onClick="reply_click(this.id)" transform="translate(20,1700)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand2_4"/>
     
@@ -1192,7 +1606,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_1" onClick="reply_click(this.id)" transform="translate(200,1700)" s:width="30" s:height="25">
             
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand3_1"/>
     
@@ -1211,7 +1625,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_2" onClick="reply_click(this.id)" transform="translate(200,1700)" s:width="30" s:height="25">
             
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand3_2"/>
     
@@ -1230,7 +1644,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand3_4" onClick="reply_click(this.id)" transform="translate(200,1700)" s:width="30" s:height="25">
             
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand3_4"/>
     
@@ -1249,7 +1663,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_1" onClick="reply_click(this.id)" transform="translate(400,1700)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand4_1"/>
     
@@ -1269,7 +1683,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_2" onClick="reply_click(this.id)" transform="translate(400,1700)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand4_2"/>
     
@@ -1289,7 +1703,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nand4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nand4_4" onClick="reply_click(this.id)" transform="translate(400,1700)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nand4_4"/>
     
@@ -1309,16 +1723,18 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_1" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_1" onClick="reply_click(this.id)" transform="translate(20,1800)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor2_1"/>
-    
-    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="0" s:y="5" s:pid="A1"/>
-    <g s:x="0" s:y="20" s:pid="A2"/>
-    <g s:x="30" s:y="12.5" s:pid="ZN"/>
-    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5"    s:pid="A1"/>
+    <g s:x="3" s:y="20"   s:pid="A2"/>
+    <g s:x="37" s:y="12.5" s:pid="ZN"/>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_1</text>
   </g>
@@ -1326,16 +1742,18 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_2" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_2" onClick="reply_click(this.id)" transform="translate(20,1800)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor2_2"/>
-    
-    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="0" s:y="5" s:pid="A1"/>
-    <g s:x="0" s:y="20" s:pid="A2"/>
-    <g s:x="30" s:y="12.5" s:pid="ZN"/>
-    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5"    s:pid="A1"/>
+    <g s:x="3" s:y="20"   s:pid="A2"/>
+    <g s:x="37" s:y="12.5" s:pid="ZN"/>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_2</text>
   </g>
@@ -1343,16 +1761,18 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- nor2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_4" onClick="reply_click(this.id)"  s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor2_4" onClick="reply_click(this.id)" transform="translate(20,1800)"  s:width="30" s:height="25">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor2_4"/>
-    
-    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
 
-    <g s:x="0" s:y="5" s:pid="A1"/>
-    <g s:x="0" s:y="20" s:pid="A2"/>
-    <g s:x="30" s:y="12.5" s:pid="ZN"/>
-    <g s:x="30" s:y="12.5" s:pid="out"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="3" s:y="5"    s:pid="A1"/>
+    <g s:x="3" s:y="20"   s:pid="A2"/>
+    <g s:x="37" s:y="12.5" s:pid="ZN"/>
+    <g s:x="37" s:y="12.5" s:pid="out"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">nor2_4</text>
   </g>
@@ -1361,7 +1781,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_1" onClick="reply_click(this.id)" transform="translate(200,1800)" s:width="33" s:height="25">
         
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor3_1"/>
     
@@ -1382,7 +1802,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_2" onClick="reply_click(this.id)" transform="translate(200,1800)" s:width="33" s:height="25">
         
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor3_2"/>
     
@@ -1403,7 +1823,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor3_4" onClick="reply_click(this.id)" transform="translate(200,1800)" s:width="33" s:height="25">
         
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor3_4"/>
     
@@ -1423,7 +1843,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_1" onClick="reply_click(this.id)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_1" onClick="reply_click(this.id)" transform="translate(400,1800)" s:width="33" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor4_1"/>
     
@@ -1444,7 +1864,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_2" onClick="reply_click(this.id)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_2" onClick="reply_click(this.id)" transform="translate(400,1800)" s:width="33" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor4_2"/>
     
@@ -1465,7 +1885,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- nor4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_4" onClick="reply_click(this.id)" s:width="33" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__nor4_4" onClick="reply_click(this.id)" transform="translate(400,1800)" s:width="33" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__nor4_4"/>
     
@@ -1483,11 +1903,488 @@ text {
   </g>
 
 
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai21 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai21_1" onClick="reply_click(this.id)" transform="translate(300,500)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai21_1"/>
+    
+    <path d="M0,0 A30 25 0  0 1 0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai21_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai21 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai21_2" onClick="reply_click(this.id)" transform="translate(300,500)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai21_2"/>
+    
+    <path d="M0,0 A30 25 0  0 1 0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai21_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai21 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai21_4" onClick="reply_click(this.id)" transform="translate(300,500)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai21_4"/>
+    
+    <path d="M0,0 A30 25 0  0 1 0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai21_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai22 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai22_1" onClick="reply_click(this.id)" transform="translate(300,600)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai22_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai22_1</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai22 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai22_2" onClick="reply_click(this.id)" transform="translate(300,600)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai22_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai22_2</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai22 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai22_4" onClick="reply_click(this.id)" transform="translate(300,600)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai22_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai22_4</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai31 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai31_1" onClick="reply_click(this.id)" transform="translate(300,700)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai31_1"/>
+    
+    <path d="M0,0 A30 25 0  0 1 0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
+    <g s:x="3" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai31_1</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai31 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai31_2" onClick="reply_click(this.id)" transform="translate(300,700)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai31_2"/>
+    
+    <path d="M0,0 A30 25 0  0 1 0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
+    <g s:x="3" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai31_2</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai31 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai31_4" onClick="reply_click(this.id)" transform="translate(300,700)" s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai31_4"/>
+    
+    <path d="M0,0 A30 25 0  0 1 0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,25  L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,25" transform="translate(30,12.5)" class="$cell_id"/> 
+    <circle cx="64 " cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
+    <g s:x="3" s:y="20" s:pid="A3"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+
+    <g s:x="67" s:y="25" s:pid="ZN"/>
+    <g s:x="67" s:y="25" s:pid="out"/>
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai31_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai32 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai32_1" onClick="reply_click(this.id)" transform="translate(300,800)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai32_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
+    <g s:x="3" s:y="20" s:pid="A3"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai32_1</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai32 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai32_2" onClick="reply_click(this.id)" transform="translate(300,800)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai32_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
+    <g s:x="3" s:y="20" s:pid="A3"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai32_2</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai32 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai32_4" onClick="reply_click(this.id)" transform="translate(300,800)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai32_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
+    <g s:x="3" s:y="20" s:pid="A3"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai32_4</text>
+</g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai211 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai211_1" onClick="reply_click(this.id)" transform="translate(300,900)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai211_1"/>
+    
+    <path d="M0,0 A30 25 0  0 1  0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+    
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="0" s:y="40" s:pid="C"/>
+    
+    <g s:x="72" s:y="30" s:pid="ZN"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+    <path d="M0,40 L30,40" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai211_1</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai211 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai211_2" onClick="reply_click(this.id)" transform="translate(300,900)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai211_2"/>
+    
+    <path d="M0,0 A30 25 0  0 1  0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+    
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="0" s:y="40" s:pid="C"/>
+    
+    <g s:x="72" s:y="30" s:pid="ZN"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+    <path d="M0,40 L30,40" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai211_2</text>
+  </g>  
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai211 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__oai211_4" onClick="reply_click(this.id)" transform="translate(300,900)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai211_4"/>
+    
+    <path d="M0,0 A30 25 0  0 1  0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <path d="M0,35  L0,35 L15,35 A15 12.5 0 0 0 15,0 L0,0" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,0 L0,35" transform="translate(30,12.5)" class="$cell_id"/>
+    <circle cx="69" cy="30" r="3"   class="$cell_id"/>
+    
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="0" s:y="30" s:pid="B"/>
+    <g s:x="0" s:y="40" s:pid="C"/>
+    
+    <g s:x="72" s:y="30" s:pid="ZN"/>
+    <g s:x="72" s:y="30" s:pid="out"/>
+    
+
+    <path d="M0,30 L30,30" class="$cell_id"/>
+    <path d="M0,40 L30,40" class="$cell_id"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai211_4</text>
+  </g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai221 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai221_1" onClick="reply_click(this.id)" transform="translate(300,1000)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai221_1"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai221_1</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai221 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai221_2" onClick="reply_click(this.id)" transform="translate(300,1000)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai221_2"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai221_2</text>
+</g>  
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- oai221 -->
+<g s:type="gf180mcu_fd_sc_mcu7t5v0__oai221_4" onClick="reply_click(this.id)" transform="translate(300,1000)"  s:width="75" s:height="67">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__oai221_4"/>
+
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" transform="translate(30,12.5)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,0)" class="$cell_id"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0" transform="translate(0,25)" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <path d="M0,25 A30 25 0 0 1 0,50" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" transform="translate(30,37.5)" class="$cell_id"/>
+
+    <circle cx="63" cy="25" r="3"  class="$cell_id"/>
+
+    <g s:x="3" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="20" s:pid="A2"/>
+    <g s:x="3" s:y="30" s:pid="B1"/>
+    <g s:x="3" s:y="45" s:pid="B2"/>
+
+    <g s:x="66" s:y="25" s:pid="ZN"/>
+    <g s:x="66" s:y="25" s:pid="out"/>
+
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai221_4</text>
+</g>  
+
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_1" onClick="reply_click(this.id)" transform="translate(20,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or2_1"/>
     
@@ -1506,7 +2403,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_2" onClick="reply_click(this.id)" transform="translate(20,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or2_2"/>
     
@@ -1525,7 +2422,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or2 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or2_4" onClick="reply_click(this.id)" transform="translate(20,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or2_4"/>
     
@@ -1543,7 +2440,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_1" onClick="reply_click(this.id)" transform="translate(200,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or3_1"/>
     
@@ -1551,7 +2448,7 @@ text {
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"    s:pid="A1"/>
-    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
@@ -1561,7 +2458,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_2" onClick="reply_click(this.id)" transform="translate(200,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or3_2"/>
     
@@ -1569,7 +2466,7 @@ text {
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"    s:pid="A1"/>
-    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
@@ -1579,7 +2476,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or3 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or3_4" onClick="reply_click(this.id)" transform="translate(200,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or3_4"/>
     
@@ -1587,7 +2484,7 @@ text {
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"    s:pid="A1"/>
-    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="4.5" s:y="12.5" s:pid="A2"/>
     <g s:x="3" s:y="20"   s:pid="A3"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
@@ -1597,7 +2494,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_1" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_1" onClick="reply_click(this.id)" transform="translate(400,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or4_1"/>
     
@@ -1605,8 +2502,8 @@ text {
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"  s:pid="A1"/>
-    <g s:x="3" s:y="10" s:pid="A2"/>
-    <g s:x="3" s:y="15" s:pid="A3"/>
+    <g s:x="3.5" s:y="10" s:pid="A2"/>
+    <g s:x="3.5" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
@@ -1617,7 +2514,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_2" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_2" onClick="reply_click(this.id)" transform="translate(400,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or4_2"/>
     
@@ -1625,8 +2522,8 @@ text {
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"  s:pid="A1"/>
-    <g s:x="3" s:y="10" s:pid="A2"/>
-    <g s:x="3" s:y="15" s:pid="A3"/>
+    <g s:x="3.5" s:y="10" s:pid="A2"/>
+    <g s:x="3.5" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
@@ -1637,7 +2534,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- or4 -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_4" onClick="reply_click(this.id)" s:width="30" s:height="25">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__or4_4" onClick="reply_click(this.id)" transform="translate(400,2000)" s:width="30" s:height="25">
     
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__or4_4"/>
     
@@ -1645,8 +2542,8 @@ text {
     <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
 
     <g s:x="3" s:y="5"  s:pid="A1"/>
-    <g s:x="3" s:y="10" s:pid="A2"/>
-    <g s:x="3" s:y="15" s:pid="A3"/>
+    <g s:x="3.5" s:y="10" s:pid="A2"/>
+    <g s:x="3.5" s:y="15" s:pid="A3"/>
     <g s:x="3" s:y="20" s:pid="A4"/>
     <g s:x="30" s:y="12.5" s:pid="Z"/>
     <g s:x="30" s:y="12.5" s:pid="out"/>
@@ -1656,8 +2553,236 @@ text {
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xnor2 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xnor2_1" onClick="reply_click(this.id)" transform="translate(20,2100)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xnor2_1"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="36" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="2" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="12.5" s:pid="ZN"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xnor2_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xnor2 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xnor2_2" onClick="reply_click(this.id)" transform="translate(20,2100)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xnor2_2"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="36" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="2" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="12.5" s:pid="ZN"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xnor2_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xnor2 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xnor2_4" onClick="reply_click(this.id)" transform="translate(20,2100)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xnor2_4"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="36" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="2" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="12.5" s:pid="ZN"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xnor2_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xnor3 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xnor3_1" onClick="reply_click(this.id)" transform="translate(100,2100)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xnor3_1"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="36" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="2" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="12.5" s:pid="ZN"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xnor3_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xnor3 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xnor3_2" onClick="reply_click(this.id)" transform="translate(100,2100)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xnor3_2"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="36" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="2" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="12.5" s:pid="ZN"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xnor3_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xnor3 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xnor3_4" onClick="reply_click(this.id)" transform="translate(100,2100)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xnor3_4"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+    <circle cx="36" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="2" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="12.5" s:pid="ZN"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xnor3_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xor2 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xor2_1" onClick="reply_click(this.id)" transform="translate(20,2200)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xor2_1"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="2" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="12.5" s:pid="Z"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xor2_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xor2 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xor2_2" onClick="reply_click(this.id)" transform="translate(20,2200)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xor2_2"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="2" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="12.5" s:pid="Z"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xor2_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xor2 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xor2_4" onClick="reply_click(this.id)" transform="translate(20,2200)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xor2_4"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="2" s:y="20" s:pid="A2"/>
+    <g s:x="33" s:y="12.5" s:pid="Z"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+    
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xor2_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xor3 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xor3_1" onClick="reply_click(this.id)" transform="translate(100,2200)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xor3_1"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="2" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="12.5" s:pid="Z"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xor3_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xor3 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xor3_2" onClick="reply_click(this.id)" transform="translate(100,2200)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xor3_2"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="2" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="12.5" s:pid="Z"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xor3_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!--xor3 -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__xor3_4" onClick="reply_click(this.id)" transform="translate(100,2200)" s:width="33" s:height="25">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__xor3_4"/>
+
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0" class="$cell_id"/>
+    <path d="M0,0 A30 25 0 0 1 0,25" class="$cell_id"/>
+
+    <g s:x="2" s:y="5" s:pid="A1"/>
+    <g s:x="3" s:y="12.5" s:pid="A2"/>
+    <g s:x="2" s:y="20" s:pid="A3"/>
+    <g s:x="33" s:y="12.5" s:pid="Z"/>
+    <g s:x="33" s:y="12.5" s:pid="out"/>
+
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">xor3_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_1"/>
 
@@ -1681,7 +2806,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_2"/>
 
@@ -1705,7 +2830,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnq_4"/>
 
@@ -1729,7 +2854,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1"/>
 
@@ -1753,7 +2878,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2"/>
 
@@ -1777,7 +2902,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4"/>
 
@@ -1801,7 +2926,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1"/>
 
@@ -1825,7 +2950,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2"/>
 
@@ -1849,7 +2974,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4"/>
 
@@ -1873,7 +2998,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1"/>
 
@@ -1897,7 +3022,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2"/>
 
@@ -1921,7 +3046,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4"/>
 
@@ -1945,7 +3070,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_1"/>
 
@@ -1969,7 +3094,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_2"/>
 
@@ -1993,7 +3118,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffq_4"/>
 
@@ -2017,7 +3142,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_1"/>
 
@@ -2041,7 +3166,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_2"/>
 
@@ -2065,7 +3190,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrnq_4"/>
 
@@ -2089,7 +3214,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1"/>
 
@@ -2113,7 +3238,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2"/>
 
@@ -2137,7 +3262,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4"/>
 
@@ -2161,7 +3286,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_1"/>
 
@@ -2185,7 +3310,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_2"/>
 
@@ -2209,7 +3334,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__dffsnq_4"/>
 
@@ -2233,7 +3358,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_1"/>
 
@@ -2257,7 +3382,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_2"/>
 
@@ -2281,7 +3406,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffq_4"/>
 
@@ -2305,7 +3430,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1"/>
 
@@ -2329,7 +3454,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2"/>
 
@@ -2353,7 +3478,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4"/>
 
@@ -2377,7 +3502,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1"/>
 
@@ -2401,7 +3526,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2"/>
 
@@ -2425,7 +3550,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4"/>
 
@@ -2449,7 +3574,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1"/>
 
@@ -2473,7 +3598,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2"/>
 
@@ -2497,7 +3622,7 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4" onClick="reply_click(this.id)"  s:width="30" s:height="40">
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
 
     <s:alias val="gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4"/>
 
