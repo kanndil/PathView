@@ -210,7 +210,6 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 slack = slack.split(" ")
                 slack = slack[0]
                 pathNames.append([startPoint, endPoint, slack])
-                # print(startPoint+" -> "+endPoint+" (slack "+slack+")")
 
         elif processingPath:
             if "data arrival time" in line:
@@ -313,7 +312,6 @@ def generate_SVG_from_JSON(path, skinfile):
         + ".svg --skin "
         + skinfile
     )
-    print("done svg")
     return
 
 
@@ -535,7 +533,6 @@ def json_from_report(critica_path, path, json_blackbox_modules):
         }
         for pin in critica_path[i].pins:
             connection_number = copy.copy(pin.net)
-            # print(connection_number)
             if "clk" in connection_number:
                 connection_number = -2
             elif "out" in connection_number:
@@ -561,7 +558,6 @@ def json_from_report(critica_path, path, json_blackbox_modules):
 
     with open("../output/" + designName + "/json/" + path + ".json", "w") as jsonfile:
         json.dump(modules, jsonfile, indent=4)
-    print("done json")
 
 
 def generate_dirs(designName):
