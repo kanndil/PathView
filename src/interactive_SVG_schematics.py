@@ -310,13 +310,34 @@ def generate_SVG_from_JSON(path, skinfile):
         + "/schematics/"
         + path
         + ".svg --skin "
-        + skinfile
+        + skinfile 
     )
     return
 
 
 ##########################################################################################
 
+def compareConsecutivePaths(index):
+    
+    if index<1:
+        return False
+    
+    if (len(criticalPaths[index])!=len(criticalPaths[index-1])):
+        return False
+    
+    for i in range(len(criticalPaths[index])):
+
+        if criticalPaths[index][i].name != criticalPaths[index-1][i].name:
+            return False
+     
+        if (len(criticalPaths[index][i].pins)!= len(criticalPaths[index-1][i].pins)):
+            return False
+        
+        for j in range (len(criticalPaths[index][i].pins)):
+            if criticalPaths[index][i].pins[j].name != criticalPaths[index-1][i].pins[j].name:
+                return False
+ 
+    return True
 
 def addInteraction(path, i, numberOfPaths, hrefs):
 
@@ -640,8 +661,11 @@ def main(argv):
     json_blackbox_modules = get_json_blackbox_cells()
     hrefs = generate_href(numberOfPaths)
     for i in range(numberOfPaths):
-        json_from_report(criticalPaths[i], "path" + str(i), json_blackbox_modules)
-        generate_SVG_from_JSON("path" + str(i), skinFile)
+        if compareConsecutivePaths(i):
+            pass
+        else :
+            json_from_report(criticalPaths[i], "path" + str(i), json_blackbox_modules)
+            generate_SVG_from_JSON("path" + str(i), skinFile)
         addInteraction("path" + str(i), i, numberOfPaths, hrefs)
 
     end = time.time()
