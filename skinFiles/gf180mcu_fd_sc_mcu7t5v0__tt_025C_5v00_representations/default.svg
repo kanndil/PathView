@@ -452,13 +452,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C"/>
+    <g s:x="0" s:y="62" s:pid="C"/>
 
     <g s:x="67" s:y="25" s:pid="ZN"/>
     <g s:x="67" s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi221_1</text>
   </g>  
@@ -481,13 +481,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C"/>
+    <g s:x="0" s:y="62" s:pid="C"/>
 
     <g s:x="67" s:y="25" s:pid="ZN"/>
     <g s:x="67" s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi221_2</text>
   </g>  
@@ -510,13 +510,13 @@ text {
     <g s:x="0" s:y="20" s:pid="A2"/>
     <g s:x="0" s:y="30" s:pid="B1"/>
     <g s:x="0" s:y="45" s:pid="B2"/>
-    <g s:x="0" s:y="60" s:pid="C"/>
+    <g s:x="0" s:y="62" s:pid="C"/>
 
     <g s:x="67" s:y="25" s:pid="ZN"/>
     <g s:x="67" s:y="25" s:pid="out"/>
 
 
-    <path d="M0,60 L30,60" class="$cell_id"/>
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">aoi221_4</text>
   </g>  
@@ -2316,10 +2316,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C"/>
 
     <g s:x="66" s:y="25" s:pid="ZN"/>
     <g s:x="66" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai221_1</text>
 </g>  
@@ -2344,10 +2346,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C"/>
 
     <g s:x="66" s:y="25" s:pid="ZN"/>
     <g s:x="66" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai221_2</text>
 </g>  
@@ -2372,10 +2376,12 @@ text {
     <g s:x="3" s:y="20" s:pid="A2"/>
     <g s:x="3" s:y="30" s:pid="B1"/>
     <g s:x="3" s:y="45" s:pid="B2"/>
+    <g s:x="0" s:y="62" s:pid="C"/>
 
     <g s:x="66" s:y="25" s:pid="ZN"/>
     <g s:x="66" s:y="25" s:pid="out"/>
 
+    <path d="M0,62 L30,62" class="$cell_id"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">oai221_4</text>
 </g>  
@@ -3641,6 +3647,306 @@ text {
     <g s:x="30" s:y="10" s:pid="out"/>
 
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdffsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latq_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latq_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latq_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="input2"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latrnq_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latrnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latrnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latrnq_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latrnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latrnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latrnq_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latrnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latrnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latrsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latrsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latrsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latrsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latrsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latrsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latrsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latrsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="RN"/> 
+    <g s:x="0" s:y="20" s:pid="SETN"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latrsnq_4</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latsnq_1" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latsnq_1"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latsnq_1</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latsnq_2" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latsnq_2"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latsnq_2</text>
+  </g>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+  <!-- Latch -->
+  <g s:type="gf180mcu_fd_sc_mcu7t5v0__latsnq_4" onClick="reply_click(this.id)"  transform="translate(100,1400)" s:width="30" s:height="40">
+
+    <s:alias val="gf180mcu_fd_sc_mcu7t5v0__latsnq_4"/>
+
+    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
+
+    <!-- qn -->
+
+    <g s:x="0" s:y="30" s:pid="E"/>
+    <g s:x="0" s:y="10" s:pid="D"/>
+    <g s:x="0" s:y="15" s:pid="SETN"/> 
+    <g s:x="0" s:y="20" s:pid="input3"/>
+    <g s:x="0" s:y="25" s:pid="input4"/>
+
+    <g s:x="30" s:y="10" s:pid="Q"/>
+    <g s:x="30" s:y="30" s:pid="output2"/>
+    <g s:x="30" s:y="10" s:pid="out"/>
+
+    <text text-anchor="middle" x="15" y="20" font-family="Times New Roman,serif" font-size="6.00">Latch</text>
+    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">latsnq_4</text>
   </g>
 
 

@@ -19,6 +19,5 @@
     <g s:x="30" s:y="30" s:pid="output2"/>
     <g s:x="30" s:y="10" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="20" font-family="Times New Roman,serif" font-size="6.00">Flip Flop</text>
     <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">shortName</text>
   </g>
