@@ -129,22 +129,40 @@ def writeFlipFlopSVG(dirpath, flipflop):
         if pinGroup["direction"] == "input":
             if pinGroup["clock"] == "true":
                 pinReplacer = "clk"
+                pinTextReplacer = "<!--cl_k1text-->"
+
                 cleanedPinName = str(pinName).replace('"', "")
+                pintext = '<text x="-2" y="49" class="input-text" >'+ cleanedPinName +'</text>'
+                
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
-                # print("replacing "+ str(pinName))
-                pass
+                svgRep = svgRep.replace(pinTextReplacer, pintext)
+                
             else:
                 inputPinCount = inputPinCount + 1
+                coordinateY = inputPinCount * 10
+                
+                pinTextReplacer = "<!--input_"+str(inputPinCount)+"text-->"
                 pinReplacer = "input" + str(inputPinCount)
+    
                 cleanedPinName = str(pinName).replace('"', "")
+                pintext = '<text x="-2" y="'+str(coordinateY-1)+'" class="input-text" >'+ cleanedPinName +'</text>'
+
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
-                # print("replacing "+ str(pinName))
-        if pinGroup["direction"] == "output":
+                svgRep = svgRep.replace(pinTextReplacer, pintext)
+
+                
+        elif pinGroup["direction"] == "output":
             outputPinCount = outputPinCount + 1
+            coordinateY = outputPinCount * 20
+            
+            pinTextReplacer = "<!--output_"+str(outputPinCount)+"text-->"
             pinReplacer = "output" + str(outputPinCount)
+            
             cleanedPinName = str(pinName).replace('"', "")
+            pintext = '<text x="42" y="'+str(coordinateY-1)+'" class="output-text" >'+ cleanedPinName +'</text>'
+            
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
-            # print("replacing "+ str(pinName))
+            svgRep = svgRep.replace(pinTextReplacer, pintext)
 
     with open(dirpath + "/default.svg", "a") as f:
         f.write(svgRep + "\n\n")
@@ -234,6 +252,21 @@ text {
   font-size:10px;
   font-weight: bold;
   font-family: "Courier New", monospace;
+}
+.input-text {
+    fill: #000;
+    stroke:none;
+    font-size: 8.5px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    text-anchor: end;
+}
+.output-text {
+    fill: #000;
+    stroke: none;
+    font-size: 8.5px ;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
 }
 .nodelabel {
   text-anchor: middle;
