@@ -25,6 +25,21 @@ text {
   font-weight: bold;
   font-family: "Courier New", monospace;
 }
+.input-text {
+    fill: #000;
+    stroke:none;
+    font-size: 8.5px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    text-anchor: end;
+}
+.output-text {
+    fill: #000;
+    stroke: none;
+    font-size: 8.5px ;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+}
 .nodelabel {
   text-anchor: middle;
 }
@@ -5937,1081 +5952,1486 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfbbn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfbbn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfbbn_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="50" s:pid="CLK_N"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SET_B"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SET_B"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK_N</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SET_B</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfbbn_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfbbn_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfbbn_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="50" s:pid="CLK_N"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SET_B"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SET_B"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbn_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK_N</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SET_B</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfbbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfbbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfbbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SET_B"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SET_B"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfbbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SET_B</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfrbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfrbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfrtn_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="50" s:pid="CLK_N"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtn_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtn_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK_N</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfrtp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfsbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfsbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfsbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfsbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfsbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfsbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfsbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfstp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfstp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfstp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfstp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfstp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfstp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfstp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfstp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfstp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SET_B"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SET_B"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfstp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SET_B</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfxbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="input2"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="input2"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <!--input_2text-->
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfxbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="input2"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="input2"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <!--input_2text-->
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="input2"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="input2"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <!--input_2text-->
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="input2"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="input2"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <!--input_2text-->
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__dfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__dfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="input2"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="input2"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">dfxtp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <!--input_2text-->
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__edfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__edfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__edfxbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__edfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__edfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__edfxtp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="input3"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="input3"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxtp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">edfxtp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <!--input_3text-->
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfbbn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfbbn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfbbn_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="50" s:pid="CLK_N"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK_N</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfbbn_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfbbn_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfbbn_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="50" s:pid="CLK_N"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbn_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK_N</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfbbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfbbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfbbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfbbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfrbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfrbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtn_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK_N"/>
+    <g s:x="0" s:y="50" s:pid="CLK_N"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtn_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtn_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK_N</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="RESET_B"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="RESET_B"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfrtp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >RESET_B</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfsbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfsbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfsbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="SET_B"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="SET_B"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <text x="-2" y="39" class="input-text" >SET_B</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfsbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfsbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfsbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="SET_B"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="SET_B"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfsbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <text x="-2" y="39" class="input-text" >SET_B</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfstp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfstp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="SET_B"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="SET_B"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <text x="-2" y="39" class="input-text" >SET_B</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfstp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfstp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="SET_B"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="SET_B"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <text x="-2" y="39" class="input-text" >SET_B</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfstp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfstp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="SET_B"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="SET_B"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfstp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <text x="-2" y="39" class="input-text" >SET_B</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfxbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfxbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sdfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sdfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="SCD"/> 
-    <g s:x="0" s:y="20" s:pid="SCE"/>
-    <g s:x="0" s:y="25" s:pid="input4"/>
+    <g s:x="0" s:y="20" s:pid="SCD"/> 
+    <g s:x="0" s:y="30" s:pid="SCE"/>
+    <g s:x="0" s:y="40" s:pid="input4"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sdfxtp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >SCD</text>
+    <text x="-2" y="29" class="input-text" >SCE</text>
+    <!--input_4text-->
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sedfxbp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sedfxbp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="Q_N"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="Q_N"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxbp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <text x="42" y="39" class="output-text" >Q_N</text>
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_1"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_1</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_1</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_2"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_2</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_2</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
-  <g s:type="sky130_fd_sc_hd__sedfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="30" s:height="40">
+  <g s:type="sky130_fd_sc_hd__sedfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_4"/>
 
-    <rect width="30" height="40" x="0" y="0" class="$cell_id"/>
-    <path d="M0,35 L5,30 L0,25" class="$cell_id"/>
+    <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
+    <path d="M0,45 L5,50 L0,55" class="$cell_id"/>
     <!-- qn -->
 
-    <g s:x="0" s:y="30" s:pid="CLK"/>
+    <g s:x="0" s:y="50" s:pid="CLK"/>
     <g s:x="0" s:y="10" s:pid="D"/>
-    <g s:x="0" s:y="15" s:pid="DE"/> 
-    <g s:x="0" s:y="20" s:pid="SCD"/>
-    <g s:x="0" s:y="25" s:pid="SCE"/>
+    <g s:x="0" s:y="20" s:pid="DE"/> 
+    <g s:x="0" s:y="30" s:pid="SCD"/>
+    <g s:x="0" s:y="40" s:pid="SCE"/>
 
-    <g s:x="30" s:y="10" s:pid="Q"/>
-    <g s:x="30" s:y="30" s:pid="output2"/>
-    <g s:x="30" s:y="10" s:pid="out"/>
+    <g s:x="40" s:y="20" s:pid="Q"/>
+    <g s:x="40" s:y="40" s:pid="output2"/>
+    <g s:x="40" s:y="20" s:pid="out"/>
 
-    <text text-anchor="middle" x="10" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_4</text>
+    <text text-anchor="middle" x="20" y="-4" font-family="Times New Roman,serif" font-size="14.00">sedfxtp_4</text>
+    
+    <text x="-2" y="49" class="input-text" >CLK</text>
+    <text x="-2" y="9" class="input-text" >D</text>
+    <text x="-2" y="19" class="input-text" >DE</text>
+    <text x="-2" y="29" class="input-text" >SCD</text>
+    <text x="-2" y="39" class="input-text" >SCE</text>
+    <text x="42" y="19" class="output-text" >Q</text>
+    <!--output_2text-->
+
   </g>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
