@@ -25,7 +25,6 @@ import xml.etree.ElementTree as ET
 
 ##########################################################################################
 
-criticalPathCells = []
 allPaths = []
 criticalPaths = []
 blackboxCells = []
@@ -33,7 +32,6 @@ pathNames = []
 netDelays = []
 
 ##########################################################################################
-
 
 class Pin:
     def __init__(self, name, net, type):
@@ -191,8 +189,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
             endPoint = "None"
             slack = "None"
             startPoint = copy.copy(line)
-            # startPoint = startPoint.split(' ')
-            # startPoint = startPoint[1]
+
             processingPath = True
             tempPath.clear()
             temNetDelays.clear()
@@ -201,15 +198,13 @@ def get_all_paths_in_report(staReportFile, no_nets):
 
         elif "Endpoint" in line:
             endPoint = copy.copy(line)
-            # endPoint = endPoint.split(' ')
-            # endPoint = endPoint[1]
 
         elif "slack" in line:
             if startPoint != "None":
                 slack = copy.copy(line)
                 slack = slack.split(" ")
                 slack = slack[0]
-                pathNames.append([startPoint, endPoint, slack])
+                pathNames.append([startPoint, endPoint, slack, counter])
 
         elif processingPath:
             if "data arrival time" in line:
@@ -339,7 +334,7 @@ def compareConsecutivePaths(index):
  
     return True
 
-def addInteraction(path, i, numberOfPaths, hrefs):
+def addInteraction(path, i, index, hrefs):
 
     html = (
         """
@@ -424,7 +419,7 @@ body {
             function reply_click(id)
             {
                 const cells = """
-        + str(allPaths[i])
+        + str(allPaths[index])
         + """ ;
         
                 var cellName = "";
@@ -458,7 +453,7 @@ body {
             function net_click(id)
             {
                 const nets = """
-        + str(netDelays[i])
+        + str(netDelays[index])
         + """ ;
                 var netName = "net_" + id;
                 var delay = "\\n" ;
@@ -521,7 +516,7 @@ def get_json_blackbox_cells():
     return json_blackbox_modules
 
 
-def json_from_report(critica_path, path, json_blackbox_modules):
+def json_from_report(critica_path, path, json_blackbox_modules, index ):
 
     modules = {"modules": {}}
     modules["modules"].update(json_blackbox_modules)
@@ -565,7 +560,7 @@ def json_from_report(critica_path, path, json_blackbox_modules):
             cell[critica_path[i].id]["port_directions"][pin.name] = pin.type
         top_module["top"]["cells"].update(cell)
 
-    for i in range(no_nets[i]):
+    for i in range(no_nets[index]):
         net = {
             "net"
             + str(i): {
@@ -598,16 +593,18 @@ def generate_dirs(designName):
 def generate_href(numberOfPaths):
     hrefs = """<div class="sidenav">"""
     for j in range(numberOfPaths):
-        hrefs += (
-            """<a href="path"""
-            + str(j)
-            + """.html">Slack: """
-            + pathNames[j][2]
-            + """</a></li> """
-        )
+        hrefs +=  """<a href="path""" + str(j) + """.html">Slack: """ + pathNames[j][2] + """</a></li> """
     hrefs += """</div>"""
     return hrefs
 
+def sortPaths(sortType):
+    
+    if (sortType == "desc"):
+        pathNames.sort(key=lambda x: float(x[2]), reverse=True)
+    elif(sortType == "asc"):
+        pathNames.sort(key=lambda x: float(x[2]))
+    elif(sortType == "none"):
+        pass
 
 # Main Class
 def main(argv):
@@ -615,32 +612,64 @@ def main(argv):
     staReportFile = ""
     skinFile = ""
     numberOfPaths = -1
+    sortType = "none"
 
     global no_nets
     no_nets = []
     try:
         opts, args = getopt.getopt(
-            argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths"]
+            argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths=", "sort="]
         )
     except getopt.GetoptError:
         print("invalid arguments!")
         print(
-            "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath> -n <numberOfPaths>\n"
+'''
+Syntax:
+    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
+
+Options:
+    -n <numberOfPaths>
+                        This option is used to specify the number of paths to be
+                        generated. If this option is not specified, all paths are
+                        generated.
+                        
+    --sort=<asc/desc>
+                        This option is used to sort the paths in ascending 
+                        or descending order based on slack. 
+                        "asc" for ascending and "desc" for descending order.
+                        
+'''
         )
         sys.exit(2)
 
     for opt, arg in opts:
         if opt in ("-h", "--help"):
             print(
-                "run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath> -n <numberOfPaths>\n"
-            )
+'''
+Syntax:
+    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
+
+Options:
+    -n <numberOfPaths>
+                        This option is used to specify the number of paths to be
+                        generated. If this option is not specified, all paths are
+                        generated.
+                        
+    --sort=<asc/desc>
+                        This option is used to sort the paths in ascending 
+                        or descending order based on slack. 
+                        "asc" for ascending and "desc" for descending order.
+                        
+''')
             sys.exit()
         elif opt in ("-i", "--ifile"):
             staReportFile = arg
         elif opt in ("-s", "--sfile"):
             skinFile = arg
-        elif opt in ("-n", "--npaths"):
+        elif opt in ("-n", "--npaths="):
             numberOfPaths = int(arg)
+        elif opt in ("--sort="):
+            sortType = arg
 
     start = time.time()
 
@@ -659,17 +688,18 @@ def main(argv):
         numberOfPaths = len(criticalPaths)
 
     json_blackbox_modules = get_json_blackbox_cells()
+    
+    sortPaths(sortType)
+        
+    
     hrefs = generate_href(numberOfPaths)
     for i in range(numberOfPaths):
-        if compareConsecutivePaths(i):
-            pass
-        else :
-            json_from_report(criticalPaths[i], "path" + str(i), json_blackbox_modules)
-            generate_SVG_from_JSON("path" + str(i), skinFile)
-        addInteraction("path" + str(i), i, numberOfPaths, hrefs)
+        json_from_report(criticalPaths[pathNames[i][3]], "path" + str(i), json_blackbox_modules, pathNames[i][3])
+        generate_SVG_from_JSON("path" + str(i), skinFile)
+        addInteraction("path" + str(i), i,  pathNames[i][3], hrefs)
 
     end = time.time()
-    print("time taken: ", end - start)
+    print("Time taken: ",(end - start)/60.0)
 
 
 if __name__ == "__main__":
