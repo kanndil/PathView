@@ -111,7 +111,7 @@ def writeFlipFlopSVG(dirpath, flipflop):
     svgRep = f.read()
     cellName = str(flipflop.args[0])
     cleanedCellName = str(cellName).replace('"', "")
-    # print("writing " + cleanedCellName)
+
     svgRep = svgRep.replace("name", cleanedCellName)
 
     alias = '''<s:alias val="''' + cleanedCellName + """"/>"""
@@ -119,7 +119,7 @@ def writeFlipFlopSVG(dirpath, flipflop):
 
     shortName = copy.copy(cleanedCellName)
     shortName = shortName.replace(technology, "")
-    # print("writing " + shortName)
+
     svgRep = svgRep.replace("shortName", shortName)
 
     inputPinCount = 0
@@ -132,35 +132,50 @@ def writeFlipFlopSVG(dirpath, flipflop):
                 pinTextReplacer = "<!--cl_k1text-->"
 
                 cleanedPinName = str(pinName).replace('"', "")
-                pintext = '<text x="-2" y="49" class="input-text" >'+ cleanedPinName +'</text>'
-                
+                pintext = (
+                    '<text x="-2" y="49" class="input-text" >'
+                    + cleanedPinName
+                    + "</text>"
+                )
+
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
                 svgRep = svgRep.replace(pinTextReplacer, pintext)
-                
+
             else:
                 inputPinCount = inputPinCount + 1
                 coordinateY = inputPinCount * 10
-                
-                pinTextReplacer = "<!--input_"+str(inputPinCount)+"text-->"
+
+                pinTextReplacer = "<!--input_" + str(inputPinCount) + "text-->"
                 pinReplacer = "input" + str(inputPinCount)
-    
+
                 cleanedPinName = str(pinName).replace('"', "")
-                pintext = '<text x="-2" y="'+str(coordinateY-1)+'" class="input-text" >'+ cleanedPinName +'</text>'
+                pintext = (
+                    '<text x="-2" y="'
+                    + str(coordinateY - 1)
+                    + '" class="input-text" >'
+                    + cleanedPinName
+                    + "</text>"
+                )
 
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
                 svgRep = svgRep.replace(pinTextReplacer, pintext)
 
-                
         elif pinGroup["direction"] == "output":
             outputPinCount = outputPinCount + 1
             coordinateY = outputPinCount * 20
-            
-            pinTextReplacer = "<!--output_"+str(outputPinCount)+"text-->"
+
+            pinTextReplacer = "<!--output_" + str(outputPinCount) + "text-->"
             pinReplacer = "output" + str(outputPinCount)
-            
+
             cleanedPinName = str(pinName).replace('"', "")
-            pintext = '<text x="42" y="'+str(coordinateY-1)+'" class="output-text" >'+ cleanedPinName +'</text>'
-            
+            pintext = (
+                '<text x="42" y="'
+                + str(coordinateY - 1)
+                + '" class="output-text" >'
+                + cleanedPinName
+                + "</text>"
+            )
+
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
             svgRep = svgRep.replace(pinTextReplacer, pintext)
 
@@ -195,26 +210,60 @@ def writeLatchSVG(dirpath, flipflop):
         if pinGroup["direction"] == "input":
             if pinGroup["clock"] == "true":
                 pinReplacer = "clk"
+                pinTextReplacer = "<!--cl_k1text-->"
+
                 cleanedPinName = str(pinName).replace('"', "")
+                pintext = (
+                    '<text x="-2" y="49" class="input-text" >'
+                    + cleanedPinName
+                    + "</text>"
+                )
+
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
-                # print("replacing "+ str(pinName))
-                pass
+                svgRep = svgRep.replace(pinTextReplacer, pintext)
+
             else:
                 inputPinCount = inputPinCount + 1
+                coordinateY = inputPinCount * 10
+
+                pinTextReplacer = "<!--input_" + str(inputPinCount) + "text-->"
                 pinReplacer = "input" + str(inputPinCount)
+
                 cleanedPinName = str(pinName).replace('"', "")
+                pintext = (
+                    '<text x="-2" y="'
+                    + str(coordinateY - 1)
+                    + '" class="input-text" >'
+                    + cleanedPinName
+                    + "</text>"
+                )
+
                 svgRep = svgRep.replace(pinReplacer, cleanedPinName)
-                # print("replacing "+ str(pinName))
+                svgRep = svgRep.replace(pinTextReplacer, pintext)
+
         if pinGroup["direction"] == "output":
             outputPinCount = outputPinCount + 1
+            coordinateY = outputPinCount * 20
+
+            pinTextReplacer = "<!--output_" + str(outputPinCount) + "text-->"
             pinReplacer = "output" + str(outputPinCount)
+
             cleanedPinName = str(pinName).replace('"', "")
+            pintext = (
+                '<text x="42" y="'
+                + str(coordinateY - 1)
+                + '" class="output-text" >'
+                + cleanedPinName
+                + "</text>"
+            )
+
             svgRep = svgRep.replace(pinReplacer, cleanedPinName)
-            # print("replacing "+ str(pinName))
+            svgRep = svgRep.replace(pinTextReplacer, pintext)
 
     with open(dirpath + "/default.svg", "a") as f:
         f.write(svgRep + "\n\n")
     pass
+
 
 ##########################################################################################
 
