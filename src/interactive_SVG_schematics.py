@@ -1,5 +1,5 @@
-# Copyright 2023 AUC Open Source Hardware Lab
 #
+# Copyright 2023 AUC Open Source Hardware Lab
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at:
@@ -32,6 +32,7 @@ pathNames = []
 netDelays = []
 
 ##########################################################################################
+
 
 class Pin:
     def __init__(self, name, net, type):
@@ -69,7 +70,6 @@ def add_cell_to_path(_standardCell, tempCriticalPath):
     for iterationCell in tempCriticalPath:
         if _standardCell.id == iterationCell.id:
             flag == True
-            # take care of deep copy
             pinFlag = False
             for pin in iterationCell.pins:
                 if pin.name == _standardCell.pins[0].name:
@@ -118,6 +118,91 @@ def add_blackbox_cell(_standardCell):
 ##############################
 
 
+def checkArgs(argv, staReportFile, skinFile, numberOfPaths, sortType):
+
+    try:
+        opts, args = getopt.getopt(
+            argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths=", "sort="]
+        )
+    except getopt.GetoptError:
+        print("invalid arguments!")
+        print(
+            """
+Syntax:
+    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
+
+Options:
+    -n <numberOfPaths>
+                        This option is used to specify the number of paths to be
+                        generated. If this option is not specified, all paths are
+                        generated.
+                        
+    --sort=<asc/desc>
+                        This option is used to sort the paths in ascending 
+                        or descending order based on slack. 
+                        "asc" for ascending and "desc" for descending order.
+                        
+"""
+        )
+        sys.exit(2)
+
+    for opt, arg in opts:
+        if opt in ("-h", "--help"):
+            print(
+                """
+Syntax:
+    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
+
+Options:
+    -n <numberOfPaths>
+                        This option is used to specify the number of paths to be
+                        generated. If this option is not specified, all paths are
+                        generated.
+                        
+    --sort=<asc/desc>
+                        This option is used to sort the paths in ascending 
+                        or descending order based on slack. 
+                        "asc" for ascending and "desc" for descending order.
+                        
+"""
+            )
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            staReportFile = arg
+        elif opt in ("-s", "--sfile"):
+            skinFile = arg
+        elif opt in ("-n", "--npaths="):
+            numberOfPaths = int(arg)
+        elif opt in ("--sort="):
+            sortType = arg
+
+    return staReportFile, skinFile, numberOfPaths, sortType
+
+
+#################################
+
+
+def generate_dirs(designName):
+
+    if not os.path.exists("../output"):
+        os.makedirs("../output")
+
+    if not os.path.exists("../output/" + designName):
+        os.makedirs("../output/" + designName)
+
+    if not os.path.exists("../output/" + designName + "/schematics"):
+        os.makedirs("../output/" + designName + "/schematics")
+
+    if not os.path.exists("../output/" + designName + "/json"):
+        os.makedirs("../output/" + designName + "/json")
+
+    if not os.path.exists("../output/" + designName + "/website"):
+        os.makedirs("../output/" + designName + "/website")
+
+
+#################################
+
+
 def generateNetInteractions(path):
     filename = "../output/" + designName + "/schematics/" + path + ".svg"
     tree = ET.parse(filename)
@@ -163,7 +248,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
     f = open(staReportFile, "r+")
     processingPath = False
     tempPath = []
-    temNetDelays = []
+    tempNetDelays = []
     tempCriticalPath = []
     offset = 0
     counter = -1
@@ -192,7 +277,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
 
             processingPath = True
             tempPath.clear()
-            temNetDelays.clear()
+            tempNetDelays.clear()
             tempCriticalPath.clear()
             _pinType = "input"
 
@@ -217,7 +302,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 for cell in tempCriticalPath:
                     add_blackbox_cell(cell)
                 allPaths.append(copy.deepcopy(tempPath))
-                netDelays.append(copy.deepcopy(temNetDelays))
+                netDelays.append(copy.deepcopy(tempNetDelays))
                 criticalPaths.append(copy.deepcopy(tempCriticalPath))
                 processingPath = False
                 offset = 0
@@ -252,6 +337,8 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 cellId = cellId.replace("]", "_")
 
                 _standardCell = StandardCell(cellName, cellId)
+                
+                wirecopy = copy.copy(wire)
 
                 if net_index == -1:
                     _net = "clk "
@@ -272,7 +359,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                     _net_report = []
                     _net_report.append(delay)
                     _net_report.append(time)
-                    temNetDelays.append(_net_report)
+                    tempNetDelays.append(_net_report)
                     _pinType = "output"
                 else:
                     _cell = []
@@ -286,6 +373,16 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 _standardCell.addPin(copy.deepcopy(_pin))
 
                 _net = add_cell_to_path(_standardCell, tempCriticalPath)
+                
+                if _pinType == "input":
+                    repeatednet= copy.copy(_net)
+                    repeatednet =_net.split("net")
+                    repeatednet = repeatednet[1]
+                    repeatednetid = int(repeatednet)
+                    if repeatednetid != wirecopy:
+                        tempNetDelays[repeatednetid].append(delay)
+                        tempNetDelays[repeatednetid].append(time)         
+               
 
     return no_nets
 
@@ -305,34 +402,39 @@ def generate_SVG_from_JSON(path, skinfile):
         + "/schematics/"
         + path
         + ".svg --skin "
-        + skinfile 
+        + skinfile
     )
     return
 
 
 ##########################################################################################
 
+
 def compareConsecutivePaths(index):
-    
-    if index<1:
+
+    if index < 1:
         return False
-    
-    if (len(criticalPaths[index])!=len(criticalPaths[index-1])):
+
+    if len(criticalPaths[index]) != len(criticalPaths[index - 1]):
         return False
-    
+
     for i in range(len(criticalPaths[index])):
 
-        if criticalPaths[index][i].name != criticalPaths[index-1][i].name:
+        if criticalPaths[index][i].name != criticalPaths[index - 1][i].name:
             return False
-     
-        if (len(criticalPaths[index][i].pins)!= len(criticalPaths[index-1][i].pins)):
+
+        if len(criticalPaths[index][i].pins) != len(criticalPaths[index - 1][i].pins):
             return False
-        
-        for j in range (len(criticalPaths[index][i].pins)):
-            if criticalPaths[index][i].pins[j].name != criticalPaths[index-1][i].pins[j].name:
+
+        for j in range(len(criticalPaths[index][i].pins)):
+            if (
+                criticalPaths[index][i].pins[j].name
+                != criticalPaths[index - 1][i].pins[j].name
+            ):
                 return False
- 
+
     return True
+
 
 def addInteraction(path, i, index, hrefs):
 
@@ -455,15 +557,19 @@ body {
                 const nets = """
         + str(netDelays[index])
         + """ ;
-                var netName = "net_" + id;
-                var delay = "\\n" ;
-                var time = "\\n" ;
+                var data = "net_" + id;
                 var i = parseInt(id);
-                
-                delay += " \\t delay = " + nets[i][0];
-                time += " \\t time = " + nets[i][1];
-                
-                var data = netName + delay + time + "\\n";
+                if (nets[i].length == 2){
+                    data += "\\ndelay = " + nets[i][0];
+                    data += "\\ntime = " + nets[i][1] + "\\n";
+                } else if (nets[i].length == 4){
+                    data+= "\\n\\nLogic Path:"
+                    data+= "\\ndelay = " + nets[i][0];
+                    data+= "\\ntime = " + nets[i][1];
+                    data+= "\\n\\nClock Path:"
+                    data+= "\\ndelay = " + nets[i][2];
+                    data+= "\\ntime = " + nets[i][3];
+                }
                 alert(data);
             }
             
@@ -516,7 +622,7 @@ def get_json_blackbox_cells():
     return json_blackbox_modules
 
 
-def json_from_report(critica_path, path, json_blackbox_modules, index ):
+def json_from_report(critica_path, path, json_blackbox_modules, index):
 
     modules = {"modules": {}}
     modules["modules"].update(json_blackbox_modules)
@@ -576,106 +682,41 @@ def json_from_report(critica_path, path, json_blackbox_modules, index ):
         json.dump(modules, jsonfile, indent=4)
 
 
-def generate_dirs(designName):
-    if not os.path.exists("../output/" + designName):
-        os.makedirs("../output/" + designName)
-
-    if not os.path.exists("../output/" + designName + "/schematics"):
-        os.makedirs("../output/" + designName + "/schematics")
-
-    if not os.path.exists("../output/" + designName + "/json"):
-        os.makedirs("../output/" + designName + "/json")
-
-    if not os.path.exists("../output/" + designName + "/website"):
-        os.makedirs("../output/" + designName + "/website")
-
-
 def generate_href(numberOfPaths):
     hrefs = """<div class="sidenav">"""
     for j in range(numberOfPaths):
-        hrefs +=  """<a href="path""" + str(j) + """.html">Slack: """ + pathNames[j][2] + """</a></li> """
+        hrefs += (
+            """<a href="path"""
+            + str(j)
+            + """.html">Slack: """
+            + pathNames[j][2]
+            + """</a></li> """
+        )
     hrefs += """</div>"""
     return hrefs
 
+
 def sortPaths(sortType):
-    
-    if (sortType == "desc"):
+
+    if sortType == "desc":
         pathNames.sort(key=lambda x: float(x[2]), reverse=True)
-    elif(sortType == "asc"):
+    elif sortType == "asc":
         pathNames.sort(key=lambda x: float(x[2]))
-    elif(sortType == "none"):
+    elif sortType == "none":
         pass
+
 
 # Main Class
 def main(argv):
-
-    staReportFile = ""
-    skinFile = ""
-    numberOfPaths = -1
-    sortType = "none"
-
-    global no_nets
-    no_nets = []
-    try:
-        opts, args = getopt.getopt(
-            argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths=", "sort="]
-        )
-    except getopt.GetoptError:
-        print("invalid arguments!")
-        print(
-'''
-Syntax:
-    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
-
-Options:
-    -n <numberOfPaths>
-                        This option is used to specify the number of paths to be
-                        generated. If this option is not specified, all paths are
-                        generated.
-                        
-    --sort=<asc/desc>
-                        This option is used to sort the paths in ascending 
-                        or descending order based on slack. 
-                        "asc" for ascending and "desc" for descending order.
-                        
-'''
-        )
-        sys.exit(2)
-
-    for opt, arg in opts:
-        if opt in ("-h", "--help"):
-            print(
-'''
-Syntax:
-    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
-
-Options:
-    -n <numberOfPaths>
-                        This option is used to specify the number of paths to be
-                        generated. If this option is not specified, all paths are
-                        generated.
-                        
-    --sort=<asc/desc>
-                        This option is used to sort the paths in ascending 
-                        or descending order based on slack. 
-                        "asc" for ascending and "desc" for descending order.
-                        
-''')
-            sys.exit()
-        elif opt in ("-i", "--ifile"):
-            staReportFile = arg
-        elif opt in ("-s", "--sfile"):
-            skinFile = arg
-        elif opt in ("-n", "--npaths="):
-            numberOfPaths = int(arg)
-        elif opt in ("--sort="):
-            sortType = arg
-
     start = time.time()
 
-    if not os.path.exists("../output"):
-        os.makedirs("../output")
+    staReportFile, skinFile, numberOfPaths, sortType = checkArgs(
+        argv, "", "", -1, "none"
+    )
+    global no_nets
     global designName
+    no_nets = []
+
     designName = copy.copy(staReportFile)
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
@@ -688,18 +729,23 @@ Options:
         numberOfPaths = len(criticalPaths)
 
     json_blackbox_modules = get_json_blackbox_cells()
-    
+
     sortPaths(sortType)
-        
-    
+
     hrefs = generate_href(numberOfPaths)
     for i in range(numberOfPaths):
-        json_from_report(criticalPaths[pathNames[i][3]], "path" + str(i), json_blackbox_modules, pathNames[i][3])
+        json_from_report(
+            criticalPaths[pathNames[i][3]],
+            "path" + str(i),
+            json_blackbox_modules,
+            pathNames[i][3],
+        )
         generate_SVG_from_JSON("path" + str(i), skinFile)
-        addInteraction("path" + str(i), i,  pathNames[i][3], hrefs)
+        addInteraction("path" + str(i), i, pathNames[i][3], hrefs)
+
 
     end = time.time()
-    print("Time taken: ",(end - start)/60.0)
+    print("Time taken: ", (end - start) / 60.0)
 
 
 if __name__ == "__main__":
