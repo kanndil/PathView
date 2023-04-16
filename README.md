@@ -3,7 +3,7 @@
 <div align="center">
 
   <a href="">[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://kanndil.github.io/interactive_SVG_schematics/)</a>
-  
+
 </div>
 
 <div align="center">
@@ -12,10 +12,6 @@
   <a href="">[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)</a>
 
 </div>
-
-
-
-
 
 
 ## Table of contents
@@ -209,7 +205,21 @@ First: Clone the repo
 Second: Run
 
     cd src/
-    python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>
+    python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath> -n <numberOfPaths> --sort=<asc/desc>
+
+Options:
+
+    -n <numberOfPaths>
+
+                        This option is used to specify the number of paths to be
+                        generated. If this option is not specified, all paths are
+                        generated.
+                        
+    --sort=<asc/desc>
+                        This option is used to sort the paths in ascending 
+                        or descending order based on slack. Use "asc" for 
+                        ascending and "desc" for descending order.
+                        
 
 <br/><br/>
 
