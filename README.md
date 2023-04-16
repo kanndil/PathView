@@ -208,9 +208,13 @@ Here is a part of an example STA report: (Your report must have a similar format
 
 <br/><br/>
 
-# Second: Support the standard cell library you are using
+## Second: Support the standard cell library you are using
 
+### First: Clone the repo
 
+    git clone https://github.com/kanndil/interactive_SVG_schematics.git
+
+### Second: Add Generate Skin-File
 
 <details>
   <summary>Check these pre-generated skin-files</summary>
@@ -232,11 +236,9 @@ Run:
 
 
 ## Third: Generate the HTML interactive schematics
-First: Clone the repo
 
-    git clone https://github.com/kanndil/interactive_SVG_schematics.git
 
-Second: Run
+Run
 
     cd src/
     python3 interactiveReport.py -i <staReportFilePath> -s <skinFilePath> -n <numberOfPaths> --sort=<asc/desc>
