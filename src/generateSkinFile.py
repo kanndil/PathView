@@ -480,12 +480,12 @@ def main(argv):
         opts, args = getopt.getopt(argv, "i:", ["ifile="])
     except getopt.GetoptError:
         print("invalid arguments!")
-        print("run: python3 generate_schemetic_model.py -i <libertyFilePath>\n")
+        print("run: python3 generateSkinFile.py -i <libertyFilePath>\n")
         sys.exit(2)
 
     for opt, arg in opts:
         if opt in ("-h", "--help"):
-            print("run: python3 generate_schemetic_model.py -i <libertyFilePath>\n")
+            print("run: python3 generateSkinFile.py -i <libertyFilePath>\n")
             sys.exit()
         elif opt in ("-i", "--ifile"):
             libertyFile = arg

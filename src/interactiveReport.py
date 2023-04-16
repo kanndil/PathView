@@ -129,7 +129,7 @@ def checkArgs(argv, staReportFile, skinFile, numberOfPaths, sortType):
         print(
             """
 Syntax:
-    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
+    run: python3 interactiveReport.py -i <staReportFilePath> -s <skinFilePath>\n
 
 Options:
     -n <numberOfPaths>
@@ -151,7 +151,7 @@ Options:
             print(
                 """
 Syntax:
-    run: python3 interactive_SVG_schematics.py -i <staReportFilePath> -s <skinFilePath>\n
+    run: python3 interactiveReport.py -i <staReportFilePath> -s <skinFilePath>\n
 
 Options:
     -n <numberOfPaths>
