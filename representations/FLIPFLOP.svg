@@ -2,6 +2,8 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="name" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     alias
 

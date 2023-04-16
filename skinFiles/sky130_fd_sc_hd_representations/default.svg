@@ -5953,6 +5953,8 @@ text {
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfbbn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfbbn_1"/>
 
@@ -5981,12 +5983,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfbbn_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfbbn_2"/>
 
@@ -6015,12 +6018,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfbbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfbbp_1"/>
 
@@ -6049,12 +6053,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfrbp_1"/>
 
@@ -6083,12 +6088,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfrbp_2"/>
 
@@ -6117,12 +6123,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfrtn_1"/>
 
@@ -6151,12 +6158,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_1"/>
 
@@ -6185,12 +6193,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_2"/>
 
@@ -6219,12 +6228,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfrtp_4"/>
 
@@ -6253,12 +6263,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfsbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfsbp_1"/>
 
@@ -6287,12 +6298,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfsbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfsbp_2"/>
 
@@ -6321,12 +6333,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfstp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfstp_1"/>
 
@@ -6355,12 +6368,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfstp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfstp_2"/>
 
@@ -6389,12 +6403,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfstp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfstp_4"/>
 
@@ -6423,12 +6438,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfxbp_1"/>
 
@@ -6457,12 +6473,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfxbp_2"/>
 
@@ -6491,12 +6508,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_1"/>
 
@@ -6525,12 +6543,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_2"/>
 
@@ -6559,12 +6578,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__dfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__dfxtp_4"/>
 
@@ -6593,12 +6613,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__edfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__edfxbp_1"/>
 
@@ -6627,12 +6648,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__edfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__edfxtp_1"/>
 
@@ -6661,12 +6683,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfbbn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfbbn_1"/>
 
@@ -6695,12 +6718,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfbbn_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfbbn_2"/>
 
@@ -6729,12 +6753,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfbbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfbbp_1"/>
 
@@ -6763,12 +6788,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfrbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfrbp_1"/>
 
@@ -6797,12 +6823,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfrbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfrbp_2"/>
 
@@ -6831,12 +6858,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfrtn_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfrtn_1"/>
 
@@ -6865,12 +6893,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfrtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_1"/>
 
@@ -6899,12 +6928,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfrtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_2"/>
 
@@ -6933,12 +6963,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfrtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfrtp_4"/>
 
@@ -6967,12 +6998,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfsbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfsbp_1"/>
 
@@ -7001,12 +7033,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfsbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfsbp_2"/>
 
@@ -7035,12 +7068,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfstp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_1"/>
 
@@ -7069,12 +7103,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfstp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_2"/>
 
@@ -7103,12 +7138,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfstp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfstp_4"/>
 
@@ -7137,12 +7173,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfxbp_1"/>
 
@@ -7171,12 +7208,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfxbp_2"/>
 
@@ -7205,12 +7243,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_1"/>
 
@@ -7239,12 +7278,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_2"/>
 
@@ -7273,12 +7313,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sdfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sdfxtp_4"/>
 
@@ -7307,12 +7348,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sedfxbp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sedfxbp_1"/>
 
@@ -7341,12 +7383,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sedfxbp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sedfxbp_2"/>
 
@@ -7375,12 +7418,13 @@ text {
     <text x="42" y="39" class="output-text" >Q_N</text>
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sedfxtp_1" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_1"/>
 
@@ -7409,12 +7453,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sedfxtp_2" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_2"/>
 
@@ -7443,12 +7488,13 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
   <!-- flipflop -->
   <g s:type="sky130_fd_sc_hd__sedfxtp_4" onClick="reply_click(this.id)"  transform="translate(100,1600)" s:width="40" s:height="60">
+    <g id="flipflop"></g>
+
 
     <s:alias val="sky130_fd_sc_hd__sedfxtp_4"/>
 
@@ -7477,7 +7523,6 @@ text {
     <!--output_2text-->
 
   </g>
-  
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- /////////////////////////////////////////////////////////////////////////////////////////-->
@@ -7593,7 +7638,7 @@ text {
 
     <rect width="40" height="60" x="0" y="0" class="$cell_id"/>
 
-    <!-- qn --> 
+    <!-- qn -->
 
     <g s:x="0" s:y="50" s:pid="GATE"/>
     <g s:x="0" s:y="10" s:pid="D"/>

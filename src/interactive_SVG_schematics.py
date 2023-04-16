@@ -25,7 +25,7 @@ import xml.etree.ElementTree as ET
 
 ##########################################################################################
 
-allPaths = []
+pathCellsDelays = []
 criticalPaths = []
 blackboxCells = []
 pathNames = []
@@ -247,7 +247,7 @@ def generateNetInteractions(path):
 def get_all_paths_in_report(staReportFile, no_nets):
     f = open(staReportFile, "r+")
     processingPath = False
-    tempPath = []
+    tempPathDelays = []
     tempNetDelays = []
     tempCriticalPath = []
     offset = 0
@@ -276,7 +276,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
             startPoint = copy.copy(line)
 
             processingPath = True
-            tempPath.clear()
+            tempPathDelays.clear()
             tempNetDelays.clear()
             tempCriticalPath.clear()
             _pinType = "input"
@@ -301,7 +301,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
             elif "data required time" in line:
                 for cell in tempCriticalPath:
                     add_blackbox_cell(cell)
-                allPaths.append(copy.deepcopy(tempPath))
+                pathCellsDelays.append(copy.deepcopy(tempPathDelays))
                 netDelays.append(copy.deepcopy(tempNetDelays))
                 criticalPaths.append(copy.deepcopy(tempCriticalPath))
                 processingPath = False
@@ -353,7 +353,16 @@ def get_all_paths_in_report(staReportFile, no_nets):
                         wire += 1
 
                 _pin = Pin(pinName, _net, _pinType)
-
+                
+                _cell = []
+                _cell.append(cellId)
+                _cell.append(_pinType)
+                _cell.append(delay)
+                _cell.append(time)
+                _cell.append(pinName)
+                tempPathDelays.append(_cell)
+                _standardCell.addPin(copy.deepcopy(_pin))
+                
                 if _pinType == "input":
                     no_nets[counter] += 1
                     _net_report = []
@@ -362,15 +371,9 @@ def get_all_paths_in_report(staReportFile, no_nets):
                     tempNetDelays.append(_net_report)
                     _pinType = "output"
                 else:
-                    _cell = []
-                    _cell.append(cellId)
-                    _cell.append(cellNameAndPin)
-                    _cell.append(delay)
-                    _cell.append(time)
-                    tempPath.append(_cell)
                     _pinType = "input"
+                    
 
-                _standardCell.addPin(copy.deepcopy(_pin))
 
                 _net = add_cell_to_path(_standardCell, tempCriticalPath)
                 
@@ -521,32 +524,62 @@ body {
             function reply_click(id)
             {
                 const cells = """
-        + str(allPaths[index])
+        + str(pathCellsDelays[index])
         + """ ;
         
                 var cellName = "";
-                var logicpath= "\\nLogic Path: ";
-                var clkpath= "\\nClock Path: ";
+                var logicpath= "";
+                var clkpath= "";
                 var count=0;
                 var data = "";
-                var flag = 0
-                
-                for (let i = 0; i < cells.length; i++) { 
-                    if (("cell_" + cells[i][0]) == id ){
-                        flag = 1
-                        cellName = "Cell name: " + cells[i][0]+"\\n";
-                        if (count == 0){
-                            data += "\\ndelay = " + cells[i][2]+"\\n";
-                            data += "time = " + cells[i][3] +"\\n" ;
-                        }else{
-                            logicpath +=  data;
-                            clkpath += "\\ndelay = " + cells[i][2]+"\\n";
-                            clkpath += "time = " + cells[i][3] +"\\n" ;
-                            data = logicpath + clkpath;
+                var flag = 0;
+                var parent = document.getElementById(id);
+                var child = parent.querySelector("#flipflop");
+                if (child !== null) {
+                    flag =1;
+                    for (let i = 0; i < cells.length; i++) { 
+                        if (("cell_" + cells[i][0]) == id ){
+                            cellName = "Cell name: " + cells[i][0]+"\\n\\n";
+                            if (cells[i][1] == "input"){
+                                data += "\\tPin (" + cells[i][4] + ") arrival time = " + cells[i][3]+"\\n\\n";
+                            } else {
+                                data += "\\tDelay = " + cells[i][2] + "\\n";
+                                data += "\\tPin (" + cells[i][4] +  ") time = " + cells[i][3] + "\\n";
+                            }
+                            count = count+1;
                         }
-                        count = count+1;
                     }
-                }
+                  } else {
+                    for (let i = 0; i < cells.length; i++) { 
+                        if (("cell_" + cells[i][0]) == id ){
+                            flag = 1
+                            cellName = "Cell name: " + cells[i][0]+"\\n";
+                            if (count < 2){
+                                if (cells[i][1] == "input"){
+                                    logicpath += "\\tPin (" + cells[i][4] + ") arrival time = " + cells[i][3]+"\\n\\n";
+                                } else {
+                                    logicpath += "\\tDelay = " + cells[i][2] + "\\n";
+                                    logicpath += "\\tPin (" + cells[i][4] +  ") time = " + cells[i][3] + "\\n";
+                                }
+                            } else {
+                                if (count == 3 ){
+                                    logicpath = "\\nLogic Path: \\n" + logicpath ;
+                                    clkpath = "\\nClock Path: \\n";
+                                }
+                                if (cells[i][1] == "input"){
+                                    clkpath += "\\tPin (" + cells[i][4] + ") arrival time = " + cells[i][3]+"\\n\\n";
+                                } else {
+                                    clkpath += "\\tDelay = " + cells[i][2] + "\\n";
+                                    clkpath += "\\tPin (" + cells[i][4] +  ") time = " + cells[i][3] + "\\n";
+                                }
+                                
+                            }
+                            data = logicpath + clkpath;
+                            count = count+1;
+                        }
+                    }
+                  }
+
                 if (flag){
                     alert(cellName + data);
                 }
@@ -560,15 +593,15 @@ body {
                 var data = "net_" + id;
                 var i = parseInt(id);
                 if (nets[i].length == 2){
-                    data += "\\ndelay = " + nets[i][0];
-                    data += "\\ntime = " + nets[i][1] + "\\n";
+                    data += "\\n\\tdelay = " + nets[i][0];
+                    data += "\\n\\ttime = " + nets[i][1] + "\\n";
                 } else if (nets[i].length == 4){
                     data+= "\\n\\nLogic Path:"
-                    data+= "\\ndelay = " + nets[i][0];
-                    data+= "\\ntime = " + nets[i][1];
+                    data+= "\\n\\tdelay = " + nets[i][0];
+                    data+= "\\n\\ttime = " + nets[i][1];
                     data+= "\\n\\nClock Path:"
-                    data+= "\\ndelay = " + nets[i][2];
-                    data+= "\\ntime = " + nets[i][3];
+                    data+= "\\n\\tdelay = " + nets[i][2];
+                    data+= "\\n\\ttime = " + nets[i][3];
                 }
                 alert(data);
             }
