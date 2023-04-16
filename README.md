@@ -214,7 +214,7 @@ Here is a part of an example STA report: (Your report must have a similar format
 
     git clone https://github.com/kanndil/interactive_SVG_schematics.git
 
-### Second: Add Generate Skin-File
+### Second: Generate Skin-File
 
 <details>
   <summary>Check these pre-generated skin-files</summary>
