@@ -1,9 +1,22 @@
 # interactive_SVG_schematics
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://kanndil.github.io/interactive_SVG_schematics/)
+<div align="center">
 
-[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+  <a href="">[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://kanndil.github.io/interactive_SVG_schematics/)</a>
+  
+</div>
+
+<div align="center">
+
+  <a href="">[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)</a>
+  <a href="">[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)</a>
+
+</div>
+
+
+
+
+
 
 ## Table of contents
 
