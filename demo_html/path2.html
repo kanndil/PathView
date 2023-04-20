@@ -2,54 +2,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 <style>
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  width: 100%; 
+}
+header {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 55px;
+    text-align: center;
+    overflow-x: auto;
 }
 
-.sidenav {
+nav {
   height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+  overflow-y: auto; 
+  width: 130px;
+  position: absolute;
+  background-color: #eee; 
+  padding: 10px 16px;
+  color: #000000;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+nav a {
+  display: block;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
-  display: block;
+  color: #000000;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+nav a:hover {
+  background-color: #555;
+  color: #fff;
 }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+main {
+  margin-left: 160px;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #fff;
+  overflow-x: auto;
+  height: 100vh; 
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+
+  nav a {font-size: 14px;}
 }
 </style>
+
 </head>
 <body>
+<header>
+  <h1>Interactive SVG Schematics</h1>
+  <a href="https://github.com/kanndil/interactive_SVG_schematics"><img src = "../images/github.svg" alt="github"style="width:42px;height:42px;"/></a>
 
-<div class="main">
+</header>
 
-<h2>Interactive SVG Schematics</h2>
+ <nav><a href="path0.html">Slack: 13.27</a> 
+<a href="path1.html">Slack: 13.27</a> 
+<a href="path2.html">Slack: 13.27</a> 
+ </nav>
 
+
+<main>
+   
 <h4> Path: 3</h4>
 
 <h5>Startpoint: clock_ctrl/_409_ (rising edge-triggered flip-flop clocked by clk')</h5>
@@ -57,7 +82,7 @@ body {
 <h5>Endpoint: mprj/_2119_ (removal check against rising-edge clock clk)</h5>
 
 <h5>Slack: 13.27</h5>
-    <div class="sidenav"><a href="path0.html">Slack: 13.27</a></li> <a href="path1.html">Slack: 13.27</a></li> <a href="path2.html">Slack: 13.27</a></li> </div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="2731" height="154"><style>svg {
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="2731" height="154"><style>svg {
   stroke:#000;
   fill:none;
 }
@@ -145,7 +170,7 @@ text {
 <line   x1="1951" x2="2011" y1="124.5" y2="124.5" onClick="net_click(this.id)" id="54" class="net53 width_1" style="stroke: white; opacity: 0 ; stroke-width: 18;" />
 </svg> 
     
-</div>
+</main>
    
 </body>
 </html> 
@@ -178,7 +203,6 @@ text {
                             count = count+1;
                         }
                     }
-
                   } else {
                     for (let i = 0; i < cells.length; i++) { 
                         if (("cell_" + cells[i][0]) == id ){
