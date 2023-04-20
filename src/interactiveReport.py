@@ -337,7 +337,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 cellId = cellId.replace("]", "_")
 
                 _standardCell = StandardCell(cellName, cellId)
-                
+
                 wirecopy = copy.copy(wire)
 
                 if net_index == -1:
@@ -353,7 +353,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                         wire += 1
 
                 _pin = Pin(pinName, _net, _pinType)
-                
+
                 _cell = []
                 _cell.append(cellId)
                 _cell.append(_pinType)
@@ -362,7 +362,7 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 _cell.append(pinName)
                 tempPathDelays.append(_cell)
                 _standardCell.addPin(copy.deepcopy(_pin))
-                
+
                 if _pinType == "input":
                     no_nets[counter] += 1
                     _net_report = []
@@ -372,20 +372,17 @@ def get_all_paths_in_report(staReportFile, no_nets):
                     _pinType = "output"
                 else:
                     _pinType = "input"
-                    
-
 
                 _net = add_cell_to_path(_standardCell, tempCriticalPath)
-                
+
                 if _pinType == "input":
-                    repeatednet= copy.copy(_net)
-                    repeatednet =_net.split("net")
+                    repeatednet = copy.copy(_net)
+                    repeatednet = _net.split("net")
                     repeatednet = repeatednet[1]
                     repeatednetid = int(repeatednet)
                     if repeatednetid != wirecopy:
                         tempNetDelays[repeatednetid].append(delay)
-                        tempNetDelays[repeatednetid].append(time)         
-               
+                        tempNetDelays[repeatednetid].append(time)
 
     return no_nets
 
@@ -512,8 +509,8 @@ main {
 </header>
 
 """
-+ hrefs +
-"""
+        + hrefs
+        + """
 
 
 <main>
@@ -642,7 +639,7 @@ main {
 
     body = body.replace("</svg>", " ")
     with open("../output/" + designName + "/schematics/" + path + ".svg", "w") as f:
-        f.write(html +  body + netInteractions + "</svg>" + jsScript)
+        f.write(html + body + netInteractions + "</svg>" + jsScript)
 
     os.system(
         "mv ../output/"
@@ -799,7 +796,6 @@ def main(argv):
         )
         generate_SVG_from_JSON("path" + str(i), skinFile)
         addInteraction("path" + str(i), i, pathNames[i][3], hrefs)
-
 
     end = time.time()
     print("Time taken: ", (end - start) / 60.0)
