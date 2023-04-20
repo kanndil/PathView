@@ -446,54 +446,78 @@ def addInteraction(path, i, index, hrefs):
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 <style>
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  width: 100%; 
+}
+header {
+  background-image: url('../../../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 55px;
+  text-align: center;
+  overflow-x: auto;
 }
 
-.sidenav {
+nav {
   height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+  overflow-y: auto; 
+  width: 130px;
+  position: absolute;
+  background-color: #eee; 
+  padding: 10px 16px;
+  color: #000000;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+nav a {
+  display: block;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
-  display: block;
+  color: #000000;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+nav a:hover {
+  background-color: #555;
+  color: #fff;
 }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+main {
+  margin-left: 160px;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #fff;
+  overflow-x: auto;
+  height: 100vh; 
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+
+  nav a {font-size: 14px;}
 }
 </style>
+
 </head>
 <body>
+<header>
+  <h1>Interactive SVG Schematics</h1>
+  <a href="https://github.com/kanndil/interactive_SVG_schematics"><img src = "../../../images/github.svg" alt="github"style="width:42px;height:42px;"/></a>
 
-<div class="main">
+</header>
 
-<h2>Interactive SVG Schematics</h2>
+"""
++ hrefs +
+"""
 
+
+<main>
+   
 <h4> Path: """
         + str(i + 1)
         + """</h4>
@@ -514,7 +538,7 @@ body {
     jsScript = (
         """ 
     
-</div>
+</main>
    
 </body>
 </html> 
@@ -618,7 +642,7 @@ body {
 
     body = body.replace("</svg>", " ")
     with open("../output/" + designName + "/schematics/" + path + ".svg", "w") as f:
-        f.write(html + hrefs + body + netInteractions + "</svg>" + jsScript)
+        f.write(html +  body + netInteractions + "</svg>" + jsScript)
 
     os.system(
         "mv ../output/"
@@ -716,16 +740,16 @@ def json_from_report(critica_path, path, json_blackbox_modules, index):
 
 
 def generate_href(numberOfPaths):
-    hrefs = """<div class="sidenav">"""
+    hrefs = """ <nav>"""
     for j in range(numberOfPaths):
         hrefs += (
             """<a href="path"""
             + str(j)
             + """.html">Slack: """
             + pathNames[j][2]
-            + """</a></li> """
+            + """</a> \n"""
         )
-    hrefs += """</div>"""
+    hrefs += """ </nav>"""
     return hrefs
 
 
