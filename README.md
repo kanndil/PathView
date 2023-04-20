@@ -263,6 +263,9 @@ Options:
 
 For interactive examples check this [Demo](https://kanndil.github.io/interactive_SVG_schematics/)
 
+<a href="https://kanndil.github.io/interactive_SVG_schematics/"><img src="https://github.com/kanndil/interactive_SVG_schematics/blob/main/images/websitePreview.jpg" alt="website preview" width="600"/></a>
+
+
 <br/><br/>
 
 
