@@ -314,7 +314,7 @@ Options:
 
 For interactive examples check this [Demo](https://kanndil.github.io/PathView/)
 
-<a href="https://kanndil.github.io/PathView/"><img src="https://github.com/kanndil/PathView/blob/main/images/websitePreview.png" alt="website preview" width="600"/></a>
+<a href="https://kanndil.github.io/PathView/"><img src="https://github.com/kanndil/PathView/blob/main/images/websitePreview.png" alt="website preview" width="900"/></a>
 
 
 <br/><br/>
