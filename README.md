@@ -1,16 +1,9 @@
 # PathView
 
-<div align="center">
-
-  <a href="">[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://kanndil.github.io/PathView/)</a>
-
-</div>
-
-<div align="center">
-
-  <a href="">[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)</a>
-  <a href="">[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)</a>
-
+<div style="text-align: center;">
+  <a href=""><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="code style: black" style="height: 20px;"></a>
+  <a href=""><img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="Github Pages" style="height: 20px;"></a>
+  <a href=""><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License" style="height: 20px;"></a>
 </div>
 
 <div style="text-align: center;">
