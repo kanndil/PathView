@@ -684,7 +684,7 @@ main {
 </head>
 <body>
 <header>
-  <h1>Interactive SVG Schematics</h1>
+  <h1 style="font-size: 55px;">Path View</h1>
   <a href="https://github.com/kanndil/PathView"><img src = "../../../images/github.svg" alt="github"style="width:42px;height:42px;"/></a>
 
 </header>
