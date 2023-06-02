@@ -15,7 +15,7 @@
 
 <div style="text-align: center;">
   <img src="https://github.com/kanndil/PathView/blob/main/images/header.png" alt="Header" style="width: 100%; max-width: 100%;">
-  <img src="https://github.com/kanndil/PathView/blob/main/images/header.png" alt="Headerpath" style="width: 100%; max-width: 100%;">
+  <img src="https://github.com/kanndil/PathView/blob/main/images/headerpath.png" alt="Headerpath" style="width: 100%; max-width: 100%;">
 </div>
 
 
