@@ -118,26 +118,35 @@ def add_blackbox_cell(_standardCell):
 ##############################
 
 
-def checkArgs(argv, staReportFile, skinFile, numberOfPaths, sortType):
+def checkArgs(argv):
+    staReportFile = ""
+    skinFile = ""
+    numberOfPaths = -1
+    sortType = "none"
+    STAtool = ""
 
     try:
         opts, args = getopt.getopt(
-            argv, "i:s:h:n:", ["ifile=", "sfile=", "help", "npaths=", "sort="]
+            argv, "i:s:h:n:t:", ["input=", "skin=", "help", "npaths=", "sort=", "tool="]
         )
     except getopt.GetoptError:
         print("invalid arguments!")
         print(
             """
 Syntax:
-    run: python3 interactiveReport.py -i <staReportFilePath> -s <skinFilePath>\n
+    run: python3 interactiveReport.py -i <STA_Report_File_Path> -s <Skin_File_Path> -t <STA_tool>
 
 Options:
-    -n <numberOfPaths>
+    --tool=<primetime/opensta> or -t <"primetime" or "opensta">
+                        This option is used to specify the STA tool used to generate. 
+                        Use "primetime" for PrimeTime and "opensta" for OpenSTA.
+    
+    --npaths=<numberOfPaths> or -n <numberOfPaths>
                         This option is used to specify the number of paths to be
                         generated. If this option is not specified, all paths are
                         generated.
                         
-    --sort=<asc/desc>
+    --sort=<"asc" or "desc">   
                         This option is used to sort the paths in ascending 
                         or descending order based on slack. 
                         "asc" for ascending and "desc" for descending order.
@@ -151,15 +160,19 @@ Options:
             print(
                 """
 Syntax:
-    run: python3 interactiveReport.py -i <staReportFilePath> -s <skinFilePath>\n
+    run: python3 interactiveReport.py -i <STA_Report_File_Path> -s <Skin_File_Path> -t <STA_tool>
 
 Options:
-    -n <numberOfPaths>
+    --tool=<primetime/opensta> or -t <"primetime" or "opensta">
+                        This option is used to specify the STA tool used to generate. 
+                        Use "primetime" for PrimeTime and "opensta" for OpenSTA.
+    
+    --npaths=<numberOfPaths> or -n <numberOfPaths>
                         This option is used to specify the number of paths to be
                         generated. If this option is not specified, all paths are
                         generated.
                         
-    --sort=<asc/desc>
+    --sort=<"asc" or "desc">   
                         This option is used to sort the paths in ascending 
                         or descending order based on slack. 
                         "asc" for ascending and "desc" for descending order.
@@ -171,12 +184,14 @@ Options:
             staReportFile = arg
         elif opt in ("-s", "--sfile"):
             skinFile = arg
-        elif opt in ("-n", "--npaths="):
+        elif opt in ("-n", "--npaths"):
             numberOfPaths = int(arg)
         elif opt in ("--sort="):
             sortType = arg
+        elif opt in ("-t", "--tool"):
+            STAtool = arg
 
-    return staReportFile, skinFile, numberOfPaths, sortType
+    return staReportFile, skinFile, numberOfPaths, sortType, STAtool
 
 
 #################################
@@ -243,16 +258,181 @@ def generateNetInteractions(path):
             netInteractions += temp_string + "\n"
     return netInteractions
 
+##############################
 
-def get_all_paths_in_report(staReportFile, no_nets):
-    f = open(staReportFile, "r+")
-    processingPath = False
-    tempPathDelays = []
-    tempNetDelays = []
-    tempCriticalPath = []
-    offset = 0
+def extractValuesFromstring(line):
+    line = line.strip()                         # Remove leading/trailing spaces and tabs
+    line = re.sub(r'\s+', ' ', line)            # Remove consecutive spaces or tabs
+    texts = line.split(' ')                     # Extract texts separated by spaces
+    texts = [text for text in texts if text]    # Remove empty texts
+    return texts
+
+def buildFullPath(logicGroups, clockGroups, no_nets):          # takes both the logic and clock paths and builds the full path
+    
+    tempPathDelays = []                    # tempPathDelays contains the path delays in an iteration
+    tempNetDelays = []                     # tempNetDelays contains the net delays in an iteration
+    tempCriticalPath = []                  # tempCriticalPath contains a local copy of a critical path in an iteration
+    
+    wire = 0                 # wire is the number of nets in a path, propagated through logic and clock paths
+    wire = buildPath(logicGroups, tempPathDelays, tempNetDelays,tempCriticalPath, wire, "logic")
+    wire = buildPath(clockGroups, tempPathDelays, tempNetDelays,tempCriticalPath, wire, "clock")
+    no_nets.append(wire+2)
+    
+    for cell in tempCriticalPath:           # add the new cells discovered in this path to the set of blackbox cells
+        add_blackbox_cell(cell)
+                                                            # Add the newly created path to the criticalPaths, the path contains both logic and clock
+    pathCellsDelays.append(copy.deepcopy(tempPathDelays))   # add the path delays to the pathCellsDelays array
+    netDelays.append(copy.deepcopy(tempNetDelays))          # add the net delays to the netDelays array
+    criticalPaths.append(copy.deepcopy(tempCriticalPath))   # add the critical path to the criticalPaths array
+    pass
+
+
+def buildPath(groups, tempPathDelays, tempNetDelays,tempCriticalPath, wire = 0, type = "logic"):
+
+    i = -1
+    _net = "clk "
+
+    for criticalPathCell in groups:
+            i += 1
+            
+            cellName = re.search(r'\((.*?)\)', criticalPathCell[0]).group(1)                    # extract the cell name "standard cell name"
+            cellId = re.search(r'^(.*)/', criticalPathCell[0]).group(1)                         # extract the cell id "local naming"
+            cellIdAndInputPin =  re.search(r'\s*(.*?)\s*\(', criticalPathCell[0]).group(0)      # extract the cell id and input pin name
+            inputPinName =  re.search(r'/([^/]+)\s*\(', criticalPathCell[0]).group(1)           # extract the input pin name
+            inputPinName = inputPinName.strip()                                                 # remove leading and trailing spaces
+            inputPinNumbers = re.findall(r'\d+\.\d+', criticalPathCell[0])                      # extract all the input report numbers
+            inputPinTime   = inputPinNumbers [-1]                                               # assign the input pin time
+            inputPinDelay  = inputPinNumbers [-2]                                               # assign the input pin delay
+            _InputStandardCell = StandardCell(cellName, cellId)
+            _InputPin = Pin(inputPinName, _net, "input")
+            _InputCell = [cellId,"input",inputPinDelay,inputPinTime,inputPinName]
+            tempPathDelays.append(_InputCell)
+            _InputStandardCell.addPin(copy.deepcopy(_InputPin))
+            _net_report = [inputPinDelay, inputPinTime]
+            tempNetDelays.append(_net_report)
+            if (i == len(groups)-1):
+                #if type == "logic":
+                #    _InputStandardCell.pins.append(Pin("out", "net_out", "output"))
+                _net = add_cell_to_path(_InputStandardCell, tempCriticalPath)
+                continue
+            _net = add_cell_to_path(_InputStandardCell, tempCriticalPath)
+            
+            
+            cellIdAndOutputPin = re.search(r'\s*(.*?)\s*\(', criticalPathCell[1]).group(1)
+            outputPinName =  re.search(r'/([^/]+)\s*\(', criticalPathCell[1]).group(1)
+            outputPinName = outputPinName.strip()
+            outputPinNumbers = re.findall(r'\d+\.\d+', criticalPathCell[1])
+            outputPinTime  = outputPinNumbers[-1]
+            outputPinDelay = outputPinNumbers[-2]
+            _OutputStandardCell = StandardCell(cellName, cellId)
+            _net = "net" + str(wire)
+            _OutputPin = Pin(outputPinName, _net, "output")
+            wire += 1
+            _OutputCell = [cellId,"output",outputPinDelay,outputPinTime,outputPinName]
+            tempPathDelays.append(_OutputCell)
+            _OutputStandardCell.addPin(copy.deepcopy(_OutputPin))
+            _net = add_cell_to_path(_OutputStandardCell, tempCriticalPath)
+            repeatednet = copy.copy(_net)
+            repeatednet = _net.split("net")
+            repeatednet = repeatednet[1]
+            repeatednetid = int(repeatednet)
+            if repeatednetid != wire-1:
+                tempNetDelays[repeatednetid].append(outputPinDelay)
+                tempNetDelays[repeatednetid].append(outputPinTime)
+
+    return wire
+    
+
+def getGroupsPrimeTime(staReportFile, no_nets):
+    processingPath = False              # processingPath is true when the parser is processing a path
+    reportString = open(staReportFile, "r+")
+    groups=[]                           # groups contains the groups of data
+    logicPathGroups = []
+    clockPathGroups =[]
+
+    groupString = ["","",""]            # groupString contains the 3 lines of a group, input, output and net
+    arr = [7,5,2]                       # arr contains the number of reported data per line, 7 for input, 5 for output, 2 for net
+    idx = 0                             # idx is the index of the groupString  
+    startPoint = "None"
+    endPoint = "None"
+    slack = "None"
     counter = -1
-    wire = 0
+    for line in reportString:
+        line = line.strip()
+        if "Startpoint" in line:
+            counter += 1                    # counter is the number of paths
+            startPoint = "None"             # startPoint is the start point of a path
+            endPoint = "None"               # endPoint is the end point of a path
+            slack = "None"                  # slack is the slack of a path
+            startPoint = copy.copy(line)
+            processingPath = True           # process the upcoming lines as a path
+            pass
+        elif "Endpoint" in line:
+            endPoint = copy.copy(line)
+            pass
+        elif "slack (MET)" in line:
+            # Todo: extract the slack and names
+            slack = re.findall(r'\d+\.\d+', line)[-1]                    # extract all the input report numbers
+            pathNames.append([startPoint, endPoint, slack, counter])
+            pass
+        elif processingPath:
+            if "data arrival time" in line:
+                groups.append(groupString)                          # add the group to the list of groups
+                logicPathGroups = copy.deepcopy(groups)
+                groupString = ["","",""]                            # reset the group
+                idx = 0
+                groups.clear()
+                pass
+            elif "data required time" in line:
+                groups.append(groupString)                          # add the group to the list of groups
+                clockPathGroups = copy.deepcopy(groups)
+                groupString = ["","",""]                            # reset the group
+                idx = 0
+                buildFullPath(logicPathGroups, clockPathGroups, no_nets)
+                logicPathGroups.clear()
+                clockPathGroups.clear()
+                groups.clear()
+                processingPath = False
+                pass
+            else:
+                if ")" not in line:             # check if this is the final line of the group
+                    continue
+                
+                splitLineOnBracket = line.split(")") 
+                rightSubString = splitLineOnBracket[1]
+                # the right sub string contains the reporting data, extract theses data as a list
+                rightSubString = extractValuesFromstring(rightSubString)
+                
+                # get the number of reported data per line
+                textlen = len(rightSubString)   
+                
+                if (textlen == arr[idx]) or (textlen == arr[idx]+1):        # check if the number of reported data is correct
+                    groupString[idx] = line                                 # add the line to the group
+                    idx = idx + 1                                           # increment the index
+                    if idx == 3:                                            # check if the group is complete
+                        
+                        groups.append(groupString)                          # add the group to the list of groups
+                        groupString = ["","",""]                            # reset the group
+                        idx = 0
+                else:
+                    groupString = ["","",""]
+                    idx = 0
+        
+        
+def parsePrimeTime(staReportFile, no_nets):
+    getGroupsPrimeTime(staReportFile, no_nets)
+    print(len(criticalPaths))
+    return no_nets
+    
+def parseOpenSta(staReportFile, no_nets):
+    f = open(staReportFile, "r+")
+    processingPath = False                          # processingPath is true when the parser is processing a path
+    tempPathDelays = []                             # tempPathDelays contains the path delays in an iteration
+    tempNetDelays = []                              # tempNetDelays contains the net delays in an iteration
+    tempCriticalPath = []                           # tempCriticalPath contains a local copy of a critical path in an iteration
+    offset = 0                                      # offset is the offset of the delay in the report, how many spaces needed to be removed
+    counter = -1                                    # counter is the number of paths
+    wire = 0                                        
     net_index = -1
     _net = ""
     startPoint = "None"
@@ -275,11 +455,11 @@ def get_all_paths_in_report(staReportFile, no_nets):
             slack = "None"
             startPoint = copy.copy(line)
 
-            processingPath = True
-            tempPathDelays.clear()
+            processingPath = True                       # process the upcoming lines as a path
+            tempPathDelays.clear()                      # restore the temp arrays
             tempNetDelays.clear()
             tempCriticalPath.clear()
-            _pinType = "input"
+            _pinType = "input"                          # reset the pin type to input, path starts with input after clock
 
         elif "Endpoint" in line:
             endPoint = copy.copy(line)
@@ -289,26 +469,28 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 slack = copy.copy(line)
                 slack = slack.split(" ")
                 slack = slack[0]
-                pathNames.append([startPoint, endPoint, slack, counter])
+                pathNames.append([startPoint, endPoint, slack, counter])        # add the names of this path to the pathNames array
 
         elif processingPath:
             if "data arrival time" in line:
-                tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))
-                wire += 1
-                net_index = -1
-                _pinType = "input"
+                #tempCriticalPath[-1].pins.append(Pin("out", "net_out", "output"))    # add the output pin to the last cell in the path
+                wire += 1                                # increment the wire number
+                net_index = -1                           # reset the net index to -1, to start from 0 in the clock path
+                _pinType = "input"                       # reset the pin type to input, for the clock path
 
-            elif "data required time" in line:
-                for cell in tempCriticalPath:
+            elif "data required time" in line: 
+                for cell in tempCriticalPath:           # add the new cells discovered in this path to the set of blackbox cells
                     add_blackbox_cell(cell)
-                pathCellsDelays.append(copy.deepcopy(tempPathDelays))
-                netDelays.append(copy.deepcopy(tempNetDelays))
-                criticalPaths.append(copy.deepcopy(tempCriticalPath))
-                processingPath = False
-                offset = 0
-                wire = 0
-                _pinType = "input"
-                net_index = -1
+                                                                        # Add the newly created path to the criticalPaths, the path contains both logic and clock
+                pathCellsDelays.append(copy.deepcopy(tempPathDelays))   # add the path delays to the pathCellsDelays array
+                netDelays.append(copy.deepcopy(tempNetDelays))          # add the net delays to the netDelays array
+                criticalPaths.append(copy.deepcopy(tempCriticalPath))   # add the critical path to the criticalPaths array
+                
+                processingPath = False                  # stop processing the upcoming lines as a path
+                offset = 0                              # reset the offset to 0
+                wire = 0                                # reset the wire number to 0, for a new path
+                _pinType = "input"                      # reset the pin type to input, for a new path
+                net_index = -1                          
                 pass
 
             elif "(net)" in line:
@@ -337,7 +519,6 @@ def get_all_paths_in_report(staReportFile, no_nets):
                 cellId = cellId.replace("]", "_")
 
                 _standardCell = StandardCell(cellName, cellId)
-
                 wirecopy = copy.copy(wire)
 
                 if net_index == -1:
@@ -692,7 +873,7 @@ def json_from_report(critica_path, path, json_blackbox_modules, index):
 
     ports = {
         "clk": {"direction": "input", "bits": [-2]},
-        "out": {"direction": "output", "bits": [-1]},
+        #"out": {"direction": "output", "bits": [-1]},
     }
 
     top_module["top"]["ports"].update(ports)
@@ -764,20 +945,26 @@ def sortPaths(sortType):
 def main(argv):
     start = time.time()
 
-    staReportFile, skinFile, numberOfPaths, sortType = checkArgs(
-        argv, "", "", -1, "none"
-    )
+    staReportFile, skinFile, numberOfPaths, sortType, STAtool = checkArgs(argv)
     global no_nets
     global designName
     no_nets = []
-
+    
     designName = copy.copy(staReportFile)
     designName = designName.split("/")[-1]
     designName = designName.split(".")[0]
 
     generate_dirs(designName)
-
-    no_nets = get_all_paths_in_report(staReportFile, no_nets)
+    
+    
+    if STAtool == "opensta":
+        no_nets = parseOpenSta(staReportFile, no_nets)
+    elif STAtool == "primetime":
+        no_nets = parsePrimeTime(staReportFile, no_nets)
+    else:
+        print(STAtool, " is not a supported STA tool, -h for help")
+        print("Invalid STA tool")
+        sys.exit()
 
     if (numberOfPaths < 0) or (numberOfPaths > len(criticalPaths)):
         numberOfPaths = len(criticalPaths)
