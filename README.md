@@ -1,5 +1,7 @@
 # PathView
 
+An open-source tool for visualizing and analyzing timing paths extracted from Static Timing Analysis (STA) reports.
+
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="code style: black" style="height: 20px;"></a>
   <a href=""><img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="Github Pages" style="height: 20px;"></a>
@@ -21,8 +23,6 @@
 * [Authors](#authors)
 * [Copyright and Licensing](#%EF%B8%8F-copyright-and-licensing)
 <br/><br/>
-
-# 📖 Overview
 
 # 📖 Overview
 
